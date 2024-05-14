@@ -12,7 +12,7 @@ function App() {
         <Container>
           <Navbar.Brand href="/">
             <img
-              className="w-40"
+              className="w-28 md:w-40"
               src={frr_logo}
               alt="Fred's Ranch and Resort Logo"
             />
