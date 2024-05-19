@@ -10,3 +10,8 @@
 .carousel_img{
   object-fit: cover;
 }
+
+/* .carousel_caption{
+  top: 30% !important;
+  bottom: auto !important;
+} */
