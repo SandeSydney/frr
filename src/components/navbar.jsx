@@ -22,8 +22,7 @@ export default function Navbar_Main() {
   window.addEventListener("scroll", toggleNavigation);
 
   return (
-    <div>
-      <Navbar expand="md" className="bg-body-tertiary">
+      <Navbar expand="md" className={visible?"navbar_open":"navbar_closed"}>
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -50,6 +49,5 @@ export default function Navbar_Main() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
   );
 }
