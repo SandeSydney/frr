@@ -2,9 +2,24 @@
   flex-grow: 0 !important;
 }
 
+.navbar_closed{
+  max-height: 0 !important;
+  visibility: hidden;
+}
+
+.navbar_open{
+  display: contents;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+  z-index: 100000;
+  background-color: #fff;
+}
+
 .carousel_item{
   max-height: 100vh !important;
-  padding: 10px;
 }
 
 .carousel_img{
