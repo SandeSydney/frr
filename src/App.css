@@ -12,5 +12,13 @@
 }
 
 .carousel_caption{
-  right: 50% !important;
+  font-family: "Dancing-script";
+}
+
+
+@media screen and (min-width: 600px) {
+  .carousel_caption{
+    right: 45% !important;
+    top: 60%;
+  }
 }
