@@ -1,9 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import horse_back from "../resources/horse_back.jpg";
-import table_setting from "../resources/table_setting.jpg"
-import frr_school from "../resources/frr_school.jpg"
-import karibu_entrance from "../resources/karibu_entrance.jpg"
-import cabbana from "../resources/cabbana.jpg"
+import frr_school from "../resources/frr_school.jpg";
+import karibu_entrance from "../resources/karibu_entrance.jpg";
 
 function MainCarousel() {
   return (
