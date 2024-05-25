@@ -11,8 +11,9 @@
   object-fit: cover;
 }
 
-.carousel_caption{
-  font-family: "Dancing-script";
+.school_stroke{
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #fff;
 }
 
 
@@ -20,5 +21,9 @@
   .carousel_caption{
     right: 45% !important;
     top: 60%;
+  }
+  .school_caption{
+    right: 50%;
+    top: 50%;
   }
 }
