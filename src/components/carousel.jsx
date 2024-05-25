@@ -10,15 +10,15 @@ function MainCarousel() {
     <Carousel fade>
       <Carousel.Item className="carousel_item">
         <img className="carousel_img" src={karibu_entrance} alt="img 1" />
-        <Carousel.Caption className="carousel_caption">
+        <Carousel.Caption className="carousel_caption font-[Dancing-script]">
           <p className="text-2xl md:text-7xl font-extrabold italic">Just Like Grandma's</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel_item">
         <img className="carousel_img" src={frr_school} alt="img 3" />
-        <Carousel.Caption className="">
-          <p className="text-lg font-bold">Fred's Ranch & Resort</p>
-          <p className="text-lg font-bold">School of Hospitality</p>
+        <Carousel.Caption className="school_caption">
+          <p className="text-3xl md:text-7xl font-bold text-[#114344] school_stroke">SCHOOL OF HOSPITALITY</p>
+          <p className='text-base md:text-3xl font-bold italic font-[Dancing-script] sm:text-white md:text-[#6d401f] school_stroke'>A Center of Excellence in Tourism & Hospitality</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
