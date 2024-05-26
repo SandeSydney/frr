@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="flex text-center w-full justify-center">
       <div className="w-5/6 flex flex-col justify-center gap-4">
-        <h1 className="text-center underline underline-offset-8">About Us</h1>
+        <h1 className="text-center underline underline-offset-8">ABOUT US</h1>
         <div className="flex flex-col gap-3">
           <p className="main_text">
             Fred's Ranch & Resort is an integral part of Kajiado Getaways,
