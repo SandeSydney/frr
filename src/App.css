@@ -31,8 +31,8 @@
 }
 
 .main_text{
-  font-size: large;
-  line-height: 1.8;
+  font-size: medium;
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 600px) {
@@ -46,6 +46,6 @@
   }
 
   .main_text{
-    font-size: larger;
+    font-size: large;
   }
 }
