@@ -23,7 +23,7 @@ export default function Navbar_Main() {
 
   return (
       <Navbar expand="md" className={visible?"navbar_open":"navbar_closed"}>
-        <Container>
+        <Container className="uppercase">
           <Navbar.Brand href="/">
             <img
               className="w-28 md:w-40"
