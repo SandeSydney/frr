@@ -5,7 +5,7 @@ import Navbar_Main from "./components/navbar";
 
 function App() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-5">
       <Navbar_Main />
       <div className="flex justify-center">
         <MainCarousel />
