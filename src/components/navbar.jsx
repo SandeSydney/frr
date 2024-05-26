@@ -11,7 +11,7 @@ export default function Navbar_Main() {
 
   // function to toggle the navbar visibility by scrolling past a certain height.
   function toggleNavigation() {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 200) {
       setVisible(true);
     } else {
       setVisible(false);
