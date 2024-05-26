@@ -3,12 +3,11 @@
 }
 
 .navbar_closed{
-  max-height: 0 !important;
-  visibility: hidden;
+  max-height: 10 !important;
+  transition: 0.5s ease-out;
 }
 
 .navbar_open{
-  display: contents;
   position: sticky !important;
   top: 0;
   left: 0;
@@ -19,7 +18,7 @@
 }
 
 .carousel_item{
-  max-height: 100vh !important;
+  max-height: 65vh !important;
 }
 
 .carousel_img{
@@ -43,7 +42,7 @@
   }
   .school_caption{
     right: 50%;
-    top: 65%;
+    top: 60%;
   }
 
   .main_text{
