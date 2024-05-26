@@ -31,7 +31,6 @@
   -webkit-text-stroke-color: #fff;
 }
 
-
 @media screen and (min-width: 600px) {
   .carousel_caption{
     right: 45% !important;
@@ -39,6 +38,6 @@
   }
   .school_caption{
     right: 50%;
-    top: 50%;
+    top: 65%;
   }
 }
