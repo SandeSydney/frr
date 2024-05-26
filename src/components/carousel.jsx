@@ -15,7 +15,8 @@ function MainCarousel() {
         <img className="carousel_img" src={frr_school} alt="Carousel Image 2" />
         <Carousel.Caption className="school_caption">
           <p className="text-3xl md:text-7xl font-bold text-[#114344] school_stroke">SCHOOL OF HOSPITALITY</p>
-          <p className='text-base md:text-3xl font-bold italic font-[Dancing-script] sm:text-white md:text-[#6d401f]'>A Center of Excellence in Tourism & Hospitality</p>
+          <p className='text-base md:text-3xl font-bold italic font-[Dancing-script] text-[#6d401f]'>A Center of Excellence in Tourism & Hospitality</p>
+          <button className="border px-3 py-1 md:border-3 md:px-7 md:py-2 md:text-2xl text-white">MORE</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
