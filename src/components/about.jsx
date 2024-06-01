@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 export default function About() {
   return (
     <section className="flex w-full justify-center">
-      <div className="px-3">
+      <div className="px-3 md:px-5 lg:px-5">
         <p className="text-center underline underline-offset-8 font-bold text-3xl">
           ABOUT US
         </p>
