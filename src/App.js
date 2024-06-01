@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/about";
 import MainCarousel from "./components/carousel";
+import Features from "./components/features";
 import Navbar_Main from "./components/navbar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <MainCarousel />
       </div>
       <About />
+      <Features/>
     </div>
   );
 }
