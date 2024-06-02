@@ -17,10 +17,6 @@
   background-color: #fff;
 }
 
-.carousel_item {
-  max-height: 65vh !important;
-}
-
 .carousel_img {
   object-fit: cover;
 }
