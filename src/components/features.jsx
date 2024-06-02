@@ -1,6 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import restaurant_desc from "../resources/restaurant_desc.jpg";
+import events_desc from "../resources/events_desc.jpg";
+import entertainment_desc from "../resources/entertainment_desc.jpg"
+import agritourism_desc from "../resources/agritourism_desc.jpg";
+import school_desc from "../resources/school_desc.jpg";
+import accommodation_desc from "../resources/accommodation_desc.jpg"
 
 export default function Features() {
   return (
@@ -8,8 +14,8 @@ export default function Features() {
       <h3>Our Offers...</h3>
       <Row>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="Restaurant Image" />
+          <div className="features">
+            <img src={restaurant_desc} alt="Restaurant Image" />
             <h5>Restaurant</h5>
             <p>
               Enjoy your dining experience either at the Garden Restaurant or
@@ -19,8 +25,8 @@ export default function Features() {
           </div>
         </Col>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="Events Image" />
+          <div className="features">
+            <img src={events_desc} alt="Events Image" />
             <h5>Events</h5>
             <p>
               Book your event through our reservation office to cater for your
@@ -30,8 +36,8 @@ export default function Features() {
           </div>
         </Col>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="Accomodation Image" />
+          <div className="features">
+            <img src={accommodation_desc} alt="Accomodation Image" />
             <h5>Accommodation</h5>
             <p>
               Enjoy the comfort of our Apartments, Cottages, or Camping tents
@@ -43,8 +49,8 @@ export default function Features() {
       </Row>
       <Row>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="Entertainment Image" />
+          <div className="features">
+            <img src={entertainment_desc} alt="Entertainment Image" />
             <h5>Entertainment</h5>
             <p>
               Engage in Rhumba Music, a rustic ranch, and a cowboy feel to
@@ -54,8 +60,8 @@ export default function Features() {
           </div>
         </Col>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="Agritourism Image" />
+          <div className="features">
+            <img src={agritourism_desc} alt="Agritourism Image" />
             <h5>Agritourism</h5>
             <p>
               Enjoy our Farm-to-Fork experience by touring the Fred's Ranch Farm and exploring the animal products and fresh farm vegetables.
@@ -63,8 +69,8 @@ export default function Features() {
           </div>
         </Col>
         <Col sm={12} md={4}>
-          <div>
-            <img src="" alt="School Image" />
+          <div className="features">
+            <img src={school_desc} alt="School Image" />
             <h5>School</h5>
             <p>
               We are passionate about the hospitality industry and revolutionizing the hospitality experience in Kenya and Africa through <span className="font-bold">character, innovation, and excellence</span>
