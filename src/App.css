@@ -1,13 +1,13 @@
-.navbar-collapse{
+.navbar-collapse {
   flex-grow: 0 !important;
 }
 
-.navbar_closed{
+.navbar_closed {
   max-height: 10 !important;
   transition: 0.5s ease-out;
 }
 
-.navbar_open{
+.navbar_open {
   position: sticky !important;
   top: 0;
   left: 0;
@@ -17,34 +17,53 @@
   background-color: #fff;
 }
 
-.carousel_item{
+.carousel_item {
   max-height: 65vh !important;
 }
 
-.carousel_img{
+.carousel_img {
   object-fit: cover;
 }
 
-.school_stroke{
-  -webkit-text-stroke-width: .5px;
+.school_stroke {
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fff;
 }
 
-.main_text{
+.main_text {
   line-height: 1.5;
 }
 
+.features {
+  margin: .8%;
+  padding: .5%;
+  border-bottom: 1px solid #114344;
+}
+
+.features img {
+  border-radius: 0 0 25% 0%;
+}
+
 @media screen and (min-width: 600px) {
-  .carousel_caption{
+  .carousel_caption {
     right: 45% !important;
     top: 60%;
   }
-  .school_caption{
+  .school_caption {
     right: 50%;
     top: 60%;
   }
 
-  .main_text{
+  .main_text {
     font-size: large;
+  }
+
+  .features{
+    min-height: 50vh;
+  }
+
+  .features img {
+    max-height: 25vh;
+    width: 25vw;
   }
 }
