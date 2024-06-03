@@ -10,8 +10,8 @@ import accommodation_desc from "../resources/accommodation_desc.jpg"
 
 export default function Features() {
   return (
-    <Container>
-      <h3>Our Offers...</h3>
+    <Container className="flex flex-col gap-6">
+      <h3 className="text-center underline underline-offset-8">WHAT WE OFFER</h3>
       <Row>
         <Col sm={12} md={4}>
           <div className="features">
