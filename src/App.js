@@ -3,6 +3,7 @@ import About from "./components/about";
 import MainCarousel from "./components/carousel";
 import Features from "./components/features";
 import Navbar_Main from "./components/navbar";
+import Numbers from "./components/numbers";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <About />
       <Features/>
+      <Numbers/>
     </div>
   );
 }
