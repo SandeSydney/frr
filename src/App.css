@@ -30,7 +30,7 @@
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .main_text {
