@@ -26,6 +26,13 @@
   -webkit-text-stroke-color: #fff;
 }
 
+.about{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main_text {
   line-height: 1.5;
 }
