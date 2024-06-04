@@ -15,8 +15,8 @@ export default function Numbers() {
       <div>
         <Container>
             <Row>
-                <Col sm={12} md={6} lg={3} className="text-center">
-                    <img className="text-center" src={client} alt="Client Image" />
+                <Col sm={12} md={6} lg={3} className="">
+                    <img className="" src={client} alt="Client Image" />
                     <p>6000+</p>
                     <p>Client Count</p>
                 </Col>
