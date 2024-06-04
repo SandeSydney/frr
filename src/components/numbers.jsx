@@ -14,28 +14,36 @@ export default function Numbers() {
       </div>
       <div>
         <Container>
-            <Row>
-                <Col sm={12} md={6} lg={3} className="">
-                    <img className="" src={client} alt="Client Image" />
-                    <p>6000+</p>
-                    <p>Client Count</p>
-                </Col>
-                <Col sm={12} md={6} lg={3}>
-                    <img src={choma} alt="Nyama Choma Image" />
-                    <p>8500+</p>
-                    <p>Nyama Choma</p>
-                </Col>
-                <Col sm={12} md={6} lg={3}>
-                    <img src={swim} alt="Swimming Image" />
-                    <p>3500+</p>
-                    <p>Swimming</p>
-                </Col>
-                <Col sm={12} md={6} lg={3}>
-                    <img src={reservation} alt="Reservation Image" />
-                    <p>3800+</p>
-                    <p>Reservations</p>
-                </Col>
-            </Row>
+          <Row>
+            <Col sm={12} md={6} lg={3}>
+              <div>
+                <img className="" src={client} alt="Client Image" />
+                <p>6000+</p>
+                <p>Client Count</p>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={3}>
+              <div>
+                <img src={choma} alt="Nyama Choma Image" />
+                <p>8500+</p>
+                <p>Nyama Choma</p>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={3}>
+              <div>
+                <img src={swim} alt="Swimming Image" />
+                <p>3500+</p>
+                <p>Swimming</p>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={3}>
+              <div>
+                <img src={reservation} alt="Reservation Image" />
+                <p>3800+</p>
+                <p>Reservations</p>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </div>
     </section>
