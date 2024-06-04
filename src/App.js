@@ -4,6 +4,7 @@ import MainCarousel from "./components/carousel";
 import Features from "./components/features";
 import Navbar_Main from "./components/navbar";
 import Numbers from "./components/numbers";
+import Team from "./components/team";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Features/>
       <Numbers/>
+      <Team/>
     </div>
   );
 }
