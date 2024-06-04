@@ -10,7 +10,7 @@ export default function Numbers() {
   return (
     <section className="about">
       <div>
-        <h2 className="text-center">OUR NUMBERS</h2>
+        <h1 className="text-center">OUR NUMBERS</h1>
       </div>
       <div>
         <Container>
