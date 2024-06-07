@@ -9,14 +9,13 @@ import Team from "./components/team";
 function App() {
   return (
     <div className="flex flex-col gap-5">
-      <Navbar_Main />
-      <div className="flex justify-center">
-        <MainCarousel />
+      <div className="home">
+        <div>
+          
+        </div>
       </div>
+      <Navbar_Main />
       <About />
-      <Features/>
-      <Numbers/>
-      <Team/>
     </div>
   );
 }
