@@ -18,7 +18,7 @@ const Landing = () => {
         preRenderFirstString={true}
       />
       <div className="flex h-7">
-        <p className="text-white text-sm underline underline-offset-8">
+        <p className="text-white text-xs md:text-sm underline underline-offset-8">
           Scroll Down <span></span>
         </p>
         <div>
