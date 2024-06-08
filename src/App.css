@@ -7,6 +7,27 @@
   min-height: 100vh;
 }
 
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.landing_text {
+  color: #cc9f72;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.landing_subtext {
+  color: white;
+  font-size: 16px;
+  font-family: "Dancing-Script";
+}
+
 .navbar-collapse {
   flex-grow: 0 !important;
 }
@@ -67,13 +88,20 @@
 }
 
 @media screen and (min-width: 600px) {
-  .carousel_caption {
-    right: 45% !important;
-    top: 60%;
+  .landing {
+    align-items: left;
+    justify-content: end;
+    gap: 8px;
+    padding: 2% 5%;
   }
-  .school_caption {
-    right: 50%;
-    top: 60%;
+
+  .landing_text {
+    font-weight: bolder;
+    font-size: 34px;
+  }
+
+  .landing_subtext {
+    font-size: 26px;
   }
 
   .main_text {
