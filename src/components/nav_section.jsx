@@ -17,14 +17,15 @@ export default function Nav_Section() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
-          <NavDropdown title="Restaurant" id="basic-nav-dropdown">
-            <NavDropdown.Item href="">Food Menu</NavDropdown.Item>
+          <Nav.Link href="">Home</Nav.Link>
+          <NavDropdown title="About Us" id="basic-nav-dropdown">
+            <NavDropdown.Item href="">About Us</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="">Events & Activities</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="">Accomodation</NavDropdown.Item>
+            <NavDropdown.Item href="">Location</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="">About Us</Nav.Link>
+          <Nav.Link href="">Dining</Nav.Link>
+          <Nav.Link href="">Events & Activities</Nav.Link>
+          <Nav.Link href="">Gallery</Nav.Link>
           <Nav.Link href="">School</Nav.Link>
           <Nav.Link href="">Contact Us</Nav.Link>
         </Nav>
