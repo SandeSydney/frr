@@ -20,7 +20,7 @@ const Welcome_Section = () => {
           <Col sm={12} md={6}>
             <div>
               <p className="font-[Dancing-Script] tracking-wider">
-                Welcome to <span className="text-xl">Fred's Ranch & Resort</span>, where serenity is blended in
+                Welcome to <span className="text-xl underline underline-offset-4">Fred's Ranch & Resort</span>, where serenity is blended in
                 harmony with the Texas Cowboy Theme. Enjoy the natural
                 background of beautiful lawns, haystacks, dairy cattle, Rhumba
                 Music and smiling faces. We love our food! Chefs at Freds Ranch
