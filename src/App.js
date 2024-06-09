@@ -1,12 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import About from "./components/about";
-import MainCarousel from "./components/carousel";
 import Features from "./components/features";
 import Landing from "./components/landing_page";
 import Navbar_Main from "./components/navbar";
-import Numbers from "./components/numbers";
-import Team from "./components/team";
 import Navbar_Sec from "./components/navbar_sec";
 import Welcome_Section from "./components/welcome";
 
@@ -28,7 +24,7 @@ function App() {
         </div>
       </div>
       <Welcome_Section />
-      <About />
+      <Features />
     </div>
   );
 }
