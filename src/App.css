@@ -1,5 +1,5 @@
 .home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(11, 29, 38,0.4), rgba(11, 29, 38,0.4)),
     url("./resources/cabbana.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 }
 
 .landing_text {
-  color: #cc9f72;
+  color: #ffcf62;
   font-size: 22px;
   font-weight: bold;
 }
@@ -33,7 +33,7 @@
   min-width: 100% !important;
   background-color: transparent !important;
   position: absolute !important;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   top: 0;
   left: 0;
 }
@@ -44,16 +44,16 @@
   font-weight: normal;
 }
 
-.navbar_sec .dropdown-menu{
+.navbar_sec .dropdown-menu {
   background-color: transparent !important;
   border: 1px solid white !important;
 }
 
-.navbar_sec a.dropdown-item{
+.navbar_sec a.dropdown-item {
   color: white !important;
 }
 
-.navbar_sec a.dropdown-item:hover{
+.navbar_sec a.dropdown-item:hover {
   color: black !important;
 }
 
@@ -84,6 +84,16 @@
   color: white;
   font-size: larger;
   font-weight: bolder;
+}
+
+.welcome {
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(11, 29, 38,0.95), rgba(11, 29, 38,0.95)),
+    url("./resources/swimming_night.jpg");
+  box-shadow: 0 -30px 20px 0 rgba(11, 29, 38,0.93);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .carousel_img {
