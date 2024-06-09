@@ -18,7 +18,7 @@
 
 .landing_text {
   color: #ffcf62;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -87,13 +87,17 @@
 }
 
 .welcome {
-  min-height: 60vh;
+  min-height: 80vh;
   background-image: linear-gradient(rgba(11, 29, 38,0.95), rgba(11, 29, 38,0.95)),
-    url("./resources/swimming_night.jpg");
+    url("./resources/horse_back.jpg");
   box-shadow: 0 -30px 20px 0 rgba(11, 29, 38,0.93);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .carousel_img {
@@ -131,12 +135,12 @@
     align-items: left;
     justify-content: end;
     gap: 8px;
-    padding: 2% 5%;
+    padding: 5%;
   }
 
   .landing_text {
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .landing_subtext {
