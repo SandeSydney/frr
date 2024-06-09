@@ -6,7 +6,7 @@ const Landing = () => {
     <>
       <TypeAnimation
         className="landing_text"
-        sequence={["Welcome!!!", 500, "-FRED'S RANCH & RESORT-"]}
+        sequence={["-FRED'S RANCH & RESORT-"]}
         speed={70}
         cursor={false}
       />
