@@ -45,7 +45,7 @@
 .navbar_sec .nav-link,
 .navbar_sec .nav-link {
   color: white !important;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .navbar_sec .dropdown-menu {
