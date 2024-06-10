@@ -11,7 +11,7 @@ const Welcome_Section = () => {
             <div>
               <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
-                <span className="text-5xl md:text-7xl lg:text-8xl text-[#ffcf62] font-extrabold ">
+                <span className="text-5xl md:text-6xl lg:text-8xl text-[#ffcf62] font-extrabold ">
                   cowboy <br /> experience...
                 </span>
               </p>
