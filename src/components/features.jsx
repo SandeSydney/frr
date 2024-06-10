@@ -2,6 +2,12 @@ import Container from "react-bootstrap/Container";
 import sunset_pool from "../resources/sunset_pool.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import cocktail from "../resources/cocktail.jpg";
+import events from "../resources/events_desc.jpg";
+import arrow_right from "../resources/arrow_right.png";
+import playground from "../resources/playground.jpg";
+import swimming_night from "../resources/swimming_night.jpg";
+import wedding_ground from "../resources/wedding_ground.jpg"
 
 export default function Features() {
   return (
@@ -9,25 +15,38 @@ export default function Features() {
       <Container className="features_container">
         <img src={sunset_pool} alt="feature image" />
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-5">
           <h2 className="text-center font-extrabold font-[Dancing-Script]">
-            Glimpse About The Nature Of The Ranch
+            A Glimpse On The Nature Of The Ranch
           </h2>
           <div className="features_glimpse">
-            <Row>
+            <Row className="">
               <Col sm={12} md={6}>
-                <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
-                  Fred's Ranch & Resort is an integral part of Kajiado Getaways,
-                  and located 70 kilometers from Nairobi City Center, we set the
-                  standards for excellence in vacation experiences.The easy
-                  Rhumba Music playing in the background as you enjoy your
-                  favourite cocktail or having a dip in the exquisite swimming
-                  pool is definitely the perfect escape from the hustle of the
-                  city.
-                </p>
-                <img src="" alt="" />
+                <div className="flex flex-col gap-4">
+                  <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
+                    Fred's Ranch & Resort is an integral part of Kajiado
+                    Getaways, and located 70 kilometers from Nairobi City
+                    Center, we set the standards for excellence in vacation
+                    experiences.The easy Rhumba Music playing in the background
+                    as you enjoy your favourite cocktail or having a dip in the
+                    exquisite swimming pool is definitely the perfect escape
+                    from the hustle of the city.
+                  </p>
+                  <div className="flex items-end">
+                    <p className="underline underline-offset-8">
+                      Explore Events & Activities
+                    </p>
+                    <img src={arrow_right} alt="arrow right" />
+                  </div>
+                  <img src={wedding_ground} alt="wedding grounds" width="" />
+                </div>
               </Col>
-              <Col sm={12} md={6}></Col>
+              <Col sm={12} md={6}>
+                <div className="flex flex-col gap-4">
+                  <img src={events} alt="Events Image" />
+                  <img src={playground} alt="Playground" />
+                </div>
+              </Col>
             </Row>
           </div>
         </div>
