@@ -11,7 +11,7 @@ export default function Features() {
 
         <div className="flex flex-col gap-4">
           <h2 className="text-center font-extrabold font-[Dancing-Script]">
-            Glimpse Of The Nature In The Ranch
+            Glimpse About The Nature Of The Ranch
           </h2>
           <div className="features_glimpse">
             <Row>
