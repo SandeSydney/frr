@@ -90,7 +90,8 @@
 }
 
 .welcome {
-  min-height: 80vh;
+  min-height: 100vh;
+  padding-bottom: 20%;
   background-image: linear-gradient(
       rgba(11, 29, 38, 0.95),
       rgba(11, 29, 38, 0.95)
@@ -138,9 +139,9 @@
 }
 
 .features_container > img {
-  width: 30vw;
+  width: 45vw;
   margin-top: -12%;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 600px) {
