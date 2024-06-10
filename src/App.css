@@ -94,7 +94,7 @@
 
 .welcome {
   min-height: 100vh;
-  padding-bottom: 20%;
+  padding-bottom: 10%;
   background-image: linear-gradient(
       rgba(11, 29, 38, 0.95),
       rgba(11, 29, 38, 0.95)
@@ -136,9 +136,11 @@
 }
 
 .features_container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5vh;
 }
 
 .features_container > img {
