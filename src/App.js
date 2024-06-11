@@ -5,6 +5,7 @@ import Landing from "./components/landing_page";
 import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
 import Welcome_Section from "./components/welcome";
+import Amenities from "./components/amenities";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       </div>
       <Welcome_Section />
       <Features />
+      <Amenities />
     </div>
   );
 }
