@@ -38,7 +38,7 @@ export default function Features() {
                     </p>
                     <img src={arrow_right} alt="arrow right" />
                   </div>
-                  <img src={wedding_ground} alt="wedding grounds" width="" />
+                  <img className="mb-3" src={wedding_ground} alt="wedding grounds" width="" />
                 </div>
               </Col>
               <Col sm={12} md={6}>
