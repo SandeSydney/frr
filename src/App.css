@@ -133,6 +133,7 @@
 .features {
   min-height: 100vh;
   background-color: #fffaed;
+  padding: 10px;
 }
 
 .features_container {
@@ -151,6 +152,36 @@
 
 .features_glimpse img{
   border-radius: 2%;
+}
+
+.amenities{
+  min-height: 65vh;
+  padding: 5% 0;
+  background-color: #0b1d26;
+  color: white;
+}
+
+.explore{
+  padding: 2% 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+
+.offers{
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  justify-content: space-evenly;
+}
+
+.offers_list{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 600px) {
