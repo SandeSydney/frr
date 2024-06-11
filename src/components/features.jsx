@@ -8,6 +8,7 @@ import arrow_right from "../resources/arrow_right.png";
 import playground from "../resources/playground.jpg";
 import swimming_night from "../resources/swimming_night.jpg";
 import wedding_ground from "../resources/wedding_ground.jpg"
+import EastSharpIcon from '@mui/icons-material/EastSharp';
 
 export default function Features() {
   return (
@@ -32,11 +33,11 @@ export default function Features() {
                     exquisite swimming pool is definitely the perfect escape
                     from the hustle of the city.
                   </p>
-                  <div className="flex items-end">
+                  <div className="flex gap-1 content-center">
                     <p className="underline underline-offset-8">
                       Explore Events & Activities
                     </p>
-                    <img src={arrow_right} alt="arrow right" />
+                    <EastSharpIcon/>
                   </div>
                   <img className="mb-3" src={wedding_ground} alt="wedding grounds" width="" />
                 </div>
