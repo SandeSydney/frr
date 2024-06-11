@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import arrow_down from "../resources/arrow_down.png";
+import SouthSharpIcon from '@mui/icons-material/SouthSharp';
 
 const Landing = () => {
   return (
@@ -17,13 +17,11 @@ const Landing = () => {
         cursor={false}
         preRenderFirstString={true}
       />
-      <div className="flex h-7">
-        <p className="text-white text-xs md:text-sm underline underline-offset-8">
+      <div className="flex h-7 text-white">
+        <p className=" text-xs md:text-sm underline underline-offset-8">
           Scroll Down <span></span>
         </p>
-        <div>
-          <img width="30px" src={arrow_down} alt="Arrow Down" />
-        </div>
+        <SouthSharpIcon/>
       </div>
     </>
   );
