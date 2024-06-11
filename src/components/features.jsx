@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import cocktail from "../resources/cocktail.jpg";
 import events from "../resources/events_desc.jpg";
-import arrow_right from "../resources/arrow_right.png";
 import playground from "../resources/playground.jpg";
 import swimming_night from "../resources/swimming_night.jpg";
 import wedding_ground from "../resources/wedding_ground.jpg"
