@@ -29,16 +29,17 @@ const Amenities = () => {
             <Row>
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
-                  <FestivalIcon />
-                  BANQUET HALL
-                </div>
-              </Col>
-              <Col xs={6} sm={6} md={3}>
-                <div className="items">
                   <CoPresentIcon />
                   WEDDING GROUNDS
                 </div>
               </Col>
+              <Col xs={6} sm={6} md={3}>
+                <div className="items">
+                  <FestivalIcon />
+                  BANQUET HALL
+                </div>
+              </Col>
+
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
                   <PoolSharpIcon />
@@ -93,14 +94,14 @@ const Amenities = () => {
               </Col>
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
-                  <StarHalfSharpIcon />
-                  VIP LOUNGE
+                  <GrassSharpIcon />
+                  ORGANIC PRODUCE
                 </div>
               </Col>
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
-                  <GrassSharpIcon />
-                  ORGANIC PRODUCE
+                  <StarHalfSharpIcon />
+                  VIP LOUNGE
                 </div>
               </Col>
             </Row>
