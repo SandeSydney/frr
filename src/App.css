@@ -184,6 +184,21 @@
   justify-content: space-around;
 }
 
+.offers > .offers_list > .row > div > .items{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #15262e;
+}
+
+.offers > .offers_list > .row > div > .items > svg{
+  color: #877d4b;
+  font-size: 30px;
+}
+
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
@@ -209,5 +224,18 @@
     width: 45vw;
     margin-top: -12%;
     border-radius: 10px;
+  }
+
+  .offers > .offers_list > .row > div > .items{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  
+  .offers > .offers_list > .row > div > .items > svg{
+    font-size: 40px;
   }
 }
