@@ -150,18 +150,18 @@
   border-radius: 10px;
 }
 
-.features_glimpse img{
+.features_glimpse img {
   border-radius: 2%;
 }
 
-.amenities{
+.amenities {
   min-height: 65vh;
   padding: 5% 0;
   background-color: #0b1d26;
   color: white;
 }
 
-.explore{
+.explore {
   padding: 2% 0;
   text-align: center;
   display: flex;
@@ -170,21 +170,33 @@
   min-height: 10vh;
 }
 
-.offers{
+.explore > button {
+  border: 1px solid #ffcf62;
+  align-self: center;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.explore > button > svg{
+  font-size: 50px;
+  color: #ffcf62;
+}
+
+.offers {
   display: flex;
   flex-direction: column;
   min-height: 40vh;
   justify-content: space-evenly;
 }
 
-.offers_list{
+.offers_list {
   display: flex;
   flex-direction: column;
   flex: 3;
   justify-content: space-around;
 }
 
-.offers > .offers_list > .row > div > .items{
+.offers > .offers_list > .row > div > .items {
   display: flex;
   align-items: center;
   gap: 2%;
@@ -194,7 +206,7 @@
   background-color: #15262e;
 }
 
-.offers > .offers_list > .row > div > .items > svg{
+.offers > .offers_list > .row > div > .items > svg {
   color: #877d4b;
   font-size: 30px;
 }
@@ -241,7 +253,7 @@ footer > .container > .foot_details > div > h3 {
     border-radius: 10px;
   }
 
-  .offers > .offers_list > .row > div > .items{
+  .offers > .offers_list > .row > div > .items {
     display: flex;
     align-items: center;
     gap: 5%;
@@ -249,8 +261,8 @@ footer > .container > .foot_details > div > h3 {
     padding: 20px;
     border-radius: 50px;
   }
-  
-  .offers > .offers_list > .row > div > .items > svg{
+
+  .offers > .offers_list > .row > div > .items > svg {
     font-size: 40px;
   }
 }

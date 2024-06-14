@@ -13,6 +13,7 @@ import FestivalIcon from "@mui/icons-material/Festival";
 import FollowTheSignsSharpIcon from "@mui/icons-material/FollowTheSignsSharp";
 import CoPresentIcon from "@mui/icons-material/CoPresent";
 import SpaIcon from "@mui/icons-material/Spa";
+import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 const Amenities = () => {
   return (
@@ -117,6 +118,7 @@ const Amenities = () => {
             get to enjoy a serene and tranquil environment, <br />
             leaving happier than you came.
           </p>
+          <button><TrendingFlatIcon/></button>
         </div>
       </Container>
     </section>
