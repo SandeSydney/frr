@@ -42,6 +42,7 @@ const Footer = () => {
               </p>
             </Col>
           </Row>
+          <hr />
           <Row className="h-10 md:content-center">
             <Col xs={12} sm={12} md={4}>
               &copy; 2024 All rights reserved
