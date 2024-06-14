@@ -1,13 +1,11 @@
-import Container from "react-bootstrap/Container";
-import sunset_pool from "../resources/sunset_pool.jpg";
-import Row from "react-bootstrap/Row";
+import EastSharpIcon from '@mui/icons-material/EastSharp';
 import Col from "react-bootstrap/Col";
-import cocktail from "../resources/cocktail.jpg";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import events from "../resources/events_desc.jpg";
 import playground from "../resources/playground.jpg";
-import swimming_night from "../resources/swimming_night.jpg";
-import wedding_ground from "../resources/wedding_ground.jpg"
-import EastSharpIcon from '@mui/icons-material/EastSharp';
+import sunset_pool from "../resources/sunset_pool.jpg";
+import wedding_ground from "../resources/wedding_ground.jpg";
 
 export default function Features() {
   return (
