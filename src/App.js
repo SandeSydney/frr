@@ -6,6 +6,7 @@ import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
 import Welcome_Section from "./components/welcome";
 import Amenities from "./components/amenities";
+import Footer from "./components/footer";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       <Welcome_Section />
       <Features />
       <Amenities />
+      <Footer />
     </div>
   );
 }
