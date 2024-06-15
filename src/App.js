@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import Homepage from "./components/homepage";
 import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
+import { Outlet } from "react-router-dom";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -17,7 +18,7 @@ function App() {
         }
       })}
       {visible ? <Navbar_Main /> : <Navbar_Sec />}
-      <Homepage />
+      <Outlet />
       <Footer />
     </div>
   );
