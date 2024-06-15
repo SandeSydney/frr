@@ -1,12 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import Features from "./components/features";
-import Landing from "./components/landing_page";
+import Footer from "./components/footer";
+import Homepage from "./components/homepage";
 import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
-import Welcome_Section from "./components/welcome";
-import Amenities from "./components/amenities";
-import Footer from "./components/footer";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -20,14 +17,7 @@ function App() {
         }
       })}
       {visible ? <Navbar_Main /> : <Navbar_Sec />}
-      <div className="home">
-        <div className="landing">
-          <Landing />
-        </div>
-      </div>
-      <Welcome_Section />
-      <Features />
-      <Amenities />
+      <Homepage />
       <Footer />
     </div>
   );
