@@ -10,6 +10,14 @@
   min-height: 100vh;
 }
 
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .landing {
   height: 100vh;
   display: flex;
@@ -35,7 +43,7 @@
   font-size: 20px !important;
   font-weight: bolder;
   min-width: 100% !important;
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute !important;
   transition: 0.5s ease-in-out;
   top: 0;
@@ -50,7 +58,7 @@
 
 .navbar_sec .dropdown-menu {
   background-color: transparent !important;
-  border: 1px solid white !important;
+  border: 1px solid rgba(255, 255, 255, 0.61) !important;
 }
 
 .navbar_sec a.dropdown-item {
@@ -117,13 +125,6 @@
 .school_stroke {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fff;
-}
-
-.about {
-  min-height: 65vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .main_text {
