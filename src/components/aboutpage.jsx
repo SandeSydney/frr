@@ -7,6 +7,7 @@ import accommodation_desc from "../resources/accommodation_desc.jpg";
 import entertainment_desc from "../resources/entertainment_desc.jpg";
 import agritourism_desc from "../resources/agritourism_desc.jpg";
 import school_desc from "../resources/school_desc.jpg";
+import FollowUS from "./follow_us";
 
 export default function AboutPage() {
   return (
@@ -142,6 +143,7 @@ export default function AboutPage() {
           </Row>
         </Container>
       </div>
+      <FollowUS />
     </>
   );
 }
