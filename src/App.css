@@ -6,6 +6,7 @@
     url("./resources/cabbana.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
 }
@@ -339,21 +340,20 @@ footer > .container > .foot_details > div > h3 {
   justify-content: center;
 }
 
-.follow_us > div{
+.follow_us > div {
   display: flex;
   gap: 20px;
 }
 
-.follow_us > div > svg{
+.follow_us > div > svg {
   height: 30px;
 }
 
-.follow_us > div > svg:hover{
+.follow_us > div > svg:hover {
   height: 32px;
 }
 
-
-.maplocation{
+.maplocation {
   background-image: url("./resources//maps.png");
   min-height: 70vh;
   background-position: center;
