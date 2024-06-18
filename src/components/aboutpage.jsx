@@ -1,13 +1,7 @@
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import frr_platter from "../resources/frr_platter.jpg";
-import events_desc from "../resources/events_desc.jpg";
-import accommodation_desc from "../resources/accommodation_desc.jpg";
-import entertainment_desc from "../resources/entertainment_desc.jpg";
-import agritourism_desc from "../resources/agritourism_desc.jpg";
-import school_desc from "../resources/school_desc.jpg";
-import FollowUS from "./follow_us";
+import MapLocation from "./maps";
 
 export default function AboutPage() {
   return (
@@ -51,18 +45,11 @@ export default function AboutPage() {
               </p>
             </Col>
           </Row>
-          <div className="flex gap-3">
-            <h5>Languages Spoken at the Ranch:</h5>
-            <div className="flex gap-2">
-              <p>English</p>
-              <p>Swahili</p>
-              <p>French</p>
-            </div>
-          </div>
         </Container>
       </div>
-      <div>
+      <div className="features">
         <Container>
+          <h4>EXPLORE WHAT WE HAVE</h4>
           <Row>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="restaurant">
@@ -129,7 +116,7 @@ export default function AboutPage() {
           </Row>
         </Container>
       </div>
-      <FollowUS />
+      <MapLocation />
     </>
   );
 }
