@@ -352,6 +352,15 @@ footer > .container > .foot_details > div > h3 {
   height: 32px;
 }
 
+
+.maplocation{
+  background-image: url("./resources//maps.png");
+  min-height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
