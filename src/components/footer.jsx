@@ -14,7 +14,7 @@ const Footer = () => {
             <Col xs={12} sm={12} md={3}>
               <img src={frr_logo} alt="Fred's Ranch Logo" />
             </Col>
-            <Col xs={12} sm={12} md={3}>
+            <Col xs={6} sm={6} md={3}>
               <h3>Quick Links</h3>
               <p>Home </p>
               <p>About Us</p>
