@@ -361,6 +361,26 @@ footer > .container > .foot_details > div > h3 {
   background-size: cover;
 }
 
+.dining_landing {
+  background-image: url("./resources/choma_stakes.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dining_landing > .dining_main {
+  background-color: #15262ead;
+  color: #ffcf62;
+  text-align: center;
+  font-family: 'Dancing-Script';
+  padding: 5%;
+  margin: 0 10%;
+}
+
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
