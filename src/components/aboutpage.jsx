@@ -65,80 +65,66 @@ export default function AboutPage() {
         <Container>
           <Row>
             <Col xs={12} sm={12} md={4}>
-              <h4>RESTAURANT</h4>
-              <p>
-                Enjoy your dining experience either at the Garden Restarurant or
-                Pool Restaurant where we serve local African Cuisine in an
-                exciting and breathtaking atmosphere.
-              </p>
-            </Col>
-            <Col xs={12} sm={12} md={6}>
-              <img src={frr_platter} alt="" />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={6}>
-              <img src={events_desc} alt="" />
+              <div className="about_items" id="restaurant">
+                <h5>RESTAURANT</h5>
+                <p>
+                  Enjoy your dining experience either at the Garden Restarurant
+                  or Pool Restaurant where we serve local African Cuisine in an
+                  exciting and breathtaking atmosphere.
+                </p>
+              </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
-              <h4>EVENTS</h4>
-              <p>
-                Book your event through our reservation office to cater for your
-                corporate functions, tours, weddings, celebrations, meetings,
-                team-buildings, and school trips.
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={4}>
-              <h4>ACCOMMODATION</h4>
-              <p>
-                Enjoy the comfort of our Apartments, Cottages, or Camping Tents
-                for accommodation, Each with a luxury of its own to suit your
-                needs.
-              </p>
-            </Col>
-            <Col xs={12} sm={12} md={6}>
-              <img src={accommodation_desc} alt="" />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={6}>
-              <img src={entertainment_desc} alt="" />
+              <div className="about_items" id="events">
+                <h5>EVENTS</h5>
+                <p>
+                  Book your event through our reservation office to cater for
+                  your corporate functions, tours, weddings, celebrations,
+                  meetings, team-buildings, and school trips.
+                </p>
+              </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
-              <h4>ENTERTAINMENT</h4>
-              <p>
-                Engage in Rhumba Music and a rustic ranch and cowboy feel to
-                entertain you and keep you delighted as you explore the various
-                activities offered.
-              </p>
+              <div className="about_items" id="accommodation">
+                <h5>ACCOMMODATION</h5>
+                <p>
+                  Enjoy the comfort of our Apartments, Cottages, or Camping
+                  Tents for accommodation, Each with a luxury of its own to suit
+                  your needs.
+                </p>
+              </div>
             </Col>
           </Row>
           <Row>
             <Col xs={12} sm={12} md={4}>
-              <h4>AGRITOURISM</h4>
-              <p>
-                Enjoy our Farm-to-Fork experience by touring the Fred's Ranch
-                Farm and exploring our animal products and fresh farm
-                vegetables.
-              </p>
-            </Col>
-            <Col xs={12} sm={12} md={6}>
-              <img src={agritourism_desc} alt="" />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={6}>
-              <img src={school_desc} alt="" />
+              <div className="about_items" id="entertainment">
+                <h5>ENTERTAINMENT</h5>
+                <p>
+                  Engage in Rhumba Music and a rustic ranch and cowboy feel to
+                  entertain you and keep you delighted as you explore the
+                  various activities offered.
+                </p>
+              </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
-              <h4>SCHOOL</h4>
-              <p>
-                We are passionate about the hospitality industry and
-                revolutionizing the hospitality experience in Kenya and Africa
-                through <b>character, innovation, and excellence</b>
-              </p>
+              <div className="about_items" id="agritourism">
+                <h5>AGRITOURISM</h5>
+                <p>
+                  Enjoy our Farm-to-Fork experience by touring the Fred's Ranch
+                  Farm and exploring our animal products and fresh farm
+                  vegetables.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} sm={12} md={4}>
+              <div className="about_items" id="school">
+                <h5>SCHOOL</h5>
+                <p>
+                  We are passionate about the hospitality industry and
+                  revolutionizing the hospitality experience in Kenya and Africa
+                  through <b>character, innovation, and excellence</b>
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>
