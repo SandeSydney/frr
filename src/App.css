@@ -248,6 +248,87 @@ footer > .container > .foot_details > div > h3 {
   color: #fff;
 }
 
+.about_items {
+  background-image: linear-gradient(
+    rgba(11, 29, 38, 0.9),
+    rgba(11, 29, 38, 0.9)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  padding: 8%;
+  gap: 15px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 5px;
+  margin: 5% 2%;
+}
+
+#restaurant {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/frr_platter.jpg");
+}
+
+#events {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/events_desc.jpg");
+}
+
+#accommodation {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/accommodation_desc.jpg");
+}
+
+#entertainment {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/entertainment_desc.jpg");
+}
+
+#agritourism {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/agritourism_desc.jpg");
+}
+
+#school {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.8),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("./resources/school_desc.jpg");
+}
+
+.about_items:hover,
+.about_items:focus {
+  margin: -2%;
+}
+
+.about_items > h5 {
+  color: #ffcf62;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
