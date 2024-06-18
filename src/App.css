@@ -329,6 +329,29 @@ footer > .container > .foot_details > div > h3 {
   text-underline-offset: 8px;
 }
 
+.follow_us {
+  min-height: 30vh;
+  min-width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow_us > div{
+  display: flex;
+  gap: 20px;
+}
+
+.follow_us > div > svg{
+  height: 30px;
+}
+
+.follow_us > div > svg:hover{
+  height: 32px;
+}
+
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
