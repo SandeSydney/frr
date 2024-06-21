@@ -382,7 +382,7 @@ footer > .container > .foot_details > div > h3 {
 
 .dining_choma{
   padding: 8% 0;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .choma_col{
@@ -391,11 +391,28 @@ footer > .container > .foot_details > div > h3 {
   justify-content: center;
 }
 
-.choma_col > h2{
+.dining_container h2{
   font-family: 'Alegreya SC';
   text-decoration: underline double #ffcf62;
   text-underline-offset: 8px;
   margin-bottom: 15px;
+}
+
+.dining_container img{
+  border-radius: 2%;
+  box-shadow: 8px 10px 5px gray;
+}
+
+.dining_menu{
+  min-height: 100vh;
+  padding: 8% 0;
+  background-color: rgb(11, 29, 38);
+  color: white;
+}
+
+.dining_gallery{
+  min-height: 100vh;
+  padding: 8% 0;
 }
 
 @media screen and (min-width: 600px) {
