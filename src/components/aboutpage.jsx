@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="about">
-        <Container>
+        <Container> 
           <h2>The Perfect Gataway!</h2>
           <Row>
             <Col xs={12} sm={12} md={6}>
