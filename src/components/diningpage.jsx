@@ -5,6 +5,7 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import nyama_choma from "../resources/nyama_choma.jpg";
 import nyama_choma2 from "../resources/nyama_choma2.jpg";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
+import FoodGallery from "./foodGallery";
 
 export default function DiningPage() {
   return (
@@ -56,6 +57,7 @@ export default function DiningPage() {
         <Container>
           <div className="dining_gallery">
             <h2>Discover our Food Gallery</h2>
+            <FoodGallery />
           </div>
         </Container>
       </div>
