@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import frr_logo from "../resources/frr-logo.png";
+import { Link } from "react-router-dom";
 
 export default function Nav_Section() {
   return (
@@ -17,14 +18,14 @@ export default function Nav_Section() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
-          <Nav.Link href="">Home</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
           <NavDropdown title="About Us" id="basic-nav-dropdown">
-            <NavDropdown.Item href="">About Us</NavDropdown.Item>
+            <NavDropdown.Item href="about-us">About Us</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="">Location</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="">Dining</Nav.Link>
-          <Nav.Link href="">Events & Activities</Nav.Link>
+          <Nav.Link href="dining">Dining</Nav.Link>
+          <Nav.Link href="events">Events & Activities</Nav.Link>
           <Nav.Link href="">Gallery</Nav.Link>
           <Nav.Link href="">School</Nav.Link>
           <Nav.Link href="">Contact Us</Nav.Link>
