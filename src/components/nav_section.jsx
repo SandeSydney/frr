@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Nav_Section() {
   return (
     <Container className="uppercase">
-      <Navbar.Brand href="/">
+      <div>
         <Link>
           <img
             className="w-28 md:w-40"
@@ -16,13 +16,13 @@ export default function Nav_Section() {
             alt="Fred's Ranch and Resort Logo"
           />
         </Link>
-      </Navbar.Brand>
+      </div>
+
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
           <Link to="/">Home</Link>
           <NavDropdown title="About Us" id="basic-nav-dropdown">
-          
             <NavDropdown.Item>
               <Link to={"about-us"}>About Us</Link>
             </NavDropdown.Item>
