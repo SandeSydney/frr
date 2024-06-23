@@ -9,26 +9,33 @@ export default function Nav_Section() {
   return (
     <Container className="uppercase">
       <Navbar.Brand href="/">
-        <img
-          className="w-28 md:w-40"
-          src={frr_logo}
-          alt="Fred's Ranch and Resort Logo"
-        />
+        <Link>
+          <img
+            className="w-28 md:w-40"
+            src={frr_logo}
+            alt="Fred's Ranch and Resort Logo"
+          />
+        </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
-          <Nav.Link href="/">Home</Nav.Link>
+          <Link to="/">Home</Link>
           <NavDropdown title="About Us" id="basic-nav-dropdown">
-            <NavDropdown.Item href="about-us">About Us</NavDropdown.Item>
+          
+            <NavDropdown.Item>
+              <Link to={"about-us"}>About Us</Link>
+            </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="">Location</NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to={"about-us"}>Location</Link>
+            </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="dining">Dining</Nav.Link>
-          <Nav.Link href="events">Events & Activities</Nav.Link>
-          <Nav.Link href="">Gallery</Nav.Link>
-          <Nav.Link href="">School</Nav.Link>
-          <Nav.Link href="">Contact Us</Nav.Link>
+          <Link to={"dining"}>Dining</Link>
+          <Link to={"events"}>Events & Activities</Link>
+          <Link to={""}>Gallery</Link>
+          <Link to={""}>School</Link>
+          <Link to={""}>Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
