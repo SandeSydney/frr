@@ -1,0 +1,53 @@
+.dining_landing {
+  background-image: url("../resources/choma_stakes.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dining_landing > .dining_main {
+  background-color: #15262ead;
+  color: #ffcf62;
+  text-align: center;
+  font-family: "Alegreya SC";
+  padding: 5%;
+}
+
+.dining_choma {
+  padding: 8% 0;
+  min-height: 80vh;
+}
+
+.choma_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dining_container h2 {
+  font-family: "Alegreya SC";
+  text-decoration: underline double #ffcf62;
+  text-underline-offset: 8px;
+  margin-bottom: 15px;
+}
+
+.dining_container img {
+  border-radius: 2%;
+  box-shadow: 8px 10px 5px gray;
+}
+
+.dining_menu {
+  min-height: 100vh;
+  padding: 8% 0;
+  background-color: rgb(11, 29, 38);
+  color: white;
+}
+
+.dining_gallery {
+  min-height: 100vh;
+  padding: 8% 0;
+}

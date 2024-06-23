@@ -1,0 +1,18 @@
+footer > .container > .foot_details {
+  padding: 2%;
+}
+
+footer > .container > .foot_details > div {
+  padding: 0 2%;
+}
+
+footer > .container > .foot_details > div > p {
+  margin: 2px !important;
+}
+
+footer > .container > .foot_details > div > h3 {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  margin-bottom: 16px;
+}

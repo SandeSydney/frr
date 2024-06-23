@@ -1,0 +1,16 @@
+#error_page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.9),
+      rgba(11, 29, 38, 0.7)
+    ),
+    url("../resources/lady_horse.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
