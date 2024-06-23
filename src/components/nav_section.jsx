@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Nav_Section() {
   return (
-    <Container className="uppercase">
+    <Container>
       <div>
         <Link>
           <img
@@ -22,17 +22,9 @@ export default function Nav_Section() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
           <Link to="/">Home</Link>
-          <NavDropdown title="About Us" id="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <Link to={"about-us"}>About Us</Link>
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item>
-              <Link to={"about-us"}>Location</Link>
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Link to={"about-us"}>About Us</Link>
           <Link to={"dining"}>Dining</Link>
-          <Link to={"events"}>Events & Activities</Link>
+          <Link to={"events"}>Events</Link>
           <Link to={""}>Gallery</Link>
           <Link to={""}>School</Link>
           <Link to={""}>Contact Us</Link>
