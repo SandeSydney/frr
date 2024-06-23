@@ -40,9 +40,12 @@
   font-family: "Dancing-Script";
 }
 
+.navbar-nav > a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .navbar_sec {
-  font-size: 20px !important;
-  font-weight: bolder;
   min-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute !important;
@@ -376,41 +379,41 @@ footer > .container > .foot_details > div > h3 {
   background-color: #15262ead;
   color: #ffcf62;
   text-align: center;
-  font-family: 'Alegreya SC';
+  font-family: "Alegreya SC";
   padding: 5%;
 }
 
-.dining_choma{
+.dining_choma {
   padding: 8% 0;
   min-height: 80vh;
 }
 
-.choma_col{
+.choma_col {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.dining_container h2{
-  font-family: 'Alegreya SC';
+.dining_container h2 {
+  font-family: "Alegreya SC";
   text-decoration: underline double #ffcf62;
   text-underline-offset: 8px;
   margin-bottom: 15px;
 }
 
-.dining_container img{
+.dining_container img {
   border-radius: 2%;
   box-shadow: 8px 10px 5px gray;
 }
 
-.dining_menu{
+.dining_menu {
   min-height: 100vh;
   padding: 8% 0;
   background-color: rgb(11, 29, 38);
   color: white;
 }
 
-.dining_gallery{
+.dining_gallery {
   min-height: 100vh;
   padding: 8% 0;
 }
