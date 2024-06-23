@@ -40,13 +40,54 @@
   font-family: "Dancing-Script";
 }
 
+.navbar > .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-nav {
+  min-width: 65vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Alegreya SC";
+}
+
+.navbar_sec a.dropdown-item {
+  color: black;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav a {
+  color: black;
+  display: inline;
+  text-decoration: none;
+}
+
 .navbar_sec {
+  font-size: larger !important;
   min-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute !important;
   transition: 0.5s ease-in-out;
   top: 0;
   left: 0;
+}
+
+.navbar_sec .navbar-nav .nav-link,
+.navbar_sec .navbar-nav > a {
+  color: white;
+  display: inline;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: black;
+}
+
+.navbar_sec .navbar-nav .nav-link.active,
+.navbar_sec .navbar-nav .nav-link.show {
+  color: white;
 }
 
 .navbar-collapse {
@@ -59,13 +100,12 @@
 }
 
 .navbar_open {
-  font-size: larger !important;
-  font-weight: bold;
+  font-size: large !important;
   position: sticky !important;
   top: 0;
   left: 0;
   width: 100%;
-  transition: 0.9s ease-in-out;
+  transition: 0.3s ease-in-out;
   z-index: 100000;
   background-color: #fffaed;
 }
@@ -76,9 +116,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
-  font-size: larger;
-  font-weight: bold;
+  font-size: large;
 }
 
 .welcome {
