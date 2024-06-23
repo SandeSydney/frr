@@ -1,9 +1,17 @@
+.about_spacer {
+  min-height: 18vh;
+}
+
 .about {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.about h2, .features h4{
+  font-family: "Alegreya SC";
 }
 
 .about_items {
@@ -37,6 +45,7 @@
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 8px;
+  font-family: "Alegreya SC";
 }
 
 .features {
