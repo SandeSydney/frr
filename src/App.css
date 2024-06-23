@@ -52,10 +52,6 @@
   font-family: "Alegreya SC";
 }
 
-.navbar_sec a.dropdown-item {
-  color: black;
-}
-
 .navbar-nav .nav-link,
 .navbar-nav a {
   color: black;
@@ -64,7 +60,6 @@
 }
 
 .navbar_sec {
-  font-size: larger !important;
   min-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute !important;
@@ -100,7 +95,6 @@
 }
 
 .navbar_open {
-  font-size: large !important;
   position: sticky !important;
   top: 0;
   left: 0;
@@ -425,6 +419,11 @@ footer > .container > .foot_details > div > h3 {
 }
 
 @media screen and (min-width: 600px) {
+  .navbar_sec,
+  .navbar_open {
+    font-size: larger !important;
+  }
+
   .landing {
     align-items: left;
     justify-content: end;
