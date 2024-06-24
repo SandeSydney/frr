@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import frr_logo from "../resources/frr-logo.png";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import EmailIcon from "@mui/icons-material/Email";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,13 +18,27 @@ const Footer = () => {
             </Col>
             <Col xs={6} sm={6} md={3}>
               <h3>Quick Links</h3>
-              <p>Home </p>
-              <p>About Us</p>
-              <p>Dining</p>
-              <p>Gallery</p>
-              <p>Events & Activities</p>
-              <p>School</p>
-              <p>Contact Us</p>
+              <p>
+                <Link to={"/"}>Home</Link>
+              </p>
+              <p>
+                <Link to={"about-us"}>About Us</Link>
+              </p>
+              <p>
+                <Link to={"dining"}>Dining</Link>
+              </p>
+              <p>
+                <Link to={"events"}>Events</Link>
+              </p>
+              <p>
+                <Link to={"gallery"}>Gallery</Link>
+              </p>
+              <p>
+                <Link>School</Link>
+              </p>
+              <p>
+                <Link>Contact Us</Link>
+              </p>
             </Col>
             <Col xs={6} sm={6} md={3}>
               <h3>Address</h3>
@@ -39,6 +55,10 @@ const Footer = () => {
               <p>
                 <PhoneAndroidIcon /> &nbsp;
                 <a href="tel:+254791323785">+254791323785</a>
+              </p>
+              <p>
+                <EmailIcon/> &nbsp;
+                <a href="mailto:info@fredsranch.co.ke">info@fredsranch.co.ke</a>
               </p>
             </Col>
           </Row>
