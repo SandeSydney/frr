@@ -8,11 +8,17 @@ footer > .container > .foot_details > div {
 
 footer > .container > .foot_details > div > p {
   margin: 2px !important;
+  font-family: "Alegreya SC";
+}
+
+footer > .container > .foot_details > div  a{
+  text-decoration: none;
 }
 
 footer > .container > .foot_details > div > h3 {
+  font-family: "Alegreya SC";
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: underline double #ffcf62;
   text-underline-offset: 12px;
   margin-bottom: 16px;
 }
