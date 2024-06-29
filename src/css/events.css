@@ -1,0 +1,50 @@
+.events_landing {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 250, 237, 0.92),
+      rgba(255, 250, 237, 0.92)
+    ),
+    url("../resources/eventsImageGallery/dance.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.events_landing h2 {
+  font-family: "Alegreya SC";
+  text-decoration: underline double #ffcf62;
+  text-underline-offset: 12px;
+  line-height: 1.7;
+}
+
+.events_landing p {
+  max-width: 80%;
+}
+
+.title_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 5% 0;
+}
+
+.events_landing img {
+  border-radius: 50%;
+  border: 20px double #395144;
+}
+
+.explore_button {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.events_description {
+  min-height: 100vh;
+}
