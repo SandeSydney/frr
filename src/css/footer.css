@@ -1,3 +1,7 @@
+footer{
+  background-color: #f0ead6;
+}
+
 footer > .container > .foot_details {
   padding: 2%;
 }
