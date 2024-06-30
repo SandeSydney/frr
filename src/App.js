@@ -4,12 +4,13 @@ import Footer from "./components/footer";
 import Homepage from "./components/homepage";
 import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 
 function App() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col">
+      <ScrollRestoration />
       {window.addEventListener("scroll", () => {
         if (window.scrollY >= 300) {
           setVisible(true);
