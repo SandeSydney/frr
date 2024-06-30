@@ -16,7 +16,8 @@
   background-attachment: fixed;
 }
 
-.events_landing h2 {
+.events_landing h2,
+.events_description > .container h2 {
   font-family: "Alegreya SC";
   text-decoration: underline double #ffcf62;
   text-underline-offset: 12px;
@@ -47,4 +48,15 @@
 
 .events_description {
   min-height: 100vh;
+  padding: 5% 0;
+}
+
+.events_description > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.events_description > .container > div > .row {
+  margin: 5vh 0;
 }
