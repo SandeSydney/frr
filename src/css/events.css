@@ -17,7 +17,8 @@
 }
 
 .events_landing h2,
-.events_description > .container h2 {
+.events_description > .container h2,
+.events_cols h3 {
   font-family: "Alegreya SC";
   text-decoration: underline double #ffcf62;
   text-underline-offset: 12px;
@@ -59,4 +60,10 @@
 
 .events_description > .container > div > .row {
   margin: 5vh 0;
+}
+
+.events_cols {
+  margin: 15px 8px;
+  padding: 2%;
+  box-shadow: 0px 0px 5px 5px #f0ead6;
 }
