@@ -39,7 +39,7 @@ export default function EventsPage() {
       </div>
       <div className="events_description">
         <Container>
-          <h2>Our Events</h2>
+          <h2 className="text-center">Our Events</h2>
           <div>
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
