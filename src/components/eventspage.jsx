@@ -50,7 +50,7 @@ export default function EventsPage() {
             </Row>
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <h3>Swimming</h3>
                 <p>
                   Experience a refreshing escape from the heat. The warm weather
@@ -63,7 +63,7 @@ export default function EventsPage() {
                   perfect unwinding as you indulge in food and drinks.
                 </p>
               </Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <h3>Nyama Choma Weekends</h3>
                 <p>
                   They say it is never a party without goat meat roasting on the
@@ -83,7 +83,7 @@ export default function EventsPage() {
             </Row>
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <h3>Weddings</h3>
                 <p>
                   Fred's Ranch & Resort is the perfect spot to tie the knot.
@@ -97,7 +97,7 @@ export default function EventsPage() {
                   banquet chairs, and more.
                 </p>
               </Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <h3>Photo-Shoots</h3>
                 <p>
                   Standing on a 16 acre farm, Fred's Ranch i& Resort is the
@@ -124,7 +124,7 @@ export default function EventsPage() {
             </Row>
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <h3>Team-Building</h3>
                 <p>
                   Fred's Ranch & Resort hosts the perfect venue for your
