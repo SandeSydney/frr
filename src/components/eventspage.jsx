@@ -124,36 +124,39 @@ export default function EventsPage() {
             </Row>
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5} className="events_cols">
-                <h3>Team-Building</h3>
-                <p>
-                  Fred's Ranch & Resort hosts the perfect venue for your
-                  team-building program. Having the best venue and location, we
-                  have plenty of activities to get your team engaged in
-                  inspiring and bonding activities, practical games, test
-                  abilities and teamwork skills.
-                </p>
-                <p>
-                  Our approach is widely based on a friendly angle where we
-                  engage the teams with experiental learning cycle. Look no
-                  further if you are looking for team-building venues in
-                  Kajiado.
-                </p>
-                <h3>Conferencing</h3>
-                <p>
-                  We take conferencing very seriously. Fred's Ranch & Resort has
-                  a conferencing venue that grants a spacious avenue for
-                  delegates to happily mingle and enthusiastically chat.
-                </p>
-                <p>
-                  Among other offerings the conferencing halls have great
-                  acoustics and video displays as well, boosting compelling
-                  speakers that bring crowded sessions and engage delegates.
-                </p>
-                <p>"Engaging Minds, Empowering Success"</p>
+              <Col xs={12} sm={12} md={5}>
+                <div className="events_cols">
+                  <h3>Team-Building</h3>
+                  <p>
+                    Fred's Ranch & Resort hosts the perfect venue for your
+                    team-building program. Having the best venue and location,
+                    we have plenty of activities to get your team engaged in
+                    inspiring and bonding activities, practical games, test
+                    abilities and teamwork skills.
+                  </p>
+                  <p>
+                    Our approach is widely based on a friendly angle where we
+                    engage the teams with experiental learning cycle. Look no
+                    further if you are looking for team-building venues in
+                    Kajiado.
+                  </p>
+                </div>
+                <div className="events_cols">
+                  <h3>Conferencing</h3>
+                  <p>
+                    We take conferencing very seriously. Fred's Ranch & Resort
+                    has a conferencing venue that grants a spacious avenue for
+                    delegates to happily mingle and enthusiastically chat.
+                  </p>
+                  <p>
+                    Among other offerings the conferencing halls have great
+                    acoustics and video displays as well, boosting compelling
+                    speakers that bring crowded sessions and engage delegates.
+                  </p>
+                  <p>"Engaging Minds, Empowering Success"</p>
+                </div>
               </Col>
-              <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={4}>
+              <Col xs={12} sm={12} md={5} className="events_cols">
                 <img src={teamBuilding} alt="" />
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
