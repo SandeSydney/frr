@@ -31,13 +31,13 @@ const Footer = () => {
                 <Link to={"events"}>Events</Link>
               </p>
               <p>
-                <Link to={"gallery"}>Gallery</Link>
+                <Link to={"accommodation"}>accommodation</Link>
               </p>
               <p>
-                <Link>School</Link>
+                <Link to={"school"}>School</Link>
               </p>
               <p>
-                <Link>Contact Us</Link>
+                <Link to={"contact-us"}>Contact Us</Link>
               </p>
             </Col>
             <Col xs={6} sm={6} md={3}>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <a href="tel:+254791323785">+254791323785</a>
               </p>
               <p>
-                <EmailIcon/> &nbsp;
+                <EmailIcon /> &nbsp;
                 <a href="mailto:info@fredsranch.co.ke">info@fredsranch.co.ke</a>
               </p>
             </Col>
