@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className="about">
         <Container> 
           <div className="about_spacer"></div>
-          <h2>The Perfect Gataway!</h2>
+          <h2>The Perfect Getaway!</h2>
           <Row>
             <Col xs={12} sm={12} md={6}>
               <p>
