@@ -1,10 +1,8 @@
-import { Col, Container, Row } from "react-bootstrap";
-import table_setting from "../resources/table_setting.jpg";
-import { Link } from "react-router-dom";
 import SouthIcon from "@mui/icons-material/South";
-import kidsSwimming from "../resources/eventsImageGallery/kidsSwimming.jpg";
-import SwimmingCarousel from "./swimming_carousel";
-import ChomaCarousel from "./nyama_choma";
+import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import table_setting from "../resources/table_setting.jpg";
+import EventsCarousel from "./events_carousel";
 
 export default function EventsPage() {
   return (
@@ -42,11 +40,7 @@ export default function EventsPage() {
           <h2>Our Events</h2>
           <div>
             <Row>
-              <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={6}>
-                <SwimmingCarousel />
-              </Col>
-              <Col xs={12} sm={12} md={4}>
+              <Col xs={12} sm={12} md={5}>
                 <h3>Swimming</h3>
                 <p>
                   Experience a refreshing escape from the heat. The warm weather
@@ -60,10 +54,7 @@ export default function EventsPage() {
                 </p>
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
-            </Row>
-            <Row>
-              <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={4}>
+              <Col xs={12} sm={12} md={5}>
                 <h3>Nyama Choma Weekends</h3>
                 <p>
                   They say it is never a party without goat meat roasting on the
@@ -79,8 +70,44 @@ export default function EventsPage() {
                   roasted"
                 </p>
               </Col>
-              <Col xs={12} sm={12} md={6}>
-                <ChomaCarousel />
+              <Col xs={12} sm={12} md={1}></Col>
+            </Row>
+            <Row>
+              <Col xs={12} sm={12} md={12}>
+                <EventsCarousel />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} sm={12} md={5}>
+                <h3>Weddings</h3>
+                <p>
+                  Fred's Ranch & Resort is the perfect spot to tie the knot.
+                  Come gather with your friends and relatives to celebrate your
+                  big day.
+                </p>
+                <p>
+                  We offer the perfect wedding spot that is within your budget
+                  and the comfort zone of every invited guest. Fred's Ranch &
+                  Resort comes through your day with linens, to flatware,
+                  banquet chairs, and more.
+                </p>
+              </Col>
+              <Col xs={12} sm={12} md={1}></Col>
+              <Col xs={12} sm={12} md={5}>
+                <h3>Photo-Shoots</h3>
+                <p>
+                  Standing on a 16 acre farm, Fred's Ranch i& Resort is the
+                  perfect picturesque photography location in Kajiado.
+                </p>
+                <p>
+                  With pastures stretching out beneath the wide blue skies,
+                  charming gazebos nested among trees, Fred's Ranch & Resort
+                  creates the perfect photographers dream.
+                </p>
+                <p>
+                  "A good snapshot keeps the moment that's gone from running
+                  away..."
+                </p>
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
             </Row>
