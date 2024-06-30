@@ -40,6 +40,7 @@ export default function EventsPage() {
           <h2>Our Events</h2>
           <div>
             <Row>
+              <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5}>
                 <h3>Swimming</h3>
                 <p>
@@ -53,7 +54,6 @@ export default function EventsPage() {
                   perfect unwinding as you indulge in food and drinks.
                 </p>
               </Col>
-              <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5}>
                 <h3>Nyama Choma Weekends</h3>
                 <p>
@@ -73,11 +73,14 @@ export default function EventsPage() {
               <Col xs={12} sm={12} md={1}></Col>
             </Row>
             <Row>
-              <Col xs={12} sm={12} md={12}>
+              <Col xs={12} sm={12} md={1}></Col>
+              <Col xs={12} sm={12} md={10}>
                 <EventsCarousel />
               </Col>
+              <Col xs={12} sm={12} md={1}></Col>
             </Row>
             <Row>
+              <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5}>
                 <h3>Weddings</h3>
                 <p>
@@ -92,7 +95,6 @@ export default function EventsPage() {
                   banquet chairs, and more.
                 </p>
               </Col>
-              <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5}>
                 <h3>Photo-Shoots</h3>
                 <p>
@@ -107,6 +109,40 @@ export default function EventsPage() {
                 <p>
                   "A good snapshot keeps the moment that's gone from running
                   away..."
+                </p>
+              </Col>
+              <Col xs={12} sm={12} md={1}></Col>
+            </Row>
+            <Row>
+              <Col xs={12} sm={12} md={1}></Col>
+              <Col xs={12} sm={12} md={5}>
+                <h3>Conferencing</h3>
+                <p>
+                  We take conferencing very seriously. Fred's Ranch & Resort has
+                  a conferencing venue that grants a spacious avenue for
+                  delegates to happily mingle and enthusiastically chat.
+                </p>
+                <p>
+                  Among other offerings the conferencing halls have great
+                  acoustics and video displays as well, boosting compelling
+                  speakers that bring crowded sessions and engage delegates.
+                </p>
+                <p>"Engaging Minds, Empowering Success"</p>
+              </Col>
+              <Col xs={12} sm={12} md={5}>
+                <h3>Team-Building</h3>
+                <p>
+                  Fred's Ranch & Resort hosts the perfect venue for your
+                  team-building program. Having the best venue and location, we
+                  have plenty of activities to get your team engaged in
+                  inspiring and bonding activities, practical games, test
+                  abilities and teamwork skills.
+                </p>
+                <p>
+                  Our approach is widely based on a friendly angle where we
+                  engage the teams with experiental learning cycle. Look no
+                  further if you are looking for team-building venues in
+                  Kajiado.
                 </p>
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
