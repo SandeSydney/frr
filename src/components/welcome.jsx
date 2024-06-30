@@ -9,9 +9,9 @@ const Welcome_Section = () => {
         <Row className="px-4">
           <Col sm={12} md={6}>
             <div>
-              <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
+              <p className="text-xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
-                <span className="text-5xl md:text-6xl lg:text-8xl text-[#ffcf62] font-extrabold ">
+                <span className="text-3xl md:text-5xl lg:text-8xl text-[#ffcf62] font-extrabold ">
                   cowboy <br /> experience...
                 </span>
               </p>
@@ -19,7 +19,7 @@ const Welcome_Section = () => {
           </Col>
           <Col sm={12} md={6}>
             <div>
-              <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
+              <p className="font-[Dancing-Script] tracking-wider lg:text-lg">
                 Welcome to <span className="text-xl underline underline-offset-4">Fred's Ranch & Resort</span>, where serenity is blended in
                 harmony with the Texas Cowboy Theme. Enjoy the natural
                 background of beautiful lawns, haystacks, dairy cattle, Rhumba
