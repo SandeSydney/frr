@@ -64,6 +64,11 @@ function AccommodationPage() {
           </Row>
         </Container>
       </div>
+      <div className="accommodation_content">
+        <Container>
+            
+        </Container>
+      </div>
     </>
   );
 }
