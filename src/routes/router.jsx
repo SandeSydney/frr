@@ -5,6 +5,8 @@ import Homepage from "../components/homepage";
 import AboutPage from "../components/aboutpage";
 import DiningPage from "../components/diningpage";
 import EventsPage from "../components/eventspage";
+import AccommodationPage from "../components/accommodationPage";
+import { ContactPage } from "@mui/icons-material";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: "events",
         element: <EventsPage />,
+      },
+      {
+        path: "accommodation",
+        element: <AccommodationPage />,
+      },
+      {
+        path: "contact-us",
+        element: <ContactPage />,
       },
     ],
   },
