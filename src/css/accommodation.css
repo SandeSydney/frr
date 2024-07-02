@@ -1,0 +1,37 @@
+.accommodation_landing {
+  min-height: 100vh;
+  padding: 10% 0;
+}
+
+.accommodation_landing img {
+  border-radius: 10px;
+}
+
+.intro_row {
+  min-height: 60vh;
+  padding: 5% 0;
+}
+
+.book_now {
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    justify-self: flex-end;
+    align-items: center;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.accom_features {
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 10px 5px;
+}
+
+.accommodation_landing svg {
+  height: 45px;
+}
