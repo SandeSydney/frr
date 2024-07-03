@@ -1,20 +1,24 @@
 import { Container } from "react-bootstrap";
 
+var src =
+  "https://www.google.com/maps/embed/v1/place?q=Fred's+Ranch&key=" +
+  process.env.GOOGLE_MAP_API_KEY;
+
 const MapLocation = () => {
   return (
     <Container>
       <div className="py-7">
         <h4 style={{ fontFamily: "Alegreya SC" }}>Our Location</h4>
         <div className="maplocation">
-            <iframe
-              style={{
-                height: "100%",
-                width: "100%",
-                border: 0,
-                frameBorder: "0",
-              }}
-              src="https://www.google.com/maps/embed/v1/place?q=Fred's+Ranch&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-            ></iframe>
+          <iframe
+            style={{
+              height: "100%",
+              width: "100%",
+              border: 0,
+              frameBorder: "0",
+            }}
+            src={src}
+          ></iframe>
           <a
             class="googlemaps-made"
             href="https://www.bootstrapskins.com/themes"
