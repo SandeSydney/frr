@@ -17,7 +17,17 @@
 .accommodation_container {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 1vh;
+}
+
+.accomm_intro {
+  padding: 2% 0;
+}
+
+.accomm_intro > .container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .intro_row {
@@ -38,7 +48,7 @@
   padding: 5% 0;
   width: 100%;
   color: white;
-  background-color: #1c3a3a;
+  background-color: #0b1d26;
   border-radius: 10px;
 }
 
