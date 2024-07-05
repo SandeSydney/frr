@@ -6,7 +6,7 @@ import AboutPage from "../components/aboutpage";
 import DiningPage from "../components/diningpage";
 import EventsPage from "../components/eventspage";
 import AccommodationPage from "../components/accommodationPage";
-import contactPage from "../components/contactpage";
+import ContactUsPage from "../components/contactpage";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: "contact-us",
-        element: <contactPage />,
+        element: <ContactUsPage />,
       },
     ],
   },
