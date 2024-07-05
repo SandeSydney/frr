@@ -8,7 +8,8 @@ function AccommodationPage() {
   return (
     <>
       <div className="accommodation_landing">
-        <Container>
+      <div className="about_spacer"></div>
+        <Container className="accommodation_container">
           <Row className="intro_row">
             <Col xs={12} sm={12} md={6}>
               <img
@@ -25,7 +26,9 @@ function AccommodationPage() {
                   <img src={sinkDoor} alt="" />
                 </Col>
               </Row>
-              <div className="book_now">Book Now</div>
+              <div className="book_now">
+                <button></button>
+              </div>
             </Col>
           </Row>
           <h2>Your Recreational Escape</h2>
@@ -61,13 +64,12 @@ function AccommodationPage() {
               </svg>
               Breakfast
             </Col>
+            <Col className="accom_features">Wi-Fi</Col>
           </Row>
         </Container>
       </div>
       <div className="accommodation_content">
-        <Container>
-            
-        </Container>
+        <Container></Container>
       </div>
     </>
   );
