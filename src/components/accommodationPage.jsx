@@ -27,7 +27,7 @@ function AccommodationPage() {
                 </Col>
               </Row>
               <div className="book_now">
-                <button></button>
+                <button>Book Now</button>
               </div>
             </Col>
           </Row>
