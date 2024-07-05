@@ -1,5 +1,5 @@
 .about_spacer {
-  min-height: 18vh;
+  min-height: 12vh;
 }
 
 .about {
@@ -133,5 +133,9 @@
     width: 45vw;
     margin-top: -12%;
     border-radius: 10px;
+  }
+
+  .about_spacer {
+    min-height: 5vh;
   }
 }
