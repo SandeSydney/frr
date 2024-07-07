@@ -1,10 +1,33 @@
 .contact_landing {
   display: flex;
   flex-direction: column;
-  min-height: 40vh;
   padding-top: 15%;
+  text-align: center;
+}
+
+.contact_landing h1 {
+  font-family: "Alegreya SC";
+  text-decoration: underline double #ffcf62;
+  text-underline-offset: 8px;
+  margin-bottom: 15px;
+}
+
+.contact_landing h2 {
+  font-family: "Dancing_Script";
+  font-weight: 500;
 }
 
 .form_landing {
-    min-height: 70vh;
+  min-height: 70vh;
+  padding: 5% 0;
+}
+
+.form_landing > .container {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 600px) {
+  .contact_landing {
+    min-height: 40vh;
+  }
 }
