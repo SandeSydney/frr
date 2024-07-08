@@ -1,7 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import frr_logo from "../resources/frr-logo.png";
+import frr_logo from "../resources/mainGallery/frr-logo.png";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import EmailIcon from "@mui/icons-material/Email";
 import { Link } from "react-router-dom";
