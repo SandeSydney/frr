@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
-import nyama_choma from "../resources/nyama_choma.jpg";
-import nyama_choma2 from "../resources/nyama_choma2.jpg";
+import nyama_choma from "../resources/mainGallery/nyama_choma.webp";
+import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import FoodGallery from "./foodGallery";
 

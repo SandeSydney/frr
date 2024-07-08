@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import bedFront from "../resources/accommodationImages/bedFront.jpg";
-import sinkDoor from "../resources/accommodationImages/sinkDoor.jpg";
-import bedSide from "../resources/accommodationImages/bedSide.jpg";
+import bedFront from "../resources/accommodationImages/bedFront.webp";
+import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
+import bedSide from "../resources/accommodationImages/bedSide.webp";
 
 function AccommodationPage() {
   return (

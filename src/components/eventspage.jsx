@@ -1,7 +1,7 @@
 import SouthIcon from "@mui/icons-material/South";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import table_setting from "../resources/table_setting.jpg";
+import table_setting from "../resources/mainGallery/table_setting.webp";
 import teamBuilding from "../resources/eventsImageGallery/teamBuilding.jpg";
 import EventsCarousel from "./events_carousel";
 import EventsCarousel2 from "./events_carousel2";

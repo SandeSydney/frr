@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import dance from "../resources/eventsImageGallery/dance.jpg";
-import weddingPeople from "../resources/eventsImageGallery/weddingPeople.jpg";
-import uncleKids from "../resources/eventsImageGallery/uncleKids.jpg";
+import dance from "../resources/eventsImageGallery/dance.webp";
+import weddingPeople from "../resources/eventsImageGallery/weddingPeople.webp";
+import uncleKids from "../resources/eventsImageGallery/uncleKids.webp";
 
 function EventsCarousel2() {
   return (

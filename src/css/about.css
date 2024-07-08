@@ -78,7 +78,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/frr_platter.jpg");
+    url("../resources/mainGallery/frr_platter.webp");
 }
 
 #events {
@@ -86,7 +86,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/events_desc.jpg");
+    url("../resources/mainGallery/events_desc.webp");
 }
 
 #accommodation {
@@ -94,7 +94,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/accommodation_desc.jpg");
+    url("../resources/mainGallery/accommodation_desc.webp");
 }
 
 #entertainment {
@@ -102,7 +102,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/entertainment_desc.jpg");
+    url("../resources/mainGallery/entertainment_desc.webp");
 }
 
 #agritourism {
@@ -110,7 +110,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/agritourism_desc.jpg");
+    url("../resources/mainGallery/agritourism_desc.webp");
 }
 
 #school {
@@ -118,7 +118,7 @@
       rgba(11, 29, 38, 0.8),
       rgba(11, 29, 38, 0.6)
     ),
-    url("../resources/school_desc.jpg");
+    url("../resources/mainGallery/school_desc.webp");
 }
 
 .maplocation {

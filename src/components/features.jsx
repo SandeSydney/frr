@@ -1,12 +1,12 @@
-import EastSharpIcon from '@mui/icons-material/EastSharp';
+import EastSharpIcon from "@mui/icons-material/EastSharp";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import events from "../resources/events_desc.jpg";
-import playground from "../resources/playground.jpg";
-import sunset_pool from "../resources/sunset_pool.jpg";
-import wedding_ground from "../resources/wedding_ground.jpg";
-import { Link } from 'react-router-dom';
+import events from "../resources/mainGallery/events_desc.webp";
+import playground from "../resources/mainGallery/playground.webp";
+import sunset_pool from "../resources/mainGallery/sunset_pool.webp";
+import wedding_ground from "../resources/mainGallery/wedding_ground.webp";
+import { Link } from "react-router-dom";
 
 export default function Features() {
   return (
@@ -32,12 +32,20 @@ export default function Features() {
                     from the hustle of the city.
                   </p>
                   <div className="flex gap-1 content-center">
-                    <Link to={"events"} className="underline underline-offset-8">
+                    <Link
+                      to={"events"}
+                      className="underline underline-offset-8"
+                    >
                       Explore Events & Activities
                     </Link>
-                    <EastSharpIcon/>
+                    <EastSharpIcon />
                   </div>
-                  <img className="mb-3" src={wedding_ground} alt="wedding grounds" width="" />
+                  <img
+                    className="mb-3"
+                    src={wedding_ground}
+                    alt="wedding grounds"
+                    width=""
+                  />
                 </div>
               </Col>
               <Col sm={12} md={6}>

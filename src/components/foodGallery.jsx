@@ -1,35 +1,35 @@
 import React from "react";
-import barbeque from "../resources/foodImageGallery/barbeque.jpg";
-import breads from "../resources/foodImageGallery/breads.jpg";
-import bhajia from "../resources/foodImageGallery/bhajia.jpg";
-import buns from "../resources/foodImageGallery/buns.jpg";
-import chomaDark from "../resources/foodImageGallery/chomaDark.jpg";
-import chomaFilm from "../resources/foodImageGallery/chomaFilm.jpg";
-import chomaHang from "../resources/foodImageGallery/chomaHang.jpg";
-import chomaHold from "../resources/foodImageGallery/chomaHold.jpg";
-import chomaMore from "../resources/foodImageGallery/chomaMore.jpg";
-import chomaPan from "../resources/foodImageGallery/chomaPan.jpg";
-import cocktailBlue from "../resources/foodImageGallery/cocktailBlue.jpg";
-import cocktails from "../resources/foodImageGallery/cocktails.jpg";
-import eidPlatter from "../resources/foodImageGallery/eid platter.jpg";
-import fishDry from "../resources/foodImageGallery/fishDry.jpg";
-import fishTomato from "../resources/foodImageGallery/fishTomato.jpg";
-import fishWet from "../resources/foodImageGallery/fishWet.jpg";
-import grapeCocktail from "../resources/foodImageGallery/grapeCocktail.jpg";
-import guavaJuice from "../resources/foodImageGallery/guavaJuice.jpg";
-import kienyeji from "../resources/foodImageGallery/kienyeji.jpg";
-import kunde from "../resources/foodImageGallery/kunde.jpg";
-import masalaChips from "../resources/foodImageGallery/masalaChips.jpg";
-import mintCocktail from "../resources/foodImageGallery/mintCocktail.jpg";
-import mocktail from "../resources/foodImageGallery/mocktail.jpg";
-import mutura from "../resources/foodImageGallery/mutura.jpg";
-import nyamaGrill from "../resources/foodImageGallery/nyamaGrill.jpg";
-import nyamaOnions from "../resources/foodImageGallery/nyamaOnions.jpg";
-import pork from "../resources/foodImageGallery/pork.jpg";
-import redblueCocktail from "../resources/foodImageGallery/redblueCocktail.jpg";
-import redCocktail from "../resources/foodImageGallery/redCocktail.jpg";
-import salad from "../resources/foodImageGallery/salad.jpg";
-import salad2 from "../resources/foodImageGallery/salad2.jpg";
+import barbeque from "../resources/foodImageGallery/barbeque.webp";
+import breads from "../resources/foodImageGallery/breads.webp";
+import bhajia from "../resources/foodImageGallery/bhajia.webp";
+import buns from "../resources/foodImageGallery/buns.webp";
+import chomaDark from "../resources/foodImageGallery/chomaDark.webp";
+import chomaFilm from "../resources/foodImageGallery/chomaFilm.webp";
+import chomaHang from "../resources/foodImageGallery/chomaHang.webp";
+import chomaHold from "../resources/foodImageGallery/chomaHold.webp";
+import chomaMore from "../resources/foodImageGallery/chomaMore.webp";
+import chomaPan from "../resources/foodImageGallery/chomaPan.webp";
+import cocktailBlue from "../resources/foodImageGallery/cocktailBlue.webp";
+import cocktails from "../resources/foodImageGallery/cocktails.webp";
+import eidPlatter from "../resources/foodImageGallery/eid platter.webp";
+import fishDry from "../resources/foodImageGallery/fishDry.webp";
+import fishTomato from "../resources/foodImageGallery/fishTomato.webp";
+import fishWet from "../resources/foodImageGallery/fishWet.webp";
+import grapeCocktail from "../resources/foodImageGallery/grapeCocktail.webp";
+import guavaJuice from "../resources/foodImageGallery/guavaJuice.webp";
+import kienyeji from "../resources/foodImageGallery/kienyeji.webp";
+import kunde from "../resources/foodImageGallery/kunde.webp";
+import masalaChips from "../resources/foodImageGallery/masalaChips.webp";
+import mintCocktail from "../resources/foodImageGallery/mintCocktail.webp";
+import mocktail from "../resources/foodImageGallery/mocktail.webp";
+import mutura from "../resources/foodImageGallery/mutura.webp";
+import nyamaGrill from "../resources/foodImageGallery/nyamaGrill.webp";
+import nyamaOnions from "../resources/foodImageGallery/nyamaOnions.webp";
+import pork from "../resources/foodImageGallery/pork.webp";
+import redblueCocktail from "../resources/foodImageGallery/redblueCocktail.webp";
+import redCocktail from "../resources/foodImageGallery/redCocktail.webp";
+import salad from "../resources/foodImageGallery/salad.webp";
+import salad2 from "../resources/foodImageGallery/salad2.webp";
 import { Col, Row } from "react-bootstrap";
 
 export default function FoodGallery() {
@@ -46,25 +46,25 @@ export default function FoodGallery() {
     { id: 10, imgSrc: chomaPan },
     { id: 11, imgSrc: kunde },
     { id: 12, imgSrc: cocktails },
-    // { id: 13, imgSrc: salad },
-    // { id: 14, imgSrc: fishDry },
-    // { id: 15, imgSrc: fishTomato },
-    // { id: 16, imgSrc: fishWet },
-    // { id: 17, imgSrc: grapeCocktail },
-    // { id: 18, imgSrc: salad2 },
-    // { id: 19, imgSrc: kienyeji },
-    // { id: 20, imgSrc: nyamaGrill },
-    // { id: 21, imgSrc: masalaChips },
-    // { id: 22, imgSrc: mintCocktail },
-    // { id: 23, imgSrc: pork },
-    // { id: 24, imgSrc: mutura },
-    // { id: 25, imgSrc: eidPlatter },
-    // { id: 26, imgSrc: nyamaOnions },
-    // { id: 27, imgSrc: mocktail },
-    // { id: 28, imgSrc: redblueCocktail },
-    // { id: 29, imgSrc: redCocktail },
-    // { id: 30, imgSrc: cocktailBlue },
-    // { id: 31, imgSrc: guavaJuice },
+    { id: 13, imgSrc: salad },
+    { id: 14, imgSrc: fishDry },
+    { id: 15, imgSrc: fishTomato },
+    { id: 16, imgSrc: fishWet },
+    { id: 17, imgSrc: grapeCocktail },
+    { id: 18, imgSrc: salad2 },
+    { id: 19, imgSrc: kienyeji },
+    { id: 20, imgSrc: nyamaGrill },
+    { id: 21, imgSrc: masalaChips },
+    { id: 22, imgSrc: mintCocktail },
+    { id: 23, imgSrc: pork },
+    { id: 24, imgSrc: mutura },
+    { id: 25, imgSrc: eidPlatter },
+    { id: 26, imgSrc: nyamaOnions },
+    { id: 27, imgSrc: mocktail },
+    { id: 28, imgSrc: redblueCocktail },
+    { id: 29, imgSrc: redCocktail },
+    { id: 30, imgSrc: cocktailBlue },
+    { id: 31, imgSrc: guavaJuice },
   ];
 
   return (
