@@ -3,7 +3,7 @@
       rgba(11, 29, 38, 0.4),
       rgba(11, 29, 38, 0.4)
     ),
-    url("../resources/cabbana.jpg");
+    url("../resources/mainGallery/cabbana.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,7 +18,7 @@
       rgba(11, 29, 38, 0.95),
       rgba(11, 29, 38, 0.95)
     ),
-    url("../resources/horse_back.jpg");
+    url("../resources/mainGallery/horse_back.webp");
   box-shadow: 0 -30px 20px 0 rgba(11, 29, 38, 0.93);
   background-position: center;
   background-repeat: no-repeat;
