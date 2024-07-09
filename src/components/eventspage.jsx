@@ -32,7 +32,7 @@ export default function EventsPage() {
                 to="events_description"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-10}
                 duration={500}
               >
                 Explore More <SouthIcon />
