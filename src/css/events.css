@@ -45,6 +45,7 @@
 .explore_button {
   text-decoration: underline;
   text-underline-offset: 10px;
+  cursor: pointer;
 }
 
 .events_description {

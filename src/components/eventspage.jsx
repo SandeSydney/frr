@@ -1,10 +1,10 @@
 import SouthIcon from "@mui/icons-material/South";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import table_setting from "../resources/mainGallery/table_setting.webp";
 import teamBuilding from "../resources/eventsImageGallery/team_building.webp";
 import EventsCarousel from "./events_carousel";
 import EventsCarousel2 from "./events_carousel2";
+import { Link } from "react-scroll";
 
 export default function EventsPage() {
   return (
@@ -27,7 +27,14 @@ export default function EventsPage() {
                 Get to experience the perfect spot for all your out-door
                 activities and events at Fred's Ranch & Resort!
               </p>
-              <Link className="explore_button">
+              <Link
+                className="explore_button"
+                to="events_description"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Explore More <SouthIcon />
               </Link>
             </Col>
@@ -37,7 +44,7 @@ export default function EventsPage() {
           </Row>
         </Container>
       </div>
-      <div className="events_description">
+      <div className="events_description" id="events_description">
         <Container>
           <h2 className="text-center">Our Events</h2>
           <div>

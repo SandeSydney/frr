@@ -6,6 +6,7 @@ import nyama_choma from "../resources/mainGallery/nyama_choma.webp";
 import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import FoodGallery from "./foodGallery";
+import { Link } from "react-scroll";
 
 export default function DiningPage() {
   return (
@@ -22,8 +23,10 @@ export default function DiningPage() {
               </span>
             </p>
             <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-              Scroll Down &nbsp;
-              <SouthSharpIcon />
+              <Link to="choma_col" spy={true} smooth={true} offset={-70} duration={400}>
+                Scroll Down &nbsp;
+                <SouthSharpIcon />
+              </Link>
             </button>
           </div>
         </div>
@@ -31,7 +34,7 @@ export default function DiningPage() {
           <div className="dining_choma">
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5} className="choma_col">
+              <Col xs={12} sm={12} md={5} className="choma_col" id="choma_col">
                 <h2>Fred's Ranch Nyama Choma.</h2>
                 <p>
                   Enjoy our sumptuous nyama choma as you celebate your events or

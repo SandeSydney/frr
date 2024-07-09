@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
-import SouthSharpIcon from '@mui/icons-material/SouthSharp';
+import SouthSharpIcon from "@mui/icons-material/SouthSharp";
+import { Link } from "react-scroll";
 
 const Landing = () => {
   return (
@@ -18,10 +19,18 @@ const Landing = () => {
         preRenderFirstString={true}
       />
       <div className="flex h-7 text-white">
-        <p className=" text-xs md:text-sm underline underline-offset-8">
-          Scroll Down <span></span>
+        <p className=" text-xs md:text-sm underline underline-offset-8 cursor-pointer">
+          <Link
+            to="welcome"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={400}
+          >
+            Scroll Down
+          </Link>
         </p>
-        <SouthSharpIcon/>
+        <SouthSharpIcon />
       </div>
     </>
   );

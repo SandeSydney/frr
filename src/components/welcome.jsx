@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 const Welcome_Section = () => {
   return (
-    <div className="welcome">
+    <div className="welcome" id="welcome">
       <Container>
         <Row className="px-4">
           <Col sm={12} md={6}>
