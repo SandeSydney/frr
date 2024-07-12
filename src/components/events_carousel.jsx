@@ -2,8 +2,8 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import diving from "../resources/eventsImageGallery/diving.webp";
 import swimmingKids from "../resources/eventsImageGallery/kidsSwimming.webp";
-import chomaFilm from "../resources/foodImageGallery/chomaFilm.webp";
-import chomaHang from "../resources/foodImageGallery/chomaHang.webp";
+import chomaFilm from "../resources/mainGallery/choma_film.webp";
+import chomaHang from "../resources/mainGallery/choma_hang.webp";
 
 function EventsCarousel() {
   return (
