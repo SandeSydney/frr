@@ -23,7 +23,13 @@ export default function DiningPage() {
               </span>
             </p>
             <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-              <Link to="choma_col" spy={true} smooth={true} offset={-70} duration={400}>
+              <Link
+                to="choma_col"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={400}
+              >
                 Scroll Down &nbsp;
                 <SouthSharpIcon />
               </Link>
@@ -34,7 +40,13 @@ export default function DiningPage() {
           <div className="dining_choma">
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col xs={12} sm={12} md={5} className="choma_col" id="choma_col">
+              <Col
+                xs={12}
+                sm={12}
+                md={5}
+                className="choma_col"
+                id="choma_col"
+              >
                 <h2>Fred's Ranch Nyama Choma.</h2>
                 <p>
                   Enjoy our sumptuous nyama choma as you celebate your events or
@@ -45,7 +57,7 @@ export default function DiningPage() {
                 </p>
                 <img src={nyama_choma} alt="" />
               </Col>
-              <Col xs={12} sm={12} md={5}>
+              <Col xs={12} sm={12} md={5} className="my-3">
                 <img className="nyama_img" src={nyama_choma2} alt="" />
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
