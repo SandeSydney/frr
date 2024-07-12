@@ -9,9 +9,9 @@ const Welcome_Section = () => {
         <Row className="px-4">
           <Col sm={12} md={6}>
             <div>
-              <p className="text-xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
-                <span className="text-3xl md:text-5xl lg:text-8xl text-[#ffcf62] font-extrabold ">
+                <span className="text-4xl md:text-5xl lg:text-8xl text-[#ffcf62] font-extrabold ">
                   cowboy <br /> experience...
                 </span>
               </p>
