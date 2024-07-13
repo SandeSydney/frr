@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "Carnivalee Freakshow";
+  src: url(/public/Carnevalee\ Freakshow.ttf);
+}
+
 body {
   margin: 0;
   padding: 0 0.5%;
