@@ -20,6 +20,7 @@
   padding: 10px;
   border-radius: 25px;
   background-color: #15262e;
+  cursor: pointer;
 }
 
 .offers > .offers_list > .row > div > .items > svg {
