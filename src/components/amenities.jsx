@@ -1,19 +1,19 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import GrassSharpIcon from "@mui/icons-material/GrassSharp";
-import PoolSharpIcon from "@mui/icons-material/PoolSharp";
-import FestivalSharpIcon from "@mui/icons-material/FestivalSharp";
-import CottageIcon from "@mui/icons-material/Cottage";
-import Groups2SharpIcon from "@mui/icons-material/Groups2Sharp";
 import CategoryIcon from "@mui/icons-material/Category";
-import StarHalfSharpIcon from "@mui/icons-material/StarHalfSharp";
+import CoPresentIcon from "@mui/icons-material/CoPresent";
+import CottageIcon from "@mui/icons-material/Cottage";
 import DeckSharpIcon from "@mui/icons-material/DeckSharp";
 import FestivalIcon from "@mui/icons-material/Festival";
+import FestivalSharpIcon from "@mui/icons-material/FestivalSharp";
 import FollowTheSignsSharpIcon from "@mui/icons-material/FollowTheSignsSharp";
-import CoPresentIcon from "@mui/icons-material/CoPresent";
+import GrassSharpIcon from "@mui/icons-material/GrassSharp";
+import Groups2SharpIcon from "@mui/icons-material/Groups2Sharp";
+import PoolSharpIcon from "@mui/icons-material/PoolSharp";
 import SpaIcon from "@mui/icons-material/Spa";
+import StarHalfSharpIcon from "@mui/icons-material/StarHalfSharp";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const Amenities = () => {
   return (
