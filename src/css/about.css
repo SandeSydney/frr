@@ -36,12 +36,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 40vh;
+  min-height: 45vh;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
-  padding: 8%;
+  justify-content: space-around;
+  padding: 5%;
   gap: 15px;
   cursor: pointer;
   box-shadow: 5px 5px 5px gray;
@@ -49,9 +49,18 @@
   margin: 5% 2%;
 }
 
-.about_items:hover,
-.about_items:focus {
-  margin: -2%;
+.explore_link {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  align-self: center;
+  padding: 1% 35%;
+}
+
+.explore_link:hover{
+  background-color: white;
+  color: black;
 }
 
 .about_items > h5 {

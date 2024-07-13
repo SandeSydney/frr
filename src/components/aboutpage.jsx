@@ -2,12 +2,13 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import MapLocation from "./maps";
+import { Link } from "react-router-dom";
 
 export default function AboutPage() {
   return (
     <>
       <div className="about">
-        <Container> 
+        <Container>
           <div className="about_spacer"></div>
           <h2>The Perfect Getaway!</h2>
           <Row>
@@ -60,6 +61,9 @@ export default function AboutPage() {
                   or Pool Restaurant where we serve local African Cuisine in an
                   exciting and breathtaking atmosphere.
                 </p>
+                <Link to={"/dining"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
@@ -70,6 +74,9 @@ export default function AboutPage() {
                   your corporate functions, tours, weddings, celebrations,
                   meetings, team-buildings, and school trips.
                 </p>
+                <Link to={"/events"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
@@ -80,6 +87,9 @@ export default function AboutPage() {
                   Tents for accommodation, Each with a luxury of its own to suit
                   your needs.
                 </p>
+                <Link to={"/accommodation"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
           </Row>
@@ -92,6 +102,9 @@ export default function AboutPage() {
                   entertain you and keep you delighted as you explore the
                   various activities offered.
                 </p>
+                <Link to={"/events"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
@@ -102,6 +115,9 @@ export default function AboutPage() {
                   Farm and exploring our animal products and fresh farm
                   vegetables.
                 </p>
+                <Link to={"/events"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
@@ -112,6 +128,9 @@ export default function AboutPage() {
                   revolutionizing the hospitality experience in Kenya and Africa
                   through <b>character, innovation, and excellence</b>
                 </p>
+                <Link to={"/events"} className="explore_link">
+                  Explore
+                </Link>
               </div>
             </Col>
           </Row>
