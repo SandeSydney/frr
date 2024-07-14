@@ -31,6 +31,7 @@ import redCocktail from "../resources/foodImageGallery/redCocktail.webp";
 import salad from "../resources/foodImageGallery/salad.webp";
 import salad2 from "../resources/foodImageGallery/salad2.webp";
 import { Col, Row } from "react-bootstrap";
+import { Element } from "react-scroll";
 
 export default function FoodGallery() {
   let foodData = [
@@ -69,15 +70,17 @@ export default function FoodGallery() {
 
   return (
     <>
-      <Row>
-        {foodData.map((item, index) => {
-          return (
-            <Col xs={12} sm={12} md={3} key={index}>
-              <img className="m-2" src={item.imgSrc} alt="" />
-            </Col>
-          );
-        })}
-      </Row>
+      <Element name="foodGallery">
+        <Row>
+          {foodData.map((item, index) => {
+            return (
+              <Col xs={12} sm={12} md={3} key={index}>
+                <img className="m-2" src={item.imgSrc} alt="" />
+              </Col>
+            );
+          })}
+        </Row>
+      </Element>
     </>
   );
 }
