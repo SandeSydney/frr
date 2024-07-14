@@ -14,6 +14,7 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
 
 const Amenities = () => {
   return (
@@ -118,7 +119,11 @@ const Amenities = () => {
             get to enjoy a serene and tranquil environment, <br />
             leaving happier than you came.
           </p>
-          <button><TrendingFlatIcon/></button>
+          <Link to="/dining#foodGallery">
+            <button>
+              <TrendingFlatIcon />
+            </button>
+          </Link>
         </div>
       </Container>
     </section>
