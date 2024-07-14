@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import bedFront from "../resources/accommodationImages/bedFront.webp";
 import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
 import bedSide from "../resources/accommodationImages/bedSide.webp";
+import towels from "../resources/accommodationImages/towels.webp";
 
 function AccommodationPage() {
   return (
@@ -11,14 +12,14 @@ function AccommodationPage() {
         <div className="about_spacer"></div>
         <Container className="accommodation_container">
           <Row className="intro_row">
-            <Col xs={12} sm={12} md={6}>
+            <Col xs={12} sm={12} md={6} className="my-2">
               <img
                 src={bedFront}
                 alt="Accommodation at Fred's Ranch, photo from front of bed."
               />
             </Col>
-            <Col xs={12} sm={12} md={6}>
-              <Row className="images_row">
+            <Col xs={12} sm={12} md={6} className="my-2">
+              <Row className="images_row mb-2">
                 <Col xs={6} sm={6} md={6}>
                   <img src={bedSide} alt="" />
                 </Col>
@@ -26,9 +27,16 @@ function AccommodationPage() {
                   <img src={sinkDoor} alt="" />
                 </Col>
               </Row>
-              <div className="book_now">
-                <button>Book Now</button>
-              </div>
+              <Row className="images_row">
+                <Col xs={6} sm={6} md={6}>
+                  <img src={towels} alt="" />
+                </Col>
+                <Col xs={6} sm={6} md={6}>
+                  <div className="book_now">
+                    <button>Book Now</button>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
