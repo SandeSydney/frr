@@ -45,14 +45,14 @@
   min-height: 10vh;
 }
 
-.explore > button {
+.explore button {
   border: 1px solid #ffcf62;
   align-self: center;
   padding: 0 20px;
   border-radius: 20px;
 }
 
-.explore > button > svg {
+.explore svg {
   font-size: 50px;
   color: #ffcf62;
 }
