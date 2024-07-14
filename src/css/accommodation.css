@@ -24,7 +24,7 @@
   padding: 2% 0;
 }
 
-.accomm_intro > .container{
+.accomm_intro > .container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -36,20 +36,25 @@
 }
 
 .book_now {
-  min-height: 30%;
+  min-height: 100%;
   display: flex;
   justify-content: center;
-  justify-self: flex-end;
-  align-items: center;
-  margin: 10px;
 }
 
 .book_now > button {
   padding: 5% 0;
   width: 100%;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-size: large;
+}
+
+.book_now > button:hover {
   color: white;
   background-color: #0b1d26;
-  border-radius: 10px;
 }
 
 .accom_features {
