@@ -11,6 +11,7 @@ function AccommodationPage() {
       <div className="accommodation_landing">
         <div className="about_spacer"></div>
         <Container className="accommodation_container">
+          <h2>Your Recreational Escape</h2>
           <Row className="intro_row">
             <Col xs={12} sm={12} md={6} className="my-2">
               <img
@@ -42,7 +43,6 @@ function AccommodationPage() {
         </Container>
         <div className="accomm_intro">
           <Container>
-            <h2>Your Recreational Escape</h2>
             <h4 className="font-bold">Accommodation Features</h4>
             <Row>
               <Col className="accom_features">
@@ -89,8 +89,43 @@ function AccommodationPage() {
           </Container>
         </div>
       </div>
+      <div className="bg-[#303e44] h-4"></div>
       <div className="accommodation_content">
-        <Container></Container>
+        <Container>
+          <Row>
+            <Col xs={12} sm={12} md={5} className="content_cols">
+              <h2>Description</h2>
+              <p>
+                Our accommodation gives you a "home away from home" kind of
+                experience. We have 3 different options of accommodation:{" "}
+                <span className="font-bold">
+                  Cottages, Apartments, & Camping
+                </span>
+                .
+              </p>
+              <p>
+                Our Cottages are warm and cosy done with the African makuti
+                feel. They are fully equipped with TV, Wi-Fi, and Warm Showers.
+                They are ideal for couples and individuals.
+              </p>
+              <p>
+                Our Apartments are spacious, warm, and fully equipped with
+                kitchen equipment and a TV set. These apartments are ideal for
+                either a family or a group.
+              </p>
+              <p>
+                Our Camping Tents give you a wild experience with washroom
+                amenities available. They come with beddings and a planned
+                bonfire experience to keep you warm as you create memories.
+                These camping tents are ideal for groups or couples.
+              </p>
+            </Col>
+            <Col xs={12} sm={12} md={2}></Col>
+            <Col xs={12} sm={12} md={5} className="content_cols">
+              <h2>Pricing Plans</h2>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </>
   );
