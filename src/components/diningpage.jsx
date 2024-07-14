@@ -6,9 +6,29 @@ import nyama_choma from "../resources/mainGallery/nyama_choma.webp";
 import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import FoodGallery from "./foodGallery";
-import { Link } from "react-scroll";
+import { Link, scroller } from "react-scroll";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function DiningPage() {
+  const location = useLocation();
+
+  // useEffect in order to get a smooth scroll on mount of the dining page
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      scroller.scrollTo(
+        id,
+        {
+          duration: 800,
+          delay: 0,
+          smooth: "easeInOutQuart",
+          offset: -20,
+        },
+        [location]
+      );
+    }
+  });
   return (
     <>
       <div className="dining_container">
@@ -40,13 +60,7 @@ export default function DiningPage() {
           <div className="dining_choma">
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
-              <Col
-                xs={12}
-                sm={12}
-                md={5}
-                className="choma_col"
-                id="choma_col"
-              >
+              <Col xs={12} sm={12} md={5} className="choma_col" id="choma_col">
                 <h2>Fred's Ranch Nyama Choma.</h2>
                 <p>
                   Enjoy our sumptuous nyama choma as you celebate your events or
