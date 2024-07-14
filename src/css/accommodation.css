@@ -1,17 +1,26 @@
 .accommodation_landing {
   min-height: 100vh;
-  padding: 8% 0;
+  padding-top: 8%;
 }
 
 .accommodation_landing img {
   border-radius: 10px;
 }
 
-.accommodation_landing h2 {
+.accommodation_landing h2,
+.accommodation_content h2,
+.accomm_intro h4 {
   font-family: "Alegreya SC";
   text-decoration: underline double #ffcf62;
   text-underline-offset: 8px;
   margin-bottom: 15px;
+}
+
+.accommodation_content {
+  padding: 5% 0;
+  min-height: 80vh;
+  background-color: #0b1d26;
+  color: white;
 }
 
 .accommodation_container {
@@ -22,6 +31,7 @@
 
 .accomm_intro {
   padding: 2% 0;
+  background-color: #f0ead6;
 }
 
 .accomm_intro > .container {
@@ -32,7 +42,7 @@
 
 .intro_row {
   min-height: 60vh;
-  padding: 5% 0;
+  padding: 2% 0;
 }
 
 .book_now {
