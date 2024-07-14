@@ -23,7 +23,7 @@
 @media screen and (min-width: 600px) {
   .landing {
     align-items: left;
-    /* justify-content: end; */
+    justify-content: end;
     gap: 8px;
     padding: 5%;
   }
