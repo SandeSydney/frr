@@ -105,19 +105,18 @@ function AccommodationPage() {
               </p>
               <p>
                 Our Cottages are warm and cosy done with the African makuti
-                feel. They are fully equipped with TV, Wi-Fi, and Warm Showers.
+                feel. They are fully equipped with TV, Wi-Fi, and Hot Showers.
                 They are ideal for couples and individuals.
               </p>
               <p>
                 Our Apartments are spacious, warm, and fully equipped with
-                kitchen equipment and a TV set. These apartments are ideal for
+                kitchen equipment and a TV set. The apartments are ideal for
                 either a family or a group.
               </p>
               <p>
-                Our Camping Tents give you a wild experience with washroom
-                amenities available. They come with beddings and a planned
+                Our Camping Tents give you a wild experience. They come with beddings and a planned
                 bonfire experience to keep you warm as you create memories.
-                These camping tents are ideal for groups or couples.
+                These camping tents are ideal for school children, families, friends or couples.
               </p>
             </Col>
             <Col xs={12} sm={12} md={2}></Col>

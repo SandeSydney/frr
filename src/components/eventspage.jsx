@@ -71,13 +71,13 @@ export default function EventsPage() {
                 </p>
               </Col>
               <Col xs={12} sm={12} md={5} className="events_cols">
-                <h3>Nyama Choma Weekends</h3>
+                <h3>Mbuzi Choma Weekends</h3>
                 <p>
                   They say it is never a party without goat meat roasting on the
                   grill. Gather your family and friends and come let's party!
                 </p>
                 <p>
-                  We have plenty of meat and your favorite drinks to down it as
+                  We have plenty of Kajiado's finest goat meat and your favorite drinks to down it as
                   you enjoy the upbeat and romantic Rhumba music in the
                   background.
                 </p>
