@@ -23,7 +23,7 @@ export default function AboutPage() {
               </p>
               <p>
                 The Ranch stands on a 10 acre farm, hosting various opulent
-                amenities such as a Restaurant, Cocktail & Juice Bar, Cottages,
+                amenities such as Restaurants, Dispense, Cocktail & Juice Bars, Cottages,
                 Swimming Pool, Conferencing Halls, and organic Livestock & Plant
                 varieties, all graced by the Texas-inspired Cowboy Theme.{" "}
               </p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
                 Soothing Rhumba music is the order of the day as you sip on the
                 finest of custom beverages, take a dip in our captivating pool
                 on a sunny day of Kajiado, or even when feasting on our hot
-                grilled Nyama choma made with the chef's secret recipe.
+                grilled Mbuzi choma made with the chef's secret recipe.
               </p>
               <p>
                 We have a vibrant team on-premises that ensure you really feel

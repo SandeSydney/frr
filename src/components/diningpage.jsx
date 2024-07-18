@@ -36,8 +36,7 @@ export default function DiningPage() {
           <div className="dining_main">
             <h1 className="font-bold">- Dine With Us -</h1>
             <p className="text-white text-xl md:text-2xl font-semibold font-[Alegreya SC]">
-              ... If you haven't had our nyama choma then you haven't had nyama
-              choma yet{" "}
+              ... If you haven't had our mbuzi choma then you haven't tasted the Kajiado's Finest{" "}
               <span>
                 <FormatQuoteIcon className="text-[#ffcf62]" />
               </span>
@@ -61,12 +60,12 @@ export default function DiningPage() {
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5} className="choma_col" id="choma_col">
-                <h2>Fred's Ranch Nyama Choma.</h2>
+                <h2>Fred's Ranch Mbuzi Choma.</h2>
                 <p>
-                  Enjoy our sumptuous nyama choma as you celebate your events or
+                  Enjoy our sumptuous mbuzi choma as you celebate your events or
                   special occassions, such as a weekend family together. It
                   comes with a side of the famous staple food ugali and to top
-                  it with an alluring fresh vegetable salad, kachumbari. It
+                  it with an alluring fresh vegetable salad (kachumbari). It
                   doesn't get any better than this.
                 </p>
                 <img src={nyama_choma} alt="" />
