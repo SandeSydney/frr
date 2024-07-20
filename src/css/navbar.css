@@ -21,7 +21,7 @@
 
 .navbar_sec {
   min-width: 65vw !important;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(24, 68, 68, 0.5);
   position: absolute !important;
   transition: 0.5s ease-in-out;
   top: 0;
