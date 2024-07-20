@@ -24,7 +24,7 @@ const Amenities = () => {
           <Row className="flex-1">
             <Col sm={12} md={6}>
               <p className="font-bold text-4xl">Exquisite Amenities</p>
-              <p className="font-bold text-5xl text-[#ffcf62]">We Offer</p>
+              <p className="font-bold text-5xl text-[#c49464]">We Offer</p>
             </Col>
           </Row>
           <div className="offers_list">
@@ -112,7 +112,7 @@ const Amenities = () => {
         <div className="explore">
           <p className="font-bold text-4xl text-center">
             Peek At Our
-            <span className="text-[#ffcf62]"> Gallery</span>
+            <span className="text-[#c49464]"> Gallery</span>
           </p>
           <p>
             Spending time at our ranch is both relaxing and breathtaking. You
