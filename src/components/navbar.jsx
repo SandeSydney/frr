@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav_Section from "./nav_section";
+import logoSrc from "../resources/logos/logoBlack.png";
 
 export default function Navbar_Main() {
   // setting constant to determine if the navigation bar will be visible
@@ -20,7 +21,7 @@ export default function Navbar_Main() {
 
   return (
     <Navbar expand="md" className={visible ? "navbar_open" : ""}>
-      <Nav_Section />
+      <Nav_Section logoSrc={logoSrc} />
     </Navbar>
   );
 }
