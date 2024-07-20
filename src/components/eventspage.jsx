@@ -70,9 +70,9 @@ export default function EventsPage() {
                   grill. Gather your family and friends and come let's party!
                 </p>
                 <p>
-                  We have plenty of Kajiado's finest goat meat and your favorite drinks to down it as
-                  you enjoy the upbeat and romantic Rhumba music in the
-                  background.
+                  We have plenty of Kajiado's finest goat meat and your favorite
+                  drinks to down it as you enjoy the upbeat and romantic Rhumba
+                  music in the background.
                 </p>
                 <p>
                   "Naturally grazed, grass-fed, freshly butchered, and supremely
