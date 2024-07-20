@@ -89,6 +89,7 @@
   width: 80vw;
   margin-top: -40%;
   border-radius: 10px;
+  transform: rotate(-8deg);
 }
 
 .features_glimpse img {
