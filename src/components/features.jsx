@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import events from "../resources/mainGallery/events_desc.webp";
 import playground from "../resources/mainGallery/playground.webp";
-import sunset_pool from "../resources/mainGallery/sunset_pool.webp";
+import chomaDisplay from "../resources/mainGallery/choma_hand.webp";
 import wedding_ground from "../resources/mainGallery/wedding_ground.webp";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ export default function Features() {
   return (
     <div className="features">
       <Container className="features_container">
-        <img src={sunset_pool} alt="feature image" />
+        <img src={chomaDisplay} alt="Mbuzi choma grill" />
 
         <div className="flex flex-col gap-5">
           <h2 className="text-center font-extrabold font-[Dancing-Script]">
