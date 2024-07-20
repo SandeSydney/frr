@@ -89,7 +89,7 @@ function AccommodationPage() {
           </Container>
         </div>
       </div>
-      <div className="bg-[#303e44] h-4"></div>
+      <div className="bg-[#c49464] h-4"></div>
       <div className="accommodation_content">
         <Container>
           <Row>
