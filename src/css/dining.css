@@ -11,7 +11,7 @@
 
 .dining_landing > .dining_main {
   background-color: #15262ead;
-  color: #ffcf62;
+  color: #c49464;
   text-align: center;
   font-family: "Alegreya SC";
   padding: 5%;
@@ -30,7 +30,7 @@
 
 .dining_container h2 {
   font-family: "Alegreya SC";
-  text-decoration: underline double #ffcf62;
+  text-decoration: underline double #c49464;
   text-underline-offset: 8px;
   margin-bottom: 15px;
 }
