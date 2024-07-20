@@ -14,12 +14,9 @@
 .welcome {
   min-height: 100vh;
   padding-bottom: 10%;
-  background-image: linear-gradient(
-      rgba(11, 29, 38, 0.95),
-      rgba(11, 29, 38, 0.95)
-    ),
+  background-image: linear-gradient(rgba(24, 68, 68, 0.9), rgba(24, 68, 68, 0.75)),
     url("../resources/mainGallery/horse_back.webp");
-  box-shadow: 0 -30px 20px 0 rgba(11, 29, 38, 0.93);
+  box-shadow: 0 -30px 20px 0 rgba(24, 68, 68, 0.92);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +29,7 @@
 .amenities {
   min-height: 65vh;
   padding: 5% 0;
-  background-color: #0b1d26;
+  background-color: #184444;
   color: white;
 }
 
@@ -46,7 +43,7 @@
 }
 
 .explore button {
-  border: 1px solid #ffcf62;
+  border: 1px solid #c49464;
   align-self: center;
   padding: 0 20px;
   border-radius: 20px;
@@ -54,5 +51,5 @@
 
 .explore svg {
   font-size: 50px;
-  color: #ffcf62;
+  color: #c49464;
 }
