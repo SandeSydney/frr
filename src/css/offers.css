@@ -19,12 +19,12 @@
   margin: 2%;
   padding: 10px;
   border-radius: 25px;
-  background-color: #15262e;
+  background-color: rgba(21, 63, 63, 0.863);
   cursor: pointer;
 }
 
 .offers > .offers_list > .row > div > .items > svg {
-  color: #877d4b;
+  color: #c49464;
   font-size: 30px;
 }
 
