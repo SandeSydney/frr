@@ -26,7 +26,7 @@ export default function Nav_Section() {
           <Link to={"dining"}>Dining</Link>
           <Link to={"events"}>Events</Link>
           <Link to={"accommodation"}>Accommodation</Link>
-          {/* <Link to={""}>School</Link> */}
+          <Link to={""}>Entertainment</Link>
           <Link to={"contact-us"}>Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
