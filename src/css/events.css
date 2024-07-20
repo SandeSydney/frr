@@ -47,6 +47,7 @@
   text-decoration: underline;
   text-underline-offset: 10px;
   cursor: pointer;
+  color: white;
 }
 
 .events_description {
