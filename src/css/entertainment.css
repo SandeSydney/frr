@@ -1,4 +1,44 @@
-.entertainment_landing {
+.entertainment_page {
   min-height: 100vh;
   padding: 8% 0;
+  background-image: url("../resources/eventsImageGallery/diving.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entertainment_landing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.entertainment_landing .entertainment_landing_text {
+  background-color: rgba(21, 38, 46, 0.678);
+  padding: 3%;
+  font-family: "Alegreya SC";
+}
+
+.entertainment_landing_text h1 {
+  font-size: 220%;
+  color: #c49464;
+}
+
+.entertainment_landing_text p {
+  font-size: 120%;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .entertainment_landing_text h1 {
+    font-size: 300%;
+  }
+
+  .entertainment_landing_text p {
+    font-size: 200%;
+  }
 }
