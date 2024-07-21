@@ -105,9 +105,9 @@ function AccommodationPage() {
                 <Carousel.Item interval={700}>
                   <img src={towels} alt="" />
                 </Carousel.Item>
-                <Carousel.Item interval={700}>
+                {/* <Carousel.Item interval={700}>
                   <img src={outside} alt="" />
-                </Carousel.Item>
+                </Carousel.Item> */}
               </Carousel>
             </Col>
           </Row>
