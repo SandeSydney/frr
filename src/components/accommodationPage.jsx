@@ -96,16 +96,16 @@ function AccommodationPage() {
             </Col>
             <Col xs={12} sm={12} md={6} className="content_cols">
               <Carousel fade>
-                <Carousel.Item interval={800}>
+                <Carousel.Item interval={700}>
                   <img src={sinkDoor} alt="" />
                 </Carousel.Item>
-                <Carousel.Item interval={800}>
+                <Carousel.Item interval={700}>
                   <img src={bedSide} alt="" />
                 </Carousel.Item>
-                <Carousel.Item interval={800}>
+                <Carousel.Item interval={700}>
                   <img src={towels} alt="" />
                 </Carousel.Item>
-                <Carousel.Item interval={800}>
+                <Carousel.Item interval={700}>
                   <img src={outside} alt="" />
                 </Carousel.Item>
               </Carousel>
