@@ -1,9 +1,9 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import bedFront from "../resources/accommodationImages/bedFront.webp";
+import { Row, Col, Container, Carousel, Accordion } from "react-bootstrap";
 import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
 import bedSide from "../resources/accommodationImages/bedSide.webp";
 import towels from "../resources/accommodationImages/towels.webp";
+import outside from "../resources/accommodationImages/accommOutside.webp";
 
 function AccommodationPage() {
   return (
@@ -12,7 +12,7 @@ function AccommodationPage() {
         <div className="about_spacer"></div>
         <div className="accommodation_hero">
           <Container>
-            <h1>Your Recreational Escape</h1>
+            <h1>"Your Recreational Escape"</h1>
           </Container>
         </div>
       </div>
@@ -67,7 +67,7 @@ function AccommodationPage() {
       <div className="accommodation_content">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={5} className="content_cols">
+            <Col xs={12} sm={12} md={6} className="content_cols">
               <h2>Description</h2>
               <p>
                 Our accommodation gives you a "home away from home" kind of
@@ -94,10 +94,160 @@ function AccommodationPage() {
                 children, families, friends or couples.
               </p>
             </Col>
-            <Col xs={12} sm={12} md={7} className="content_cols">
-              <h2>Pricing Plans</h2>
+            <Col xs={12} sm={12} md={6} className="content_cols">
+              <Carousel fade>
+                <Carousel.Item interval={800}>
+                  <img src={sinkDoor} alt="" />
+                </Carousel.Item>
+                <Carousel.Item interval={800}>
+                  <img src={bedSide} alt="" />
+                </Carousel.Item>
+                <Carousel.Item interval={800}>
+                  <img src={towels} alt="" />
+                </Carousel.Item>
+                <Carousel.Item interval={800}>
+                  <img src={outside} alt="" />
+                </Carousel.Item>
+              </Carousel>
             </Col>
           </Row>
+        </Container>
+      </div>
+      <div className="accommodation_packages">
+        <Container className="cover_container">
+          <h2 id="header">Accommodation Packages</h2>
+          <Container>
+            <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Single Room</Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p>Ksh. 5,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 6,200</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 7,700</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>Ksh. 9,200</p>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>Double Room</Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p>Ksh. 7,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 8,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 11,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>sh. 14,500</p>K
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>Children (3 - 8 Years)</Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p>Ksh. 3,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 4,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 5,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>Ksh. 6,500</p>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>
+                  Camping with FRR Tent (per person)
+                </Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p>Ksh. 4,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 6,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 8,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>Ksh. 10,000</p>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>Camping with own Tent</Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p>Ksh. 2,500</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 4,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 6,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>Ksh. 8,000</p>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>Honeymooners Package</Accordion.Header>
+                <Accordion.Body>
+                  <div className="prices">
+                    <h6>Bed Only :</h6>
+                    <p></p>
+                  </div>
+                  <div className="prices">
+                    <h6>Bed & Breakfast : </h6>
+                    <p>Ksh. 13,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Half Day :</h6>
+                    <p>Ksh. 16,000</p>
+                  </div>
+                  <div className="prices">
+                    <h6>Full Day :</h6>
+                    <p>Ksh. 20,000</p>
+                  </div>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </Container>
         </Container>
       </div>
     </>
