@@ -15,11 +15,18 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 
 const Amenities = () => {
+  // inView to capture observed elements
+  const [elementRef, inView] = useInView();
+
   return (
     <section className="amenities">
-      <Container>
+      <Container
+        ref={elementRef}
+        className={inView ? "elementVisible" : "elementInvisible"}
+      >
         <div className="offers">
           <Row className="flex-1">
             <Col sm={12} md={6}>
