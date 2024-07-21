@@ -7,6 +7,7 @@ import DiningPage from "../components/diningpage";
 import EventsPage from "../components/eventspage";
 import AccommodationPage from "../components/accommodationPage";
 import ContactUsPage from "../components/contactpage";
+import EntertainmentPage from "../components/entertainmentPage";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "contact-us",
         element: <ContactUsPage />,
+      },
+      {
+        path: "entertainment",
+        element: <EntertainmentPage />,
       },
     ],
   },
