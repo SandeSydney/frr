@@ -7,8 +7,11 @@ import playground from "../resources/mainGallery/playground.webp";
 import chomaDisplay from "../resources/mainGallery/choma_hand.webp";
 import wedding_ground from "../resources/mainGallery/wedding_ground.webp";
 import { Link } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 
 export default function Features() {
+  const [fadeRef, inView] = useInView();
+
   return (
     <div className="features">
       <Container className="features_container">
@@ -19,7 +22,10 @@ export default function Features() {
             A Glimpse On The Nature Of The Ranch
           </h2>
           <div className="features_glimpse">
-            <Row className="">
+            <Row
+              ref={fadeRef}
+              className={inView ? "elementShow" : "elementHide"}
+            >
               <Col sm={12} md={6}>
                 <div className="flex flex-col gap-4">
                   <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
