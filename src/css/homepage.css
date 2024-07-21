@@ -14,7 +14,10 @@
 .welcome {
   min-height: 100vh;
   padding-bottom: 10%;
-  background-image: linear-gradient(rgba(24, 68, 68, 0.9), rgba(24, 68, 68, 0.75)),
+  background-image: linear-gradient(
+      rgba(24, 68, 68, 0.9),
+      rgba(24, 68, 68, 0.75)
+    ),
     url("../resources/mainGallery/horse_back.webp");
   box-shadow: 0 -30px 20px 0 rgba(24, 68, 68, 0.92);
   background-position: center;
@@ -52,4 +55,17 @@
 .explore svg {
   font-size: 50px;
   color: #c49464;
+}
+
+/* Amenities items transitions */
+.elementVisible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s;
+}
+
+.elementInvisible {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
