@@ -4,7 +4,7 @@ import ContactForm from "./contact_form";
 
 function ContactUsPage() {
   return (
-    <div>
+    <div className="contact_main">
       <div className="about_spacer"></div>
       <Container>
         <div className="contact_landing">
@@ -14,7 +14,7 @@ function ContactUsPage() {
         </div>
       </Container>
       <div className="form_landing">
-        <Container>
+        <Container className="form_container">
           <ContactForm />
         </Container>
       </div>
