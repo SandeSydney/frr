@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 
 export default function Features() {
-  const [fadeRef, inView] = useInView();
+  const [fadeRef, inView] = useInView({ triggerOnce: true });
 
   return (
     <div className="features">

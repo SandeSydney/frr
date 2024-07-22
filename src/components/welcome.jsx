@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import { useInView } from "react-intersection-observer";
 
 const Welcome_Section = () => {
-  const [fadeRef, inView] = useInView();
+  const [fadeRef, inView] = useInView({triggerOnce:true});
 
   return (
     <div className="welcome" id="welcome">
