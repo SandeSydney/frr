@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 
 export default function Features() {
-  const [fadeRef, inView] = useInView({ triggerOnce: true });
+  const [glimpseRef, inView] = useInView({ triggerOnce: true });
+  const [glimpseRef1, inRef1View] = useInView({ triggerOnce: true });
 
   return (
     <div className="features">
@@ -19,17 +20,28 @@ export default function Features() {
 
         <div className="flex flex-col">
           <h2 className="text-center font-extrabold font-[Dancing-Script]">
-            A Glimpse Of The Ranch
+            <span
+              ref={glimpseRef}
+              className={inView ? "elementShow" : "elementHide"}
+            >
+              A Glimpse Of The Ranch
+            </span>
           </h2>
           <div className="features_glimpse">
             <div className="features_content">
               <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
-                Fred's Ranch & Resort is an integral part of Kajiado Getaways,
-                and located 70 kilometers from Nairobi City Center, we set the
-                standards for excellence in vacation experiences.The easy Rhumba
-                Music playing in the background as you enjoy your favourite
-                cocktail or having a dip in the exquisite swimming pool is
-                definitely the perfect escape from the hustle of the city.
+                <span
+                  ref={glimpseRef1}
+                  className={inRef1View ? "elementShowSlower" : "elementHide"}
+                >
+                  Fred's Ranch & Resort is an integral part of Kajiado Getaways,
+                  and located 70 kilometers from Nairobi City Center, we set the
+                  standards for excellence in vacation experiences.The easy
+                  Rhumba Music playing in the background as you enjoy your
+                  favourite cocktail or having a dip in the exquisite swimming
+                  pool is definitely the perfect escape from the hustle of the
+                  city.
+                </span>
               </p>
               <div className="flex gap-1 content-center">
                 <Link to={"events"} className="underline underline-offset-8">
