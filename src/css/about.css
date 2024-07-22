@@ -89,11 +89,17 @@
   width: 80vw;
   margin-top: -40%;
   border-radius: 10px;
-  transform: rotate(-8deg);
+}
+
+.features_glimpse {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: space-between;
 }
 
 .features_glimpse img {
-  border-radius: 2%;
+  border-radius: 61% 39% 48% 52% / 36% 40% 60% 64% ;
 }
 
 #restaurant {
@@ -154,8 +160,20 @@
 @media screen and (min-width: 600px) {
   .features_container > img {
     width: 40vw;
-    margin-top: -15%;
+    margin-top: -18%;
     border-radius: 10px;
+  }
+
+  .features_glimpse {
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .features_glimpse > div{
+    flex: 1;
   }
 
   .about_spacer {
