@@ -4,6 +4,8 @@ import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
 import bedSide from "../resources/accommodationImages/bedSide.webp";
 import towels from "../resources/accommodationImages/towels.webp";
 import outside from "../resources/accommodationImages/accommOutside.webp";
+import SouthSharpIcon from "@mui/icons-material/SouthSharp";
+import { Link } from "react-scroll";
 
 function AccommodationPage() {
   return (
@@ -13,10 +15,22 @@ function AccommodationPage() {
         <div className="accommodation_hero">
           <Container>
             <h1>"Your Recreational Escape"</h1>
+            <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
+              <Link
+                to="accomm_intro"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={400}
+              >
+                Scroll Down &nbsp;
+                <SouthSharpIcon />
+              </Link>
+            </button>
           </Container>
         </div>
       </div>
-      <div className="accomm_intro">
+      <div className="accomm_intro" id="accomm_intro">
         <Container>
           <h4 className="font-bold">Accommodation Features</h4>
           <Row>

@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .accommodation_landing h1 {
@@ -32,6 +32,7 @@
 .accommodation_hero {
   padding: 2% 1%;
   display: flex;
+  background-color: #15262ead;;
 }
 
 .accommodation_content {
