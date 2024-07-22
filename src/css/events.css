@@ -1,20 +1,27 @@
 .events_landing {
   padding-top: 20vh;
   padding-bottom: 10vh;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(
-      rgba(24, 68, 68, 0.85),
-      rgba(24, 68, 68, 0.85)
-    ),
-    url("../resources/eventsImageGallery/dance.webp");
+  background-image: url("../resources/eventsImageGallery/table_events.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+}
+
+.events_hero {
+  background-color: #15262ead;
+  padding: 3%;
+  text-align: center;
+}
+
+.events_hero h1{
+  font-family: "Alegreya SC";
+  font-size: 250%;
 }
 
 .events_landing h2,
@@ -65,8 +72,25 @@
   margin: 5vh 0;
 }
 
+.event_row {
+  display: flex;
+  flex-direction: column;
+}
+
 .events_cols {
-  margin: 15px 8px;
-  padding: 2%;
-  box-shadow: 0px 0px 5px 5px #f0ead6;
+  flex: 1;
+  padding: 1% 2%;
+  margin: 1%;
+  box-shadow: 2px 0px 5px 5px #f0ead6;
+}
+
+@media screen and (min-width: 600px) {
+  .event_row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .events_hero h1{
+    font-size: 400%;
+  }
 }
