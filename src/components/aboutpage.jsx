@@ -3,15 +3,26 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import MapLocation from "./maps";
 import { Link } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 
 export default function AboutPage() {
+  const [fadeRef, inView] = useInView({ triggerOnce: true });
+  const [featuresRef, inViewFeatures] = useInView({ triggerOnce: true });
+  const [featuresRow1, inViewFeaturesRow1] = useInView({ triggerOnce: true });
+  const [featuresRow2, inViewFeaturesRow2] = useInView({ triggerOnce: true });
+
   return (
     <>
       <div className="about">
         <Container>
           <div className="about_spacer"></div>
-          <h2>The Perfect Getaway!</h2>
-          <Row>
+          <h2 ref={fadeRef} className={inView ? "elementShow" : "elementHide"}>
+            The Perfect Getaway!
+          </h2>
+          <Row
+            ref={fadeRef}
+            className={inView ? "elementShowSlower" : "elementHide"}
+          >
             <Col xs={12} sm={12} md={6}>
               <p>
                 Fred's Ranch & Resort is Located in Isinya, a town in the
@@ -23,9 +34,10 @@ export default function AboutPage() {
               </p>
               <p>
                 The Ranch stands on a 10 acre farm, hosting various opulent
-                amenities such as Restaurants, Dispense, Cocktail & Juice Bars, Cottages,
-                Swimming Pool, Conferencing Halls, and organic Livestock & Plant
-                varieties, all graced by the Texas-inspired Cowboy Theme.{" "}
+                amenities such as Restaurants, Dispense, Cocktail & Juice Bars,
+                Cottages, Swimming Pool, Conferencing Halls, and organic
+                Livestock & Plant varieties, all graced by the Texas-inspired
+                Cowboy Theme.{" "}
               </p>
             </Col>
             <Col xs={12} sm={12} md={6}>
@@ -51,8 +63,16 @@ export default function AboutPage() {
       </div>
       <div className="features">
         <Container>
-          <h4>Explore What We Have</h4>
-          <Row>
+          <h4
+            ref={featuresRef}
+            className={inViewFeatures ? "elementShow" : "elementHide"}
+          >
+            Explore What We Have
+          </h4>
+          <Row
+            ref={featuresRow1}
+            className={inViewFeaturesRow1 ? "elementShowSlower" : "elementHide"}
+          >
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="restaurant">
                 <h5>Restaurant</h5>
@@ -93,7 +113,10 @@ export default function AboutPage() {
               </div>
             </Col>
           </Row>
-          <Row>
+          <Row
+            ref={featuresRow2}
+            className={inViewFeaturesRow2 ? "elementShowSlower" : "elementHide"}
+          >
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="entertainment">
                 <h5>Entertainment</h5>
