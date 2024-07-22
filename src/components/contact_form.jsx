@@ -51,7 +51,7 @@ function ContactForm() {
 
           <Form.Group className="mb-4" controlId="inquiryNarration">
             <Form.Label>Let us know how</Form.Label>
-            <Form.Control as="textarea" rows={5} placeholder="Type " />
+            <Form.Control as="textarea" rows={5} placeholder="Type here..." />
           </Form.Group>
 
           <Button variant="primary" type="submit">
