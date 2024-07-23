@@ -21,7 +21,8 @@
 }
 
 .about h2,
-.features h4 {
+.features h4,
+.features_container h2 {
   font-family: "Alegreya SC";
   text-decoration: underline double #c49464;
   text-underline-offset: 8px;
@@ -86,7 +87,7 @@
 }
 
 .features_container > img {
-  width: 80vw;
+  width: 100%;
   margin-top: -40%;
   border-radius: 10px;
 }
@@ -159,8 +160,8 @@
 
 @media screen and (min-width: 600px) {
   .features_container > img {
-    width: 40vw;
-    margin-top: -18%;
+    width: 40%;
+    margin-top: -15%;
     border-radius: 10px;
   }
 

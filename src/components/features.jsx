@@ -15,7 +15,7 @@ export default function Features() {
         <img src={chomaDisplay} alt="Mbuzi choma grill" />
 
         <div className="flex flex-col">
-          <h2 className="text-center font-extrabold font-[Dancing-Script]">
+          <h2 className="text-center">
             <span
               ref={glimpseRef}
               className={inView ? "elementShow" : "elementHide"}
