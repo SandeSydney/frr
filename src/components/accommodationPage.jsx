@@ -170,7 +170,7 @@ function AccommodationPage() {
                   </div>
                   <div className="prices">
                     <h6>Full Day :</h6>
-                    <p>sh. 14,500</p>K
+                    <p>Ksh. 14,500</p>
                   </div>
                 </Accordion.Body>
               </Accordion.Item>
