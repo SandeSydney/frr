@@ -9,9 +9,15 @@ import FoodGallery from "./foodGallery";
 import { Link, scroller } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function DiningPage() {
   const location = useLocation();
+
+  // useInView to animate items on view
+  const [landingRef, inLandingView] = useInView({ triggerOnce: true });
+  const [chomaColRef, inChomaView] = useInView({ triggerOnce: true });
+  const [chomaRef, inChomaRefView] = useInView({ triggerOnce: true });
 
   // useEffect in order to get a smooth scroll on mount of the dining page
   useEffect(() => {
@@ -34,25 +40,31 @@ export default function DiningPage() {
       <div className="dining_container">
         <div className="dining_landing">
           <div className="dining_main">
-            <h1 className="font-bold">- Dine With Us -</h1>
-            <p className="text-white text-xl md:text-2xl font-semibold font-[Alegreya SC]">
-              ... If you haven't had our mbuzi choma then you haven't tasted the Kajiado's Finest{" "}
-              <span>
-                <FormatQuoteIcon className="text-[#ffcf62]" />
-              </span>
-            </p>
-            <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-              <Link
-                to="choma_col"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={400}
-              >
-                Scroll Down &nbsp;
-                <SouthSharpIcon />
-              </Link>
-            </button>
+            <div
+              ref={landingRef}
+              className={inLandingView ? "elementShow" : "elementHide"}
+            >
+              <h1 className="font-bold">- Dine With Us -</h1>
+              <p className="text-white text-xl md:text-2xl font-semibold font-[Alegreya SC]">
+                ... If you haven't had our mbuzi choma then you haven't tasted
+                the Kajiado's Finest{" "}
+                <span>
+                  <FormatQuoteIcon className="text-[#ffcf62]" />
+                </span>
+              </p>
+              <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
+                <Link
+                  to="choma_col"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={400}
+                >
+                  Scroll Down &nbsp;
+                  <SouthSharpIcon />
+                </Link>
+              </button>
+            </div>
           </div>
         </div>
         <Container>
@@ -60,18 +72,30 @@ export default function DiningPage() {
             <Row>
               <Col xs={12} sm={12} md={1}></Col>
               <Col xs={12} sm={12} md={5} className="choma_col" id="choma_col">
-                <h2>Fred's Ranch Mbuzi Choma.</h2>
-                <p>
-                  Enjoy our sumptuous mbuzi choma as you celebate your events or
-                  special occassions, such as a weekend family get-together. It
-                  comes with a side of the famous staple food ugali and to top
-                  it with an alluring fresh vegetable salad (kachumbari). It
-                  doesn't get any better than this.
-                </p>
-                <img src={nyama_choma} alt="" />
+                <div
+                  ref={chomaColRef}
+                  className={inChomaView ? "elementShow" : "elementHide"}
+                >
+                  <h2>Fred's Ranch Mbuzi Choma.</h2>
+                  <p>
+                    Enjoy our sumptuous mbuzi choma as you celebate your events
+                    or special occassions, such as a weekend family
+                    get-together. It comes with a side of the famous staple food
+                    ugali and to top it with an alluring fresh vegetable salad
+                    (kachumbari). It doesn't get any better than this.
+                  </p>
+                  <img src={nyama_choma} alt="" />
+                </div>
               </Col>
               <Col xs={12} sm={12} md={5} className="my-3">
-                <img className="nyama_img" src={nyama_choma2} alt="" />
+                <div
+                  ref={chomaRef}
+                  className={
+                    inChomaRefView ? "elementShowSlower" : "elementHide"
+                  }
+                >
+                  <img className="nyama_img" src={nyama_choma2} alt="" />
+                </div>
               </Col>
               <Col xs={12} sm={12} md={1}></Col>
             </Row>
