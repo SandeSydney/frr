@@ -1,13 +1,9 @@
 import EastSharpIcon from "@mui/icons-material/EastSharp";
-import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import events from "../resources/mainGallery/events_desc.webp";
-import playground from "../resources/mainGallery/playground.webp";
-import chomaDisplay from "../resources/mainGallery/choma_hand.webp";
-import wedding_ground from "../resources/mainGallery/wedding_ground.webp";
-import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
+import chomaDisplay from "../resources/mainGallery/choma_hand.webp";
+import events from "../resources/mainGallery/events_desc.webp";
 
 export default function Features() {
   const [glimpseRef, inView] = useInView({ triggerOnce: true });
