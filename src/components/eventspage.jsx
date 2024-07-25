@@ -5,6 +5,8 @@ import { useInView } from "react-intersection-observer";
 import birthdayCakes from "../resources/eventsImageGallery/birthdayCakes.webp";
 import tableEvents2 from "../resources/eventsImageGallery/tableEvents2.webp";
 import weddingTents from "../resources/eventsImageGallery/weddingTents.webp";
+import weddingPeople from "../resources/eventsImageGallery/weddingPeople.webp";
+import conference from "../resources/eventsImageGallery/conference.webp";
 
 export default function EventsPage() {
   // variables for scroll animations using useInView
@@ -104,6 +106,7 @@ export default function EventsPage() {
                   "A good snapshot keeps the moment that's gone from running
                   away..."
                 </p>
+                <img src={weddingPeople} alt="" />
               </div>
             </div>
           </div>
@@ -142,7 +145,10 @@ export default function EventsPage() {
                   speakers that bring crowded sessions and engage delegates.
                 </p>
                 <p>"Engaging Minds, Empowering Success"</p>
-                <img src={tableEvents2} alt="" />
+                <img
+                  src={conference}
+                  alt="Fred's ranch and resort conference"
+                />
               </div>
             </div>
           </div>
