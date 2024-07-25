@@ -1,14 +1,19 @@
 .home {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(11, 29, 38, 0.4),
       rgba(11, 29, 38, 0.4)
     ),
-    url("../resources/mainGallery/cabbana.webp");
+    url("../resources/mainGallery/cabbana.webp"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
+}
+
+.home .carousel {
+  position: absolute;
+  z-index: -1; /* Ensures that the carousel is behind other content */
 }
 
 .welcome {
