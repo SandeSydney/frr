@@ -106,8 +106,8 @@
 }
 
 .accordion-body {
-  justify-content: space-evenly;
-  padding: 3% 0 !important  ;
+  justify-content: space-between;
+  padding: 3% 8% !important  ;
   background-image: linear-gradient(
       rgba(196, 148, 100, 0.75),
       rgba(196, 148, 100, 0.75)
