@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 
 export default function AboutPage() {
-  const [fadeRef, inView] = useInView({ triggerOnce: true });
-  const [featuresRef, inViewFeatures] = useInView({ triggerOnce: true });
-  const [featuresRow1, inViewFeaturesRow1] = useInView({ triggerOnce: true });
-  const [featuresRow2, inViewFeaturesRow2] = useInView({ triggerOnce: true });
+  const [fadeRef, inView] = useInView();
+  const [featuresRef, inViewFeatures] = useInView();
+  const [featuresRow1, inViewFeaturesRow1] = useInView();
+  const [featuresRow2, inViewFeaturesRow2] = useInView();
 
   return (
     <>

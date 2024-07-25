@@ -9,22 +9,18 @@ import weddingTents from "../resources/eventsImageGallery/weddingTents.webp";
 export default function EventsPage() {
   // variables for scroll animations using useInView
   const [eventLandingRef, inLandingView] = useInView({
-    triggerOnce: true,
     initialInView: false,
   });
 
   const [downRef, inDownView] = useInView({
-    triggerOnce: true,
     initialInView: false,
   });
 
   const [eventRef, inEventRefView] = useInView({
-    triggerOnce: true,
     initialInView: false,
   });
 
   const [eventRef2, inEventRefView2] = useInView({
-    triggerOnce: true,
     initialInView: false,
   });
 

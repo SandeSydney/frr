@@ -6,8 +6,8 @@ import chomaDisplay from "../resources/mainGallery/choma_hand.webp";
 import events from "../resources/mainGallery/events_desc.webp";
 
 export default function Features() {
-  const [glimpseRef, inView] = useInView({ triggerOnce: true });
-  const [glimpseRef1, inRef1View] = useInView({ triggerOnce: true });
+  const [glimpseRef, inView] = useInView();
+  const [glimpseRef1, inRef1View] = useInView();
 
   return (
     <div className="features">

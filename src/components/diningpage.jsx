@@ -15,9 +15,9 @@ export default function DiningPage() {
   const location = useLocation();
 
   // useInView to animate items on view
-  const [landingRef, inLandingView] = useInView({ triggerOnce: true });
-  const [chomaColRef, inChomaView] = useInView({ triggerOnce: true });
-  const [chomaRef, inChomaRefView] = useInView({ triggerOnce: true });
+  const [landingRef, inLandingView] = useInView();
+  const [chomaColRef, inChomaView] = useInView();
+  const [chomaRef, inChomaRefView] = useInView();
 
   // useEffect in order to get a smooth scroll on mount of the dining page
   useEffect(() => {
