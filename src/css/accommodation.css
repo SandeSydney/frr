@@ -32,7 +32,7 @@
 .accommodation_hero {
   padding: 2% 1%;
   display: flex;
-  background-color: #15262ead;;
+  background-color: #15262ead;
 }
 
 .accommodation_content {
@@ -107,17 +107,22 @@
 
 .accordion-body {
   justify-content: space-evenly;
-  margin: 2% 0;
-}
-
-.accordion-body h6 {
-  font-weight: 700;
+  padding: 3% 0 !important  ;
+  background-image: linear-gradient(
+      rgba(196, 148, 100, 0.75),
+      rgba(196, 148, 100, 0.75)
+    ),
+    url("../resources/mainGallery/desertHorses.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .accordion-body .prices {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 600px) {
