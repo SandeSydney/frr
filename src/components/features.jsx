@@ -16,20 +16,20 @@ export default function Features() {
 
         <div className="flex flex-col">
           <h2 className="text-center">
-            <span
+            <div
               ref={glimpseRef}
               className={inView ? "elementShow" : "elementHide"}
             >
               A Glimpse Of The Ranch
-            </span>
+            </div>
           </h2>
           <div className="features_glimpse">
             <div className="features_content">
-              <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
-                <span
-                  ref={glimpseRef1}
-                  className={inRef1View ? "elementShowSlower" : "elementHide"}
-                >
+              <div
+                ref={glimpseRef1}
+                className={inRef1View ? "elementShowSlower" : "elementHide"}
+              >
+                <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
                   Fred's Ranch & Resort is an integral part of Kajiado Getaways,
                   and located 70 kilometers from Nairobi City Center, we set the
                   standards for excellence in vacation experiences.The easy
@@ -37,8 +37,8 @@ export default function Features() {
                   favourite cocktail or having a dip in the exquisite swimming
                   pool is definitely the perfect escape from the hustle of the
                   city.
-                </span>
-              </p>
+                </p>
+              </div>
               <div className="flex gap-1 content-center">
                 <Link to={"events"} className="underline underline-offset-8">
                   Explore Events & Activities
