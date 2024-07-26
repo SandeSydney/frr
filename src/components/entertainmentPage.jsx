@@ -47,7 +47,7 @@ function EntertainmentPage() {
                 className={inScrollView ? "elementShowSlower" : "elementHide"}
               >
                 <Link
-                  to="choma_col"
+                  to="entertainment_description"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -61,7 +61,7 @@ function EntertainmentPage() {
           </div>
         </div>
       </div>
-      <div className="events_description" id="events_description">
+      <div className="events_description" id="entertainment_description">
         <Container>
           <div>
             <h2 className="text-center">Entertainment</h2>
