@@ -1,19 +1,18 @@
+import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import SouthSharpIcon from "@mui/icons-material/SouthSharp";
+import { useEffect } from "react";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import { useInView } from "react-intersection-observer";
+import { useLocation } from "react-router-dom";
+import { Link as ScrollLink, scroller } from "react-scroll";
 import nyama_choma from "../resources/foodImageGallery/chomaHold.webp";
 import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
-import SouthSharpIcon from "@mui/icons-material/SouthSharp";
-import FoodGallery from "./foodGallery";
-import { Link as ScrollLink, scroller } from "react-scroll";
-import { useLocation, Link as RouterLink } from "react-router-dom";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import MeatyTreats from "./meatyTreats";
 import Beverages from "./beverages";
+import MeatyTreats from "./meatyTreats";
 import StarchItems from "./starchItems";
 
 export default function DiningPage() {
