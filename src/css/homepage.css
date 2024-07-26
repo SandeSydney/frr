@@ -19,6 +19,11 @@
   z-index: -1; /* Ensures that the carousel is behind other content */
 }
 
+.home .carousel .carousel-control-prev,
+.home .carousel .carousel-control-next{
+  display: none !important;
+}
+
 .welcome {
   min-height: 100vh;
   padding-bottom: 10%;
