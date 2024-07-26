@@ -8,13 +8,13 @@ function HomeCarousel() {
   return (
     <Carousel fade>
       <Carousel.Item interval={800}>
-        <img src={cabbana} alt="" />
+        <img className="d-block w-100" src={cabbana} alt="" />
       </Carousel.Item>
       <Carousel.Item interval={800}>
-        <img src={horseBack} alt="" />
+        <img className="d-block w-100" src={horseBack} alt="" />
       </Carousel.Item>
       <Carousel.Item interval={800}>
-        <img src={swimmingNight} alt="" />
+        <img className="d-block w-100" src={swimmingNight} alt="" />
       </Carousel.Item>
     </Carousel>
   );
