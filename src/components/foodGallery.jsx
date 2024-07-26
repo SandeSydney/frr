@@ -1,13 +1,13 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { Element } from "react-scroll";
 import barbeque from "../resources/foodImageGallery/barbeque.webp";
-import breads from "../resources/foodImageGallery/breads.webp";
 import bhajia from "../resources/foodImageGallery/bhajia.webp";
+import breads from "../resources/foodImageGallery/breads.webp";
 import buns from "../resources/foodImageGallery/buns.webp";
 import chomaDark from "../resources/foodImageGallery/chomaDark.webp";
 import chomaFilm from "../resources/foodImageGallery/chomaFilm.webp";
 import chomaHang from "../resources/foodImageGallery/chomaHang.webp";
-import chomaHold from "../resources/foodImageGallery/chomaHold.webp";
-import chomaMore from "../resources/foodImageGallery/chomaMore.webp";
 import chomaPan from "../resources/foodImageGallery/chomaPan.webp";
 import cocktailBlue from "../resources/foodImageGallery/cocktailBlue.webp";
 import cocktails from "../resources/foodImageGallery/cocktails.webp";
@@ -30,8 +30,6 @@ import redblueCocktail from "../resources/foodImageGallery/redblueCocktail.webp"
 import redCocktail from "../resources/foodImageGallery/redCocktail.webp";
 import salad from "../resources/foodImageGallery/salad.webp";
 import salad2 from "../resources/foodImageGallery/salad2.webp";
-import { Col, Row } from "react-bootstrap";
-import { Element } from "react-scroll";
 
 export default function FoodGallery() {
   let foodData = [
@@ -42,8 +40,6 @@ export default function FoodGallery() {
     { id: 5, imgSrc: chomaDark },
     { id: 6, imgSrc: chomaFilm },
     { id: 7, imgSrc: chomaHang },
-    { id: 8, imgSrc: chomaHold },
-    { id: 9, imgSrc: chomaMore },
     { id: 10, imgSrc: chomaPan },
     { id: 11, imgSrc: kunde },
     { id: 12, imgSrc: cocktails },
