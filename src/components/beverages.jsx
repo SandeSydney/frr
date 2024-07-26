@@ -10,8 +10,11 @@ import doubleCocktails2 from "../resources/foodImageGallery/doubleCocktails2.web
 import blueCocktail from "../resources/foodImageGallery/cocktailBlue.webp";
 
 import { Col, Row } from "react-bootstrap";
+import { useInView } from "react-intersection-observer";
 
 function Beverages() {
+  const [beverageRef, inViewBeverage] = useInView({ initialInView: false });
+
   const beverages = [
     { id: 1, imgSrc: guavaJuice },
     { id: 2, imgSrc: mocktail },
@@ -24,15 +27,20 @@ function Beverages() {
     { id: 9, imgSrc: blueCocktail },
   ];
   return (
-    <Row>
-      {beverages.map((item, index) => {
-        return (
-          <Col xs={12} sm={12} md={3} key={index}>
-            <img className="m-2" src={item.imgSrc} alt="" />
-          </Col>
-        );
-      })}
-    </Row>
+    <div
+      ref={beverageRef}
+      className={inViewBeverage ? "elementShow" : "elementHide"}
+    >
+      <Row>
+        {beverages.map((item, index) => {
+          return (
+            <Col xs={12} sm={12} md={3} key={index}>
+              <img className="m-2" src={item.imgSrc} alt="" />
+            </Col>
+          );
+        })}
+      </Row>
+    </div>
   );
 }
 

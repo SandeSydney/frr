@@ -15,8 +15,11 @@ import fishTomato from "../resources/foodImageGallery/fishTomato.webp";
 
 import { Col, Row } from "react-bootstrap";
 import { Element } from "react-scroll";
+import { useInView } from "react-intersection-observer";
 
 function MeatyTreats() {
+  const [meatyRef, inViewMeat] = useInView({ initialInView: false });
+
   const meatyTreats = [
     { id: 1, imgSrc: chomaDark },
     { id: 2, imgSrc: chomaFilm },
@@ -33,15 +36,20 @@ function MeatyTreats() {
     { id: 13, imgSrc: barbeque },
   ];
   return (
-    <Row>
-      {meatyTreats.map((item, index) => {
-        return (
-          <Col xs={12} sm={12} md={3} key={index}>
-            <img className="m-2" src={item.imgSrc} alt="" />
-          </Col>
-        );
-      })}
-    </Row>
+    <div
+      ref={meatyRef}
+      className={inViewMeat ? "elementShow" : "elementHide"}
+    >
+      <Row>
+        {meatyTreats.map((item, index) => {
+          return (
+            <Col xs={12} sm={12} md={3} key={index}>
+              <img className="m-2" src={item.imgSrc} alt="" />
+            </Col>
+          );
+        })}
+      </Row>
+    </div>
   );
 }
 
