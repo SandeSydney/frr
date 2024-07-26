@@ -57,16 +57,22 @@ export default function DiningPage() {
                 </span>
               </p>
               <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-                <ScrollLink
-                  to="choma_col"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={400}
+                <div
+                  className={
+                    inLandingView ? "elementShowSlower" : "elementHide"
+                  }
                 >
-                  Scroll Down &nbsp;
-                  <SouthSharpIcon />
-                </ScrollLink>
+                  <ScrollLink
+                    to="choma_col"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={400}
+                  >
+                    Scroll Down &nbsp;
+                    <SouthSharpIcon />
+                  </ScrollLink>
+                </div>
               </button>
             </div>
           </div>
