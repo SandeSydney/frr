@@ -1,4 +1,6 @@
 import Container from "react-bootstrap/Container";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
@@ -6,10 +8,13 @@ import nyama_choma from "../resources/foodImageGallery/chomaHold.webp";
 import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import FoodGallery from "./foodGallery";
-import { Link, scroller } from "react-scroll";
-import { useLocation } from "react-router-dom";
+import { Link as ScrollLink, scroller } from "react-scroll";
+import { useLocation, Link as RouterLink } from "react-router-dom";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import MeatyTreats from "./meatyTreats";
+import Beverages from "./beverages";
+import StarchItems from "./starchItems";
 
 export default function DiningPage() {
   const location = useLocation();
@@ -53,7 +58,7 @@ export default function DiningPage() {
                 </span>
               </p>
               <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-                <Link
+                <ScrollLink
                   to="choma_col"
                   spy={true}
                   smooth={true}
@@ -62,7 +67,7 @@ export default function DiningPage() {
                 >
                   Scroll Down &nbsp;
                   <SouthSharpIcon />
-                </Link>
+                </ScrollLink>
               </button>
             </div>
           </div>
@@ -109,7 +114,25 @@ export default function DiningPage() {
         <Container>
           <div className="dining_gallery">
             <h2>Discover our Food Gallery</h2>
-            <FoodGallery />
+            <Tabs
+              defaultActiveKey="meaty_treats"
+              id="menu_tabs"
+              className="mb-3"
+              justify
+            >
+              <Tab eventKey="starches" title="Starches">
+                <StarchItems />
+              </Tab>
+              <Tab eventKey="meaty_treats" title="Meaty Treats">
+                <MeatyTreats />
+              </Tab>
+              <Tab eventKey="beverages" title="Beverages">
+                <Beverages />
+              </Tab>
+              <Tab eventKey="veges_salads" title="Veges & Salads">
+                Veges & Salad
+              </Tab>
+            </Tabs>
           </div>
         </Container>
       </div>
