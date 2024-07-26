@@ -6,26 +6,40 @@ import towels from "../resources/accommodationImages/towels.webp";
 import outside from "../resources/accommodationImages/accommOutside.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { Link } from "react-scroll";
+import { useInView } from "react-intersection-observer";
 
 function AccommodationPage() {
+  const [accomRef, inViewAccom] = useInView({ initialInView: false });
+  const [scrollRef, inViewScroll] = useInView({ initialInView: false });
+
   return (
     <>
       <div className="accommodation_landing">
         <div className="about_spacer"></div>
         <div className="accommodation_hero">
           <Container>
-            <h1>"Your Recreational Escape"</h1>
+            <h1
+              ref={accomRef}
+              className={inViewAccom ? "elementShow" : "elementHide"}
+            >
+              "Your Recreational Escape"
+            </h1>
             <button className="text-white mt-5 text-xs md:text-sm underline underline-offset-8">
-              <Link
-                to="accomm_intro"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={400}
+              <div
+                ref={scrollRef}
+                className={inViewScroll ? "elementShowSlower" : "elementHide"}
               >
-                Scroll Down &nbsp;
-                <SouthSharpIcon />
-              </Link>
+                <Link
+                  to="accomm_intro"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={400}
+                >
+                  Scroll Down &nbsp;
+                  <SouthSharpIcon />
+                </Link>
+              </div>
             </button>
           </Container>
         </div>
