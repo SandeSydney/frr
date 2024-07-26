@@ -44,7 +44,7 @@
 }
 
 .elementShowSlower {
-  transition-delay: 250ms;
+  transition-delay: 200ms;
 }
 
 .elementHide {
