@@ -126,7 +126,7 @@ const Amenities = () => {
             get to enjoy a serene and tranquil environment, <br />
             leaving happier than you came.
           </p>
-          <Link to="/dining#foodGallery">
+          <Link to="/dining#foodGallery" smooth={true} offset={-100}>
             <button>
               <TrendingFlatIcon />
             </button>

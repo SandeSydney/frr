@@ -8,7 +8,7 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { useInView } from "react-intersection-observer";
 import { useLocation } from "react-router-dom";
-import { Link as ScrollLink, scroller } from "react-scroll";
+import { Element, Link as ScrollLink, scroller } from "react-scroll";
 import nyama_choma from "../resources/foodImageGallery/chomaHold.webp";
 import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import Beverages from "./beverages";
@@ -118,7 +118,9 @@ export default function DiningPage() {
         </div>
         <Container>
           <div className="dining_gallery">
-            <h2>Discover our Food Gallery</h2>
+            <Element id="foodGallery">
+              <h2>Discover our Food Gallery</h2>
+            </Element>
             <Tabs
               defaultActiveKey="meaty_treats"
               id="menu_tabs"
