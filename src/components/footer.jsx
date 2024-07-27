@@ -13,7 +13,7 @@ const Footer = () => {
       <footer>
         <Container>
           <Row className="foot_details">
-            <Col xs={12} sm={12} md={3}>
+            <Col xs={12} sm={12} md={2}>
               <img src={frr_logo} alt="Fred's Ranch Logo" />
             </Col>
             <Col xs={6} sm={6} md={3}>
@@ -46,7 +46,7 @@ const Footer = () => {
               <p>Isinya, Namanga Road, </p>
               <p> Kajiado, Kenya.</p>
             </Col>
-            <Col xs={12} sm={12} md={3}>
+            <Col xs={12} sm={12} md={4}>
               <h3>Get In Touch</h3>
               <p>
                 <PhoneAndroidIcon /> &nbsp;
@@ -55,6 +55,10 @@ const Footer = () => {
               <p>
                 <PhoneAndroidIcon /> &nbsp;
                 <a href="tel:+254791323785">+254791323785</a>
+              </p>
+              <p>
+                <EmailIcon /> &nbsp;
+                <a href="mailto:reservations@fredsranch.co.ke">reservations@fredsranch.co.ke</a>
               </p>
               <p>
                 <EmailIcon /> &nbsp;
