@@ -1,6 +1,7 @@
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { Container } from "react-bootstrap";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import birthdayCakes from "../resources/eventsImageGallery/birthdayCakes.webp";
 import tableEvents2 from "../resources/eventsImageGallery/tableEvents2.webp";
@@ -50,7 +51,7 @@ export default function EventsPage() {
               ref={downRef}
               className={inDownView ? "elementShowSlower" : "elementHide"}
             >
-              <Link
+              <ScrollLink
                 to="events_description"
                 spy={true}
                 smooth={true}
@@ -59,7 +60,7 @@ export default function EventsPage() {
               >
                 Scroll Down &nbsp;
                 <SouthSharpIcon />
-              </Link>
+              </ScrollLink>
             </div>
           </button>
         </div>
@@ -152,6 +153,13 @@ export default function EventsPage() {
               </div>
             </div>
           </div>
+        </Container>
+      </div>
+      <div className="pageLink">
+        <Container>
+          <RouterLink to={"/about-us"}>
+            Find More About Fred's Ranch & Resort
+          </RouterLink>
         </Container>
       </div>
     </>
