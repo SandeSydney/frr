@@ -11,6 +11,23 @@
 @import url("./css/contact.css");
 @import url("./css/entertainment.css");
 
+/* Class to handle outlook of the links to pages from pages */
+.pageLink {
+  text-align: center;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(196, 148, 100);
+}
+
+.pageLink a {
+  text-underline-offset: 12px;
+  color: white;
+  border-radius: 10px;
+  padding: 8% 5%;
+}
+
 .follow_us {
   min-height: 30vh;
   min-width: 100%;
@@ -40,7 +57,7 @@
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .elementShowSlower {
