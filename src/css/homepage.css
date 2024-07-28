@@ -95,11 +95,31 @@
 
 .map_socials > :nth-child(2) {
   flex: 1;
+  padding: 28px 0;
+  margin: 0px 28px;
+}
+
+.socials img {
+  width: 50px;
+}
+
+.socials .social_cols {
+  margin: 10px 0;
+}
+
+.social_cols a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
   .map_socials {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
