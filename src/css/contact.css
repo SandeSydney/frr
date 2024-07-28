@@ -4,6 +4,8 @@
       rgba(24, 68, 68, 0.7)
     ),
     url("../resources/farmGallery/horsesRanch.webp");
+  min-height: 80vh;
+  padding: 3% 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
