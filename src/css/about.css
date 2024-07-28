@@ -22,7 +22,8 @@
 
 .about h2,
 .features h4,
-.features_container h2 {
+.features_container h2,
+.map_socials h4 {
   font-family: "Alegreya SC";
   text-decoration: underline double #c49464;
   text-underline-offset: 8px;
@@ -100,7 +101,7 @@
 }
 
 .features_glimpse img {
-  border-radius: 61% 39% 48% 52% / 36% 40% 60% 64% ;
+  border-radius: 61% 39% 48% 52% / 36% 40% 60% 64%;
 }
 
 #restaurant {
@@ -153,6 +154,7 @@
 
 .maplocation {
   height: 80vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +175,7 @@
     align-items: center;
   }
 
-  .features_glimpse > div{
+  .features_glimpse > div {
     flex: 1;
   }
 
