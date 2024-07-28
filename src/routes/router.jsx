@@ -8,6 +8,7 @@ import EventsPage from "../components/eventspage";
 import AccommodationPage from "../components/accommodationPage";
 import ContactUsPage from "../components/contactpage";
 import EntertainmentPage from "../components/entertainmentPage";
+import RedirectPage from "../components/redirectPage";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
         element: <EntertainmentPage />,
       },
     ],
+  },
+  {
+    path: "/redirect",
+    element: <RedirectPage />,
   },
 ]);
 
