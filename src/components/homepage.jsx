@@ -19,12 +19,14 @@ export default function Homepage() {
       <Welcome_Section />
       <Features />
       <Amenities />
-      <Container>
-        <div className="map_socials">
-          <MapLocation />
-          <Socials />
-        </div>
-      </Container>
+      <div className="contact_main">
+        <Container>
+          <div className="map_socials">
+            <MapLocation />
+            <Socials />
+          </div>
+        </Container>
+      </div>
     </>
   );
 }
