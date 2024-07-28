@@ -6,6 +6,7 @@ import Welcome_Section from "./welcome";
 import HomeCarousel from "./homeCarousel";
 import MapLocation from "./maps";
 import Socials from "./socials";
+import FarmToFork from "./farmToFork";
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
         </div>
       </div>
       <Welcome_Section />
+      <FarmToFork />
       <Features />
       <Amenities />
       <div className="contact_main">
