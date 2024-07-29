@@ -7,6 +7,7 @@ import HomeCarousel from "./homeCarousel";
 import MapLocation from "./maps";
 import Socials from "./socials";
 import FarmToFork from "./farmToFork";
+import PaymentMethods from "./payment";
 
 export default function Homepage() {
   return (
@@ -29,6 +30,7 @@ export default function Homepage() {
           </div>
         </Container>
       </div>
+      <PaymentMethods />
     </>
   );
 }
