@@ -1,15 +1,27 @@
 .farm_to_fork_landing {
-  /* min-height: 70vh; */
+  min-height: 75vh;
   padding: 8% 0;
+  background-image: url("../resources/mainGallery/broilerBlurred.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white  ;
 }
 
-.top_content,
-.bottom_contents,
-.center_contents {
+.farm_to_fork_landing .container {
+  height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.center_contents {
-    justify-content: space-between;
+.farm_to_fork_landing .container > :nth-child(n) {
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .farm_to_fork_landing .container {
+    display: flex;
+    flex-direction: row;
+  }
 }
