@@ -58,16 +58,20 @@ const Footer = () => {
               </p>
               <p>
                 <EmailIcon /> &nbsp;
-                <a href="mailto:reservations@fredsranch.co.ke">reservations@fredsranch.co.ke</a>
+                <a href="mailto:reservations@fredsranch.co.ke" target="_blank">
+                  reservations@fredsranch.co.ke
+                </a>
               </p>
               <p>
                 <EmailIcon /> &nbsp;
-                <a href="mailto:info@fredsranch.co.ke">info@fredsranch.co.ke</a>
+                <a href="mailto:info@fredsranch.co.ke" target="_blank">
+                  info@fredsranch.co.ke
+                </a>
               </p>
             </Col>
           </Row>
           <hr />
-          <Row className="h-10 md:content-center">
+          <Row className="min-h-10 md:content-center">
             <Col xs={12} sm={12} md={4}>
               &copy; 2024 All rights reserved
             </Col>
