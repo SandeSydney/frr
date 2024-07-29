@@ -1,14 +1,9 @@
 .home {
-  /* background-image: linear-gradient(
-      rgba(11, 29, 38, 0.4),
-      rgba(11, 29, 38, 0.4)
-    ),
-    url("../resources/mainGallery/cabbana.webp"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,6 +98,10 @@
   width: 50px;
 }
 
+.socials .row{
+  margin: 0 !important;
+}
+
 .socials .social_cols {
   margin: 10px 0;
 }
@@ -116,6 +115,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .home {
+    min-height: 100vh;
+    justify-content: end;
+  }
   .map_socials {
     display: flex;
     flex-direction: row;
