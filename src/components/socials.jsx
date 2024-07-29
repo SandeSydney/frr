@@ -12,39 +12,37 @@ function Socials() {
   return (
     <div className="socials">
       <h4>Follow Us On:</h4>
-      <Container>
-        <Row>
-          <Col className="social_cols" xs={12}>
-            <RouterLink
-              to={`/redirect?targetLink=https://www.instagram.com/freds_ranch/&returnLink=${returnLink}`}
-            >
-              <img src={Instagram} alt="Fred's Ranch Instagram Page" /> Freds
-              Ranch
-            </RouterLink>
-          </Col>
-          <Col className="social_cols" xs={12}>
-            <RouterLink
-              to={`/redirect?targetLink=https://x.com/freds_ranch/&returnLink=${returnLink}`}
-            >
-              <img src={Twitter} alt="Fred's Ranch Twitter Page" /> freds_ranch
-            </RouterLink>
-          </Col>
-          <Col className="social_cols" xs={12}>
-            <RouterLink
-              to={`/redirect?targetLink=https://www.facebook.com/fredsranch/&returnLink=${returnLink}`}
-            >
-              <img src={Facebook} alt="Fred's Ranch Facebook Page" /> fredsranch
-            </RouterLink>
-          </Col>
-          <Col className="social_cols" xs={12}>
-            <RouterLink
-              to={`/redirect?targetLink=https://www.tiktok.com/@freds_ranch/&returnLink=${returnLink}`}
-            >
-              <img src={Tiktok} alt="Fred'd Ranch Tiktok Page" /> @freds_ranch
-            </RouterLink>
-          </Col>
-        </Row>
-      </Container>
+      <Row>
+        <Col className="social_cols" xs={12}>
+          <RouterLink
+            to={`/redirect?targetLink=https://www.instagram.com/freds_ranch/&returnLink=${returnLink}`}
+          >
+            <img src={Instagram} alt="Fred's Ranch Instagram Page" /> Freds
+            Ranch
+          </RouterLink>
+        </Col>
+        <Col className="social_cols" xs={12}>
+          <RouterLink
+            to={`/redirect?targetLink=https://x.com/freds_ranch/&returnLink=${returnLink}`}
+          >
+            <img src={Twitter} alt="Fred's Ranch Twitter Page" /> freds_ranch
+          </RouterLink>
+        </Col>
+        <Col className="social_cols" xs={12}>
+          <RouterLink
+            to={`/redirect?targetLink=https://www.facebook.com/fredsranch/&returnLink=${returnLink}`}
+          >
+            <img src={Facebook} alt="Fred's Ranch Facebook Page" /> fredsranch
+          </RouterLink>
+        </Col>
+        <Col className="social_cols" xs={12}>
+          <RouterLink
+            to={`/redirect?targetLink=https://www.tiktok.com/@freds_ranch/&returnLink=${returnLink}`}
+          >
+            <img src={Tiktok} alt="Fred'd Ranch Tiktok Page" /> @freds_ranch
+          </RouterLink>
+        </Col>
+      </Row>
     </div>
   );
 }
