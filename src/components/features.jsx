@@ -8,6 +8,10 @@ import events from "../resources/mainGallery/events_desc.webp";
 export default function Features() {
   const [glimpseRef, inView] = useInView();
   const [glimpseRef1, inRef1View] = useInView();
+  const [glimpseImgRef, inViewImage] = useInView({
+    initialInView: false,
+    threshold: 0.3,
+  });
 
   return (
     <div className="features">
@@ -40,14 +44,23 @@ export default function Features() {
                 </p>
               </div>
               <div className="flex gap-1 content-center">
-                <Link to={"events"} className="underline underline-offset-8">
-                  Explore Events & Activities
-                </Link>
-                <EastSharpIcon />
+                <div
+                  className={inRef1View ? "elementShowSlower" : "elementHide"}
+                >
+                  <Link to={"events"} className="underline underline-offset-8">
+                    Explore Events & Activities
+                  </Link>
+                  <EastSharpIcon />
+                </div>
               </div>
             </div>
             <div className="features_image">
-              <img src={events} alt="" />
+              <img
+                ref={glimpseImgRef}
+                className={inViewImage ? "elementShowSlower" : "elementHide"}
+                src={events}
+                alt=""
+              />
             </div>
           </div>
         </div>
