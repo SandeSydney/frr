@@ -23,7 +23,8 @@
 .about h2,
 .features h4,
 .features_container h2,
-.map_socials h4 {
+.map_socials h4,
+.farm_to_fork_landing h2 {
   font-family: "Alegreya SC";
   text-decoration: underline double #c49464;
   text-underline-offset: 8px;
