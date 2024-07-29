@@ -9,7 +9,10 @@ import { Container } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
 
 function PaymentMethods() {
-  const [paymentRef, inViewPay] = useInView({ initialInView: false });
+  const [paymentRef, inViewPay] = useInView({
+    initialInView: false,
+    threshold: 0.5,
+  });
 
   return (
     <>
