@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer";
 function PaymentMethods() {
   const [paymentRef, inViewPay] = useInView({
     initialInView: false,
-    threshold: 0.5,
+    threshold: 0.3,
   });
 
   return (
