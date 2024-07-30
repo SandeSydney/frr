@@ -13,15 +13,12 @@ function AccommodationPage() {
   const [scrollRef, inViewScroll] = useInView({ initialInView: false });
   const [featuresRef, inViewFeatures] = useInView({
     initialInView: false,
-    threshold: 0.3,
   });
   const [descriptionRef, inViewDescription] = useInView({
     initialInView: false,
-    threshold: 0.3,
   });
   const [packagesRef, inViewPackages] = useInView({
     initialInView: false,
-    threshold: 0.3,
   });
 
   return (
