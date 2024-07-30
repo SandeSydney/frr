@@ -5,6 +5,7 @@ import Homepage from "./components/homepage";
 import Navbar_Main from "./components/navbar";
 import Navbar_Sec from "./components/navbar_sec";
 import { Outlet, ScrollRestoration } from "react-router-dom";
+import WhatsappCta from "./components/whatsappCta";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -21,6 +22,7 @@ function App() {
       {visible ? <Navbar_Main /> : <Navbar_Sec />}
       <Outlet />
       <Footer />
+      <WhatsappCta />
     </div>
   );
 }
