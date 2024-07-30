@@ -1,5 +1,6 @@
 import React from "react";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
+import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { Carousel, Container } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
@@ -176,6 +177,13 @@ function EntertainmentPage() {
               </div>
             </div>
           </div>
+        </Container>
+      </div>
+      <div className="pageLink">
+        <Container>
+          <RouterLink to={"/accommodation"}>
+            Check our Accommodation Features
+          </RouterLink>
         </Container>
       </div>
     </>
