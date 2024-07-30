@@ -152,9 +152,9 @@ export default function DiningPage() {
               <Tab eventKey="beverages" title="Beverages">
                 <Beverages />
               </Tab>
-              <Tab eventKey="veges_salads" title="Veges & Salads">
+              {/* <Tab eventKey="veges_salads" title="Veges & Salads">
                 Veges & Salad
-              </Tab>
+              </Tab> */}
             </Tabs>
           </div>
         </Container>
