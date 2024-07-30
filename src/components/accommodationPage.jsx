@@ -18,6 +18,7 @@ function AccommodationPage() {
     initialInView: false,
   });
   const [packagesRef, inViewPackages] = useInView({
+    triggerOnce: true,
     initialInView: false,
   });
 
