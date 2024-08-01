@@ -24,7 +24,7 @@ function PaymentMethods() {
           >
             Payment Methods Accepted
           </h4>
-          <div className={inViewPay ? "elementShowSlower" : "elementHide"}>
+          <div className={inViewPay ? "elementShow" : "elementHide"}>
             <img
               src={equitybank}
               alt="Equity Payment method in Fred's Ranch and Resort"
