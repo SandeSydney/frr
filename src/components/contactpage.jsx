@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ContactForm from "./contact_form";
-import ContactCards from "./contactCards";
+import ContactCard from "./contactCard";
 
 function ContactUsPage() {
   return (
@@ -16,7 +16,7 @@ function ContactUsPage() {
           <h2>LET US HEAR FROM YOU!</h2>
         </div>
       </Container>
-      <ContactCards />
+      <ContactCard />
       <div className="form_landing">
         <Container className="form_container">
           <ContactForm />
