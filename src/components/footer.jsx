@@ -72,14 +72,9 @@ const Footer = () => {
           </Row>
           <hr />
           <Row className="min-h-10 md:content-center">
-            <Col xs={12} sm={12} md={4}>
-              &copy; 2024 All rights reserved
-            </Col>
-            <Col xs={12} sm={12} md={4} className="md:text-center">
+            <Col>&copy; 2024 All rights reserved</Col>
+            <Col className="md:text-right">
               Machoka International Group Limited
-            </Col>
-            <Col xs={12} sm={12} md={4} className="md:text-right">
-              Privacy Policy | Terms and Conditions
             </Col>
           </Row>
         </Container>
