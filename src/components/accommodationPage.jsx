@@ -3,7 +3,7 @@ import { Row, Col, Container, Carousel, Accordion } from "react-bootstrap";
 import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
 import bedSide from "../resources/accommodationImages/bedSide.webp";
 import towels from "../resources/accommodationImages/towels.webp";
-import outside from "../resources/accommodationImages/accommOutside.webp";
+import tents from "../resources/accommodationImages/campingTents.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { Link } from "react-scroll";
 import { useInView } from "react-intersection-observer";
@@ -160,9 +160,9 @@ function AccommodationPage() {
                 <Carousel.Item interval={700}>
                   <img src={towels} alt="" />
                 </Carousel.Item>
-                {/* <Carousel.Item interval={700}>
-                  <img src={outside} alt="" />
-                </Carousel.Item> */}
+                <Carousel.Item interval={700}>
+                  <img src={tents} alt="" />
+                </Carousel.Item>
               </Carousel>
             </Col>
           </Row>
