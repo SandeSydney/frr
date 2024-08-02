@@ -1,14 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Error_Page from "../components/error_page";
-import Homepage from "../components/homepage";
 import AboutPage from "../components/aboutpage";
-import DiningPage from "../components/diningpage";
-import EventsPage from "../components/eventspage";
 import AccommodationPage from "../components/accommodationPage";
 import ContactUsPage from "../components/contactpage";
+import DiningPage from "../components/diningpage";
 import EntertainmentPage from "../components/entertainmentPage";
-import RedirectPage from "../components/redirectPage";
+import Error_Page from "../components/error_page";
+import EventsPage from "../components/eventspage";
+import Homepage from "../components/homepage";
 
 const router = createBrowserRouter([
   {
