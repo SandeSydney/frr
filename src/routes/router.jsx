@@ -46,10 +46,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path: "/redirect",
-    element: <RedirectPage />,
-  },
 ]);
 
 export default router;
