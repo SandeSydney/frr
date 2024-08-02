@@ -16,7 +16,7 @@
 .contact_landing {
   display: flex;
   flex-direction: column;
-  padding-top: 15%;
+  padding-top: 8%;
   text-align: center;
 }
 
@@ -47,8 +47,52 @@
   border-radius: 10px;
 }
 
+.contact_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact_cards .card{
+  text-align: center;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_cards .card-title{
+  display: flex;
+  justify-content: center;
+}
+
+.contact_cards a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact_cards svg{
+  height: 35px;
+}
+
 @media screen and (min-width: 600px) {
   .contact_landing {
     min-height: 40vh;
+  }
+
+  .contact_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .contact_cards .card{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact_cards svg{
+    height: 60px;
   }
 }
