@@ -74,6 +74,16 @@
   padding: 8% 0;
 }
 
+.foodMenu {
+  display: flex;
+  min-height: 90vh;
+  justify-content: center;
+}
+
+.foodMenu iframe {
+  width: 80%;
+}
+
 @media screen and (min-width: 768px) {
   .dining_choma {
     display: flex;

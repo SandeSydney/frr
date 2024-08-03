@@ -12,6 +12,7 @@ import nyama_choma from "../resources/foodImageGallery/chomaHold.webp";
 import Beverages from "./beverages";
 import MeatyTreats from "./meatyTreats";
 import StarchItems from "./starchItems";
+import foodMenu from "../resources/foodMenu/FredsRanch-FoodMenu.pdf";
 
 export default function DiningPage() {
   const location = useLocation();
@@ -128,6 +129,9 @@ export default function DiningPage() {
         <div className="dining_menu">
           <Container>
             <h2 className="text-center">Checkout Our Menu</h2>
+            <div className="foodMenu">
+              <iframe src={foodMenu} frameborder="0"></iframe>
+            </div>
           </Container>
         </div>
         <Container>
