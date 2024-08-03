@@ -125,20 +125,20 @@ export default function AboutPage() {
                   entertain you and keep you delighted as you explore the
                   various activities offered.
                 </p>
-                <Link to={"/events"} className="explore_link">
+                <Link to={"/entertainment"} className="explore_link">
                   Explore
                 </Link>
               </div>
             </Col>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="agritourism">
-                <h5>Agritourism</h5>
+                <h5>Edutainment</h5>
                 <p>
                   Enjoy our Farm-to-Fork experience by touring the Fred's Ranch
                   Farm and exploring our animal products and fresh farm
                   vegetables.
                 </p>
-                <Link to={"/events"} className="explore_link">
+                <Link to={"/entertainment"} className="explore_link">
                   Explore
                 </Link>
               </div>
@@ -151,7 +151,7 @@ export default function AboutPage() {
                   revolutionizing the hospitality experience in Kenya and Africa
                   through <b>character, innovation, and excellence</b>
                 </p>
-                <Link to={"/events"} className="explore_link">
+                <Link to={""} className="explore_link">
                   Explore
                 </Link>
               </div>

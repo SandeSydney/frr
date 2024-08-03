@@ -1,16 +1,14 @@
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { useEffect } from "react";
-import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { useInView } from "react-intersection-observer";
 import { useLocation } from "react-router-dom";
 import { Element, Link as ScrollLink, scroller } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import nyama_choma from "../resources/foodImageGallery/chomaHold.webp";
-import nyama_choma2 from "../resources/mainGallery/nyama_choma2.webp";
 import Beverages from "./beverages";
 import MeatyTreats from "./meatyTreats";
 import StarchItems from "./starchItems";
@@ -157,6 +155,11 @@ export default function DiningPage() {
               </Tab> */}
             </Tabs>
           </div>
+        </Container>
+      </div>
+      <div className="pageLink">
+        <Container>
+          <RouterLink to={"/events"}>Events we offer</RouterLink>
         </Container>
       </div>
     </>

@@ -6,6 +6,7 @@ import towels from "../resources/accommodationImages/towels.webp";
 import tents from "../resources/accommodationImages/campingTents.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 
 function AccommodationPage() {
@@ -311,6 +312,11 @@ function AccommodationPage() {
               </Accordion.Item>
             </Accordion>
           </Container>
+        </Container>
+      </div>
+      <div className="pageLink">
+        <Container>
+          <RouterLink to={"/dining"}>Explore our Dining Experience</RouterLink>
         </Container>
       </div>
     </>
