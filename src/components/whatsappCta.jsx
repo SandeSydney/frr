@@ -5,7 +5,7 @@ function WhatsappCta() {
   return (
     <div>
       <FloatingWhatsApp
-        phoneNumber="+254792564243" // Required
+        phoneNumber="254792564243" // Required
         accountName="Fred's Ranch and Resort" // Optional
         // avatar="../" // Optional
         initialMessageByServer="Hi there! How can I assist you?" // Optional
