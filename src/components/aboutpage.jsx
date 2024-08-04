@@ -151,7 +151,10 @@ export default function AboutPage() {
                   revolutionizing the hospitality experience in Kenya and Africa
                   through <b>character, innovation, and excellence</b>
                 </p>
-                <Link to={""} className="explore_link">
+                <Link
+                  to={"https://school.fredsranch.co.ke/"}
+                  className="explore_link"
+                >
                   Explore
                 </Link>
               </div>
