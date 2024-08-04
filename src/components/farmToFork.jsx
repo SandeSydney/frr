@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
+import FarmFork from "../resources/mainGallery/FarmFork.png";
 
 function FarmToFork() {
   const [farmtoRef, inViewFarmTo] = useInView({ initialInView: false });
@@ -12,7 +13,10 @@ function FarmToFork() {
         className={inViewFarmTo ? "elementShow" : "elementHide"}
       >
         <div className={inViewFarmTo ? "elementShowSlower" : "elementHide"}>
-          <img src="" alt="Farm to Fork concept at Fred's Ranch and Resort" />
+          <img
+            src={FarmFork}
+            alt="Farm to Fork concept at Fred's Ranch and Resort"
+          />
         </div>
         <div>
           <h2>Organic Farm-To-Fork Meals</h2>
