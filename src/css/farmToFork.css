@@ -1,15 +1,16 @@
 .farm_to_fork_landing {
-  min-height: 75vh;
-  padding: 8% 0;
+  padding-top: 3%;
+  padding-bottom: 25%;
+  min-height: 60vh;
   background-image: url("../resources/mainGallery/broilerBlurred.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white  ;
+  color: white;
 }
 
 .farm_to_fork_landing .container {
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +21,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .farm_to_fork_landing {
+    padding-bottom: 15%;
+  }
+
   .farm_to_fork_landing .container {
     display: flex;
     flex-direction: row;
