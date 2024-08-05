@@ -87,7 +87,7 @@ export default function EventsPage() {
                 </p>
                 <p>
                   We offer the perfect wedding spot that is within your budget
-                  and the comfort zone of every invited guest. Fred's Ranch &
+                  and the comfort of every invited guest. Fred's Ranch &
                   Resort comes through your day with linens, to flatware,
                   banquet chairs, and more.
                 </p>
@@ -95,7 +95,7 @@ export default function EventsPage() {
               <div className="events_cols">
                 <h3>Photo-Shoots</h3>
                 <p>
-                  Standing on a 16 acre farm, Fred's Ranch i& Resort is the
+                  Standing on a 16 acre farm, Fred's Ranch & Resort is the
                   perfect picturesque photography location in Kajiado.
                 </p>
                 <p>
