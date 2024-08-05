@@ -72,7 +72,7 @@
 }
 
 .contact_cards svg{
-  height: 35px;
+  height: 30px;
 }
 
 @media screen and (min-width: 600px) {
@@ -93,6 +93,6 @@
   }
 
   .contact_cards svg{
-    height: 50px;
+    height: 40px;
   }
 }
