@@ -113,8 +113,13 @@
 .accordion-body .prices {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 700;
+}
+
+.accordion-body h6{
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 600px) {
