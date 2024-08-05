@@ -24,7 +24,13 @@ function ContactCard() {
             <Card.Text>Chat with us</Card.Text>
             <hr />
             <Button>
-              <a href="https://wa.me/254792564243">Click to chat</a>
+              <a
+                href="https://wa.me/254792564243"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click to chat
+              </a>
             </Button>
           </Card.Body>
         </Card>
@@ -41,7 +47,13 @@ function ContactCard() {
             <Card.Text>Mail us</Card.Text>
             <hr />
             <Button variant="primary">
-              <a href="mailto:reservations@fredsranch.co.ke">Send Email</a>
+              <a
+                href="mailto:reservations@fredsranch.co.ke"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Send Email
+              </a>
             </Button>
           </Card.Body>
         </Card>
@@ -57,7 +69,9 @@ function ContactCard() {
             </Card.Title>
             <Card.Text>Call us</Card.Text>
             <hr />
-            <Button variant="primary">Call Now</Button>
+            <Button variant="primary">
+              <a href="tel:+254792564243">Call Now</a>
+            </Button>
           </Card.Body>
         </Card>
       </div>
