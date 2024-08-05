@@ -12,6 +12,7 @@
 @import url("./css/entertainment.css");
 @import url("./css/farmToFork.css");
 @import url("./css/payment.css");
+@import url("./css/infoModal.css");
 
 /* Class to handle outlook of the links to pages from pages */
 .pageLink {
