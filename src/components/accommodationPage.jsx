@@ -200,20 +200,19 @@ function AccommodationPage() {
                 <Accordion.Header>Single Room</Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p>Ksh. 5,500</p>
+                    <h6>Bed Only:</h6>
+                    &nbsp; Ksh. 5,500
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 6,200</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 6,200
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 7,700</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 7,700
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 9,200</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 9,200
                   </div>
                   <bookButton
                     className="book_now"
@@ -228,20 +227,19 @@ function AccommodationPage() {
                 <Accordion.Header>Double Room</Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p>Ksh. 7,500</p>
+                    <h6>Bed Only:</h6>
+                    &nbsp; Ksh. 7,500
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 8,500</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 8,500
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 11,500</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 11,500
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 14,500</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 14,500
                   </div>
                   <bookButton
                     className="book_now"
@@ -256,20 +254,19 @@ function AccommodationPage() {
                 <Accordion.Header>Children (3 - 8 Years)</Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p>Ksh. 3,000</p>
+                    <h6>Bed Only:</h6>
+                    &nbsp; Ksh. 3,000
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 4,500</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 4,500
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 5,500</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 5,500
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 6,500</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 6,500
                   </div>
                   <bookButton
                     className="book_now"
@@ -286,20 +283,19 @@ function AccommodationPage() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p>Ksh. 4,000</p>
+                    <h6>Bed Only:</h6>
+                    &nbsp; Ksh. 4,000
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 6,000</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 6,000
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 8,000</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 8,000
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 10,000</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 10,000
                   </div>
                   <bookButton
                     className="book_now"
@@ -314,20 +310,19 @@ function AccommodationPage() {
                 <Accordion.Header>Camping with own Tent</Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p>Ksh. 2,500</p>
+                    <h6>Bed Only:</h6>
+                    &nbsp; Ksh. 2,500
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 4,000</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 4,000
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 6,000</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 6,000
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 8,000</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 8,000
                   </div>
                   <bookButton
                     className="book_now"
@@ -342,20 +337,19 @@ function AccommodationPage() {
                 <Accordion.Header>Honeymooners Package</Accordion.Header>
                 <Accordion.Body>
                   <div className="prices">
-                    <h6>Bed Only :</h6>
-                    <p></p>
+                    <h6>Bed Only:</h6>
+                    &nbsp;{" "}
                   </div>
                   <div className="prices">
-                    <h6>Bed & Breakfast : </h6>
-                    <p>Ksh. 13,000</p>
+                    <h6>Bed & Breakfast: </h6>&nbsp; Ksh. 13,000
                   </div>
                   <div className="prices">
-                    <h6>Half Day :</h6>
-                    <p>Ksh. 16,000</p>
+                    <h6>Half Day:</h6>
+                    &nbsp; Ksh. 16,000
                   </div>
                   <div className="prices">
-                    <h6>Full Day :</h6>
-                    <p>Ksh. 20,000</p>
+                    <h6>Full Day:</h6>
+                    &nbsp; Ksh. 20,000
                   </div>
                   <bookButton
                     className="book_now"
