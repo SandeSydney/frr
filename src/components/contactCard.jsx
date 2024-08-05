@@ -23,7 +23,7 @@ function ContactCard() {
             </Card.Title>
             <Card.Text>Chat with us</Card.Text>
             <hr />
-            <Button>
+            <Button className="contact_button">
               <a
                 href="https://wa.me/254792564243"
                 target="_blank"
@@ -46,7 +46,7 @@ function ContactCard() {
             </Card.Title>
             <Card.Text>Mail us</Card.Text>
             <hr />
-            <Button variant="primary">
+            <Button className="contact_button" variant="primary">
               <a
                 href="mailto:reservations@fredsranch.co.ke"
                 target="_blank"
@@ -69,7 +69,7 @@ function ContactCard() {
             </Card.Title>
             <Card.Text>Call us</Card.Text>
             <hr />
-            <Button variant="primary">
+            <Button className="contact_button" variant="primary">
               <a href="tel:+254792564243">Call Now</a>
             </Button>
           </Card.Body>
