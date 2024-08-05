@@ -181,6 +181,10 @@ function AccommodationPage() {
           <Container
             className={inViewPackages ? "elementShowSlower" : "elementHide"}
           >
+            <MyVerticallyCenteredModal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Single Room</Accordion.Header>
