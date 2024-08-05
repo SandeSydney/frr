@@ -59,25 +59,17 @@
 }
 
 .book_now {
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.book_now > button {
-  padding: 5% 0;
-  width: 100%;
-  color: black;
-  background-color: transparent;
-  border-radius: 10px;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  font-size: large;
-}
-
-.book_now > button:hover {
   color: white;
+  padding: 10px 15px;
   background-color: #184444;
+  border-radius: 5px;
+  margin: 0 !important;
+}
+
+.book_now:hover {
+  background-color: #c49464;
+  border: 1px solid white;
+  padding: 8px 15px;
 }
 
 .accom_features {
