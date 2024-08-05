@@ -1,15 +1,25 @@
-import React from "react";
-import { Row, Col, Container, Carousel, Accordion } from "react-bootstrap";
-import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
-import bedSide from "../resources/accommodationImages/bedSide.webp";
-import towels from "../resources/accommodationImages/towels.webp";
-import tents from "../resources/accommodationImages/campingTents.webp";
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
-import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
+import React from "react";
+import { Accordion, Carousel, Col, Container, Row } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
+import { Link as RouterLink } from "react-router-dom";
+import { Link } from "react-scroll";
+import bedSide from "../resources/accommodationImages/bedSide.webp";
+import tents from "../resources/accommodationImages/campingTents.webp";
+import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
+import towels from "../resources/accommodationImages/towels.webp";
+import MyVerticallyCenteredModal from "./infoModal";
 
 function AccommodationPage() {
+  const [modalShow, setModalShow] = React.useState(false);
+  const bookButton = ({ className, type, onClick }) => {
+    return (
+      <button type={type} onClick={onClick} className={className}>
+        Book Now
+      </button>
+    );
+  };
+
   const [accomRef, inViewAccom] = useInView({ initialInView: false });
   const [scrollRef, inViewScroll] = useInView({ initialInView: false });
   const [featuresRef, inViewFeatures] = useInView({
@@ -205,6 +215,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 9,200</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -226,6 +243,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 14,500</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -247,6 +271,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 6,500</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -270,6 +301,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 10,000</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
@@ -291,6 +329,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 8,000</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="5">
@@ -312,6 +357,13 @@ function AccommodationPage() {
                     <h6>Full Day :</h6>
                     <p>Ksh. 20,000</p>
                   </div>
+                  <bookButton
+                    className="book_now"
+                    type="submit"
+                    onClick={() => setModalShow(true)}
+                  >
+                    Book Now
+                  </bookButton>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
