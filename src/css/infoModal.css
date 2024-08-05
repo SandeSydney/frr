@@ -7,3 +7,12 @@
 .modal-content {
   background-color: #f0ead6 !important;
 }
+
+/* Make the Modal above everything in the website */
+.modal-backdrop{
+  z-index: 100001 !important;
+}
+
+.modal{
+  z-index: 100002 !important;
+}
