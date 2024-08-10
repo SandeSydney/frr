@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
 import FarmFork from "../resources/mainGallery/FarmFork.png";
+import { Link } from "react-router-dom";
 
 function FarmToFork() {
   const [farmtoRef, inViewFarmTo] = useInView({ initialInView: false });
@@ -30,6 +31,7 @@ function FarmToFork() {
             you get that healthy, amazing taste lingering in your mouth all
             day...
           </p>
+          <Link to={"dining"} className="view_more">More</Link>
         </div>
       </Container>
     </div>
