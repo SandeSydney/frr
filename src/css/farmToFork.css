@@ -29,5 +29,6 @@
   .farm_to_fork_landing .container {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 }
