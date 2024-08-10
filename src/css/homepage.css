@@ -27,7 +27,7 @@
       rgba(24, 68, 68, 0.75)
     ),
     url("../resources/mainGallery/horse_back.webp");
-  box-shadow: 0 -30px 20px 0 rgba(24, 68, 68, 0.92);
+  box-shadow: -20px -30px 20px 20px rgba(24, 68, 68, 0.4);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
