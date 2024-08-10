@@ -56,13 +56,10 @@
 
 /* View More button styles */
 .view_more {
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-  text-align: center;
   color: white;
-  padding: 2% 4%;
   min-width: 100px !important;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 8px;
   font-size: medium;
 }
 
