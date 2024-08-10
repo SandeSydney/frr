@@ -2,6 +2,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 const Welcome_Section = () => {
   const [fadeRef, inView] = useInView({triggerOnce:true});
@@ -14,7 +15,7 @@ const Welcome_Section = () => {
       >
         <Row className="px-4">
           <Col sm={12} md={6}>
-            <div>
+            <div className="welcome_text">
               <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
                 <span className="text-4xl md:text-5xl lg:text-8xl text-[#ffcf62] font-extrabold ">
@@ -24,7 +25,7 @@ const Welcome_Section = () => {
             </div>
           </Col>
           <Col sm={12} md={6}>
-            <div>
+            <div className="welcome_text">
               <p className="font-[Dancing-Script] tracking-wider lg:text-lg">
                 Welcome to{" "}
                 <span className="text-xl underline underline-offset-4">
@@ -39,6 +40,7 @@ const Welcome_Section = () => {
                 traditional vegetables from the farm. Create memories with us
                 that you will forever reminisce about!
               </p>
+              <Link to={"about-us"} className="view_more">Get to know more about us</Link>
             </div>
           </Col>
         </Row>
