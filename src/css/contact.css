@@ -67,8 +67,11 @@
 }
 
 .contact_cards a{
-  color: white;
+  color: #184444;
   text-decoration: none;
+  border: 1px solid #184444;
+  border-radius: 10px;
+  padding: 4px 10px;
 }
 
 .contact_cards svg{
