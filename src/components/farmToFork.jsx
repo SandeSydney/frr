@@ -31,7 +31,7 @@ function FarmToFork() {
             you get that healthy, amazing taste lingering in your mouth all
             day...
           </p>
-          <Link to={"dining"} className="view_more">More</Link>
+          <Link to={"dining"} className="view_more">Find out more</Link>
         </div>
       </Container>
     </div>
