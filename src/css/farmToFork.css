@@ -13,7 +13,8 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  gap: 20px;
 }
 
 .farm_to_fork_landing .container > :nth-child(n) {
