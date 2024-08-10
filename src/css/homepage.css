@@ -37,6 +37,13 @@
   justify-content: center;
 }
 
+.welcome_text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
 .amenities {
   min-height: 65vh;
   padding: 5% 0;
@@ -98,7 +105,7 @@
   width: 50px;
 }
 
-.socials .row{
+.socials .row {
   margin: 0 !important;
 }
 
@@ -124,5 +131,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .welcome_text {
+    text-align: left;
   }
 }
