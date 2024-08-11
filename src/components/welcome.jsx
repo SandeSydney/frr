@@ -40,7 +40,7 @@ const Welcome_Section = () => {
                 traditional vegetables from the farm. Create memories with us
                 that you will forever reminisce about!
               </p>
-              <Link to={"about-us"} className="view_more">Get to know more about us</Link>
+              <Link to={"about-us"} className="view_more">Get to know us</Link>
             </div>
           </Col>
         </Row>
