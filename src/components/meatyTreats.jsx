@@ -43,7 +43,7 @@ function MeatyTreats() {
       <Row>
         {meatyTreats.map((item, index) => {
           return (
-            <Col xs={12} sm={12} md={3} key={index}>
+            <Col xs={6} sm={6} md={2} key={index}>
               <img className="m-2" src={item.imgSrc} alt="" />
             </Col>
           );
