@@ -60,7 +60,7 @@
 }
 
 .contact_cards svg {
-  height: 30px;
+  width: 30px;
 }
 
 /* Form Styling */
@@ -133,10 +133,6 @@ form .control_main {
   .contact_cards .card {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .contact_cards svg {
-    height: 40px;
   }
 
   /* Form Styling Large Devices */
