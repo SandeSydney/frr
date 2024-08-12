@@ -32,21 +32,6 @@
   font-weight: 500;
 }
 
-.form_landing {
-  min-height: 70vh;
-  padding: 5% 0;
-}
-
-.form_landing .form_container {
-  padding: 0 8%;
-}
-
-.form_fieldset {
-  border: 2px solid;
-  padding: 5%;
-  border-radius: 10px;
-}
-
 .contact_cards {
   display: flex;
   flex-direction: column;
@@ -54,19 +39,19 @@
   gap: 10px;
 }
 
-.contact_cards .card{
+.contact_cards .card {
   text-align: center;
   width: 15rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contact_cards .card-title{
+.contact_cards .card-title {
   display: flex;
   justify-content: center;
 }
 
-.contact_cards a{
+.contact_cards a {
   color: #184444;
   text-decoration: none;
   border: 1px solid #184444;
@@ -74,13 +59,68 @@
   padding: 4px 10px;
 }
 
-.contact_cards svg{
+.contact_cards svg {
   height: 30px;
+}
+
+/* Form Styling */
+.form_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  width: 100%;
+  padding: 5%;
+  margin: 2% 0;
+  border: 1px solid white;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+form .control_main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_control {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.form_control input[type="text"],
+.form_control input[type="email"],
+.form_control input[type="tel"],
+.form_control textarea,
+.form_control select {
+  padding: 5px;
+  color: black;
+  border-radius: 8px;
+}
+
+.buttons {
+  padding: 1% 0;
+}
+
+.buttons button {
+  border: 1px solid white;
+  padding: 5px 8px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #184444;
 }
 
 @media screen and (min-width: 600px) {
   .contact_landing {
-    min-height: 40vh;
+    min-height: 20vh;
   }
 
   .contact_cards {
@@ -90,12 +130,28 @@
     gap: 20px;
   }
 
-  .contact_cards .card{
+  .contact_cards .card {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .contact_cards svg{
+  .contact_cards svg {
     height: 40px;
+  }
+
+  /* Form Styling Large Devices */
+  form {
+    width: 75%;
+    padding: 2% 5%;
+  }
+
+  form .control_main {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .form_control {
+    padding: 10px 0;
+    margin: 1% 0;
   }
 }
