@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { getFirestore, addDoc, collection } from "firebase/firestore";
 
 function ContactForm() {
   const [values, setValues] = useState({
@@ -10,13 +11,28 @@ function ContactForm() {
     description: "",
   });
 
+  const db = getFirestore();
+
   const handleChanges = (e) => {
     setValues({ ...values, [e.target.name]: [e.target.value] });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(values);
+    await addDoc(collection(db, "contactForm"), {
+      values,
+    });
+  };
+
+  const handleReset = () => {
+    setValues({
+      firstname: "",
+      lastname: "",
+      email: "",
+      phone: "",
+      selectItem: "",
+      description: "",
+    });
   };
 
   return (
@@ -29,6 +45,7 @@ function ContactForm() {
               <input
                 type="text"
                 name="firstname"
+                id="firstname"
                 required
                 onChange={(e) => {
                   handleChanges(e);
@@ -39,6 +56,7 @@ function ContactForm() {
               <label htmlFor="lastname">Last Name*:</label>
               <input
                 type="text"
+                id="lastname"
                 name="lastname"
                 required
                 onChange={(e) => {
