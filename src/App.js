@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./firebaseConfig";
 import Footer from "./components/footer";
 import Homepage from "./components/homepage";
 import Navbar_Main from "./components/navbar";
