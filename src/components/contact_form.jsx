@@ -10,7 +10,10 @@ function ContactForm() {
   const selectItem = useRef();
   const description = useRef();
 
+  const getPostDate = new Date();
+
   const [values, setValues] = useState({
+    date: getPostDate,
     firstname: "",
     lastname: "",
     email: "",
@@ -58,6 +61,7 @@ function ContactForm() {
       {" "}
       <div className="form_div">
         <form action="" onSubmit={handleSubmit}>
+          <input type="date" name="date" value={getPostDate} hidden />
           <div className="control_main">
             <div className="form_control">
               <label htmlFor="firstname">First Name*:</label>
