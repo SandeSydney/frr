@@ -1,6 +1,6 @@
+import { addDoc, collection, getFirestore } from "firebase/firestore";
 import React, { useRef, useState } from "react";
-import { getFirestore, addDoc, collection } from "firebase/firestore";
-import { ScrollRestoration } from "react-router-dom";
+import { toast } from "react-toastify";
 
 function ContactForm() {
   const firstname = useRef();
@@ -21,6 +21,10 @@ function ContactForm() {
 
   const db = getFirestore();
 
+  const successToast = () => {
+    toast("Thank you for your feedback!");
+  };
+
   const handleChanges = (e) => {
     setValues({ ...values, [e.target.name]: [e.target.value] });
   };
@@ -38,6 +42,8 @@ function ContactForm() {
       await addDoc(collection(db, "contactForm"), {
         values,
       });
+
+      successToast();
     }
 
     firstname.current.value = "";
@@ -49,6 +55,7 @@ function ContactForm() {
 
   return (
     <>
+      {" "}
       <div className="form_div">
         <form action="" onSubmit={handleSubmit}>
           <div className="control_main">
