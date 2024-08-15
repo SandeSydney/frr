@@ -34,10 +34,10 @@ export default function AboutPage() {
               </p>
               <p>
                 The Ranch stands on a 10 acre farm, hosting various opulent
-                amenities such as Restaurants, Dispense, Cocktail & Juice Bars,
+                amenities. These are Restaurants, Cocktail & Juice Bars,
                 Cottages, Swimming Pool, Conferencing Halls, and organic
-                Livestock & Plant varieties, all graced by the Texas-inspired
-                Cowboy Theme.{" "}
+                Livestock & Plant varieties. All these are graced by the
+                Texas-inspired Cowboy Theme.{" "}
               </p>
             </Col>
             <Col xs={12} sm={12} md={6}>
@@ -53,9 +53,10 @@ export default function AboutPage() {
                 grilled Mbuzi choma made with the chef's secret recipe.
               </p>
               <p>
-                We have a vibrant team on-premises that ensure you really feel
-                at home, as their interaction is seamless, full of life, and
-                with bright smiles. Customer satisfaction is our priority!
+                Fred's Ranch and Resort has a vibrant team on-premises that
+                ensure you really feel at home. The teams' interaction is
+                seamless, full of life, and with bright smiles. Customer
+                satisfaction is our priority!
               </p>
             </Col>
           </Row>
