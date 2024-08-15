@@ -34,13 +34,13 @@ export default function Features() {
                 className={inRef1View ? "elementShowSlower" : "elementHide"}
               >
                 <p className="font-[Dancing-Script] tracking-wider lg:text-xl">
-                  Fred's Ranch & Resort is an integral part of Kajiado Getaways,
-                  and located 70 kilometers from Nairobi City Center, we set the
-                  standards for excellence in vacation experiences.The easy
-                  Rhumba Music playing in the background as you enjoy your
-                  favourite cocktail or having a dip in the exquisite swimming
-                  pool is definitely the perfect escape from the hustle of the
-                  city.
+                  Fred's Ranch & Resort is an integral part of Kajiado Getaways.
+                  Located just 70 kilometers from Nairobi City Center, Fred's
+                  Ranch and Resort sets the standards for excellence in vacation
+                  experiences.The easy Rhumba Music playing in the background as
+                  you enjoy your favourite cocktail or having a dip in the
+                  exquisite swimming pool is definitely the perfect escape from
+                  the hustle of the city.
                 </p>
               </div>
               <div className="flex gap-1 content-center">

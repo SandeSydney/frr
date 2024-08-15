@@ -50,7 +50,7 @@ export default function DiningPage() {
               <h1 className="font-bold">- Dine With Us -</h1>
               <p className="text-white text-xl md:text-2xl font-semibold font-[Alegreya SC]">
                 ... If you haven't had our mbuzi choma then you haven't tasted
-                the Kajiado's Finest{" "}
+                the Kajiado's Finest!{" "}
                 <span>
                   <FormatQuoteIcon className="text-[#ffcf62]" />
                 </span>

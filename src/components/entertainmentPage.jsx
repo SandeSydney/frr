@@ -147,14 +147,14 @@ function EntertainmentPage() {
                 <h3>Farm Tours</h3>
                 <p>
                   Organic produce and farming techniques is the core of Fred's
-                  Ranch and Resort. Come and experience diverse farming
+                  Ranch and Resort farm. Come and experience diverse farming
                   techniques that put farm-fresh organic produce on our menu.
                 </p>
                 <p>
                   Fred's Ranch and Resort has a range of crops and livestock
                   that are brought up organically. Visit the ranch to get
                   exposure on how well you can farm to produce high yields,
-                  regardless of being a small or large farmer.
+                  regardless of being a small scale or large scale farmer.
                 </p>
                 <p>"Nurturing Nature, Harvesting Health!"</p>
                 <Carousel>

@@ -28,8 +28,7 @@ function FarmToFork() {
           </p>
           <p>
             The Farm-Fresh meals are carefully crafted by the chefs to ensure
-            you get that healthy, amazing taste lingering in your mouth all
-            day...
+            you get that healthy diet, leaving an amazing taste lingering in your mouth...
           </p>
           <Link to={"dining"} className="view_more">Find out more</Link>
         </div>

@@ -34,9 +34,9 @@ const Welcome_Section = () => {
                 , where serenity is blended in harmony with the Texas Cowboy
                 Theme. Enjoy the natural background of beautiful lawns,
                 haystacks, dairy cattle, Rhumba Music and smiling faces. We love
-                our food! Chefs at Freds Ranch & Resort serve orginically
+                our food! Chefs at Freds Ranch & Resort serve organically
                 prepared dishes, fresh from the farm. Titillate your palate with
-                the delectable Kenyan Cuisine of tender meats from the grill and
+                the delicious Kenyan Cuisine of tender meats from the grill and
                 traditional vegetables from the farm. Create memories with us
                 that you will forever reminisce about!
               </p>
