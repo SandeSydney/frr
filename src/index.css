@@ -12,7 +12,19 @@ html {
 
 @font-face {
   font-family: "Carnevalee Freakshow";
-  src: url(/public/Carnevalee\ Freakshow.ttf);
+  src: url("/public/Carnevalee\ Freakshow.ttf");
+}
+
+@font-face {
+  font-family: "Dellyani";
+  src: url("/public/Dellyani.ttf");
+}
+
+* {
+  font-family: "poppins";
+  font-size: medium;
+  margin: 0;
+  padding: 0;
 }
 
 body {
