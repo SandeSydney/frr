@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 const Welcome_Section = () => {
-  const [fadeRef, inView] = useInView({triggerOnce:true});
+  const [fadeRef, inView] = useInView({ triggerOnce: true });
 
   return (
     <div className="welcome" id="welcome">
@@ -18,7 +18,7 @@ const Welcome_Section = () => {
             <div className="welcome_text">
               <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
-                <span className="text-4xl md:text-5xl lg:text-8xl text-[#ffcf62] font-extrabold ">
+                <span className="text-2xl md:text-5xl lg:text-7xl text-[#ffcf62] font-extrabold ">
                   cowboy <br /> experience...
                 </span>
               </p>
@@ -26,7 +26,7 @@ const Welcome_Section = () => {
           </Col>
           <Col sm={12} md={6}>
             <div className="welcome_text">
-              <p className="font-[Dancing-Script] tracking-wider lg:text-lg">
+              <p className="tracking-wider">
                 Welcome to{" "}
                 <span className="text-xl underline underline-offset-4">
                   Fred's Ranch & Resort
@@ -40,7 +40,9 @@ const Welcome_Section = () => {
                 traditional vegetables from the farm. Create memories with us
                 that you will forever reminisce about!
               </p>
-              <Link to={"about-us"} className="view_more">Get to know us</Link>
+              <Link to={"about-us"} className="view_more">
+                Get to know us
+              </Link>
             </div>
           </Col>
         </Row>
