@@ -1,0 +1,10 @@
+.styles-module_whatsappChatBox__MdQ5U {
+  min-height: 50vh !important;
+  font-size: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .styles-module_whatsappChatBox__MdQ5U {
+    min-height: 30vh !important;
+  }
+}

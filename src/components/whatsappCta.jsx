@@ -15,6 +15,7 @@ function WhatsappCta() {
         notification={true}
         notificationLoop={2}
         allowEsc={true}
+        className="whatsappcta"
       />
     </div>
   );
