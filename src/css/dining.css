@@ -13,8 +13,12 @@
   background-color: #15262ead;
   color: #c49464;
   text-align: center;
-  font-family: "Alegreya SC";
   padding: 5%;
+}
+
+.dining_main > div > h1,
+.dining_main > div > p {
+  font-family: "Alegreya SC";
 }
 
 .fresh_dining {
