@@ -20,17 +20,18 @@
 .entertainment_landing .entertainment_landing_text {
   background-color: rgba(21, 38, 46, 0.678);
   padding: 3%;
-  font-family: "Alegreya SC";
 }
 
 .entertainment_landing_text h1 {
   font-size: 220%;
   color: #c49464;
+  font-family: "Alegreya SC";
 }
 
 .entertainment_landing_text p {
   font-size: 120%;
   color: white;
+  font-family: "Alegreya SC";
 }
 
 @media screen and (min-width: 600px) {
