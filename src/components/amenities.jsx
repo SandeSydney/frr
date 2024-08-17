@@ -10,11 +10,9 @@ import Groups2SharpIcon from "@mui/icons-material/Groups2Sharp";
 import PoolSharpIcon from "@mui/icons-material/PoolSharp";
 import SpaIcon from "@mui/icons-material/Spa";
 import StarHalfSharpIcon from "@mui/icons-material/StarHalfSharp";
-import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 
 const Amenities = () => {
@@ -117,20 +115,23 @@ const Amenities = () => {
           </div>
         </div>
         <div className="explore">
-          <p className="font-bold text-4xl text-center">
-            Peek At Our
-            <span className="text-[#c49464] text-4xl"> Gallery</span>
+          <p className="font-bold text-2xl text-center">
+            Visit
+            <span className="text-[#c49464] text-2xl">
+              {" "}
+              Fred's Ranch & Resort
+            </span>
           </p>
           <p>
             Spending time at our ranch is both relaxing and breathtaking. You
             get to enjoy a serene and tranquil environment, <br />
             leaving happier than you came.
           </p>
-          <Link to="/dining#foodGallery" smooth={true} offset={-100}>
+          {/* <Link to="/dining#foodGallery" smooth={true} offset={-100}>
             <button>
               <TrendingFlatIcon />
             </button>
-          </Link>
+          </Link> */}
         </div>
       </Container>
     </section>
