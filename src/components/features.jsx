@@ -19,14 +19,15 @@ export default function Features() {
         <img src={chomaDisplay} alt="Mbuzi choma grill" />
 
         <div className="flex flex-col">
-          <h2 className="text-center">
-            <div
-              ref={glimpseRef}
-              className={inView ? "elementShow" : "elementHide"}
-            >
+          <div
+            ref={glimpseRef}
+            className={inView ? "elementShow" : "elementHide"}
+          >
+            <h2 className="text-center" style={{ fontFamily: "Alegreya SC" }}>
               A Glimpse Of The Ranch
-            </div>
-          </h2>
+            </h2>
+          </div>
+
           <div className="features_glimpse">
             <div className="features_content">
               <div
