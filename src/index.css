@@ -22,7 +22,7 @@ html {
 
 * {
   font-family: "poppins";
-  font-size: medium;
+  font-size: inherit;
   margin: 0;
   padding: 0;
 }
