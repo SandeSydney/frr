@@ -119,7 +119,7 @@ const Amenities = () => {
         <div className="explore">
           <p className="font-bold text-4xl text-center">
             Peek At Our
-            <span className="text-[#c49464]"> Gallery</span>
+            <span className="text-[#c49464] text-4xl"> Gallery</span>
           </p>
           <p>
             Spending time at our ranch is both relaxing and breathtaking. You
