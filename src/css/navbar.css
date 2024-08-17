@@ -77,3 +77,11 @@
   justify-content: space-around;
   align-items: center;
 }
+
+/* Finding and styling the active navigation link */
+.linkActive {
+  color: #c49464 !important;
+  font-weight: 500;
+  text-decoration: 3px underline #c49464 !important;
+  text-underline-offset: 12px !important;
+}

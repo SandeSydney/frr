@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
-export default function Nav_Section({logoSrc}) {
+export default function Nav_Section({ logoSrc }) {
   return (
     <Container>
       <div>
@@ -20,13 +20,62 @@ export default function Nav_Section({logoSrc}) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="">
-          <Link to="/">Home</Link>
-          <Link to={"about-us"}>About Us</Link>
-          <Link to={"dining"}>Dining</Link>
-          <Link to={"events"}>Events</Link>
-          <Link to={"accommodation"}>Accommodation</Link>
-          <Link to={"entertainment"}>Entertainment</Link>
-          <Link to={"contact-us"}>Contact Us</Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to={"about-us"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            to={"dining"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Dining
+          </NavLink>
+          <NavLink
+            to={"events"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Events
+          </NavLink>
+          <NavLink
+            to={"accommodation"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Accommodation
+          </NavLink>
+          <NavLink
+            to={"entertainment"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Entertainment
+          </NavLink>
+          <NavLink
+            to={"contact-us"}
+            className={({ isActive }) =>
+              [isActive ? "linkActive" : ""].join(" ")
+            }
+          >
+            Contact Us
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Container>
