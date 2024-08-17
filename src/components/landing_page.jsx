@@ -19,7 +19,7 @@ const Landing = () => {
         preRenderFirstString={true}
       />
       <div className="flex h-7 text-white">
-        <p className=" text-xs md:text-sm underline underline-offset-8 cursor-pointer">
+        <p className="underline underline-offset-8 cursor-pointer">
           <Link
             to="welcome"
             spy={true}
