@@ -7,7 +7,6 @@
   min-width: 65vw;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  font-family: "Alegreya SC";
 }
 
 .navbar-nav .nav-link,
@@ -16,7 +15,6 @@
   display: inline;
   text-decoration: none;
   margin: 5px 0;
-  font-size: large;
 }
 
 .navbar_sec {
@@ -78,12 +76,4 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: large;
-}
-
-@media screen and (min-width: 600px) {
-  .navbar_sec,
-  .navbar_open {
-    font-size: larger !important;
-  }
 }
