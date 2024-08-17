@@ -10,8 +10,10 @@ function WhatsappCta() {
         accountName="Fred's Ranch and Resort"
         avatar={logo}
         chatMessage="Hi there! How can I assist you today?"
-        statusMessage="Typically replies within 10 min"
+        statusMessage="Typically replies within 5 mins"
         placeholder="Write here..."
+        notification={true}
+        notificationLoop={2}
         allowEsc={true}
       />
     </div>
