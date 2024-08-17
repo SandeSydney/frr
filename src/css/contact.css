@@ -27,8 +27,12 @@
   margin-bottom: 15px;
 }
 
+.contact_landing p {
+  font-family: "Dellyani";
+  font-size: 200%;
+}
+
 .contact_landing h2 {
-  font-family: "Dancing_Script";
   font-weight: 500;
 }
 
@@ -121,6 +125,10 @@ form .control_main {
 @media screen and (min-width: 600px) {
   .contact_landing {
     min-height: 20vh;
+  }
+
+  .contact_landing p {
+    font-size: 300%;
   }
 
   .contact_cards {
