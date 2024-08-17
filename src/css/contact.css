@@ -70,7 +70,7 @@
   align-items: center;
 }
 
-form {
+.form_div form {
   display: flex;
   flex-direction: column;
   min-height: 40vh;
@@ -136,7 +136,7 @@ form .control_main {
   }
 
   /* Form Styling Large Devices */
-  form {
+  .form_div form {
     width: 75%;
     padding: 2% 5%;
   }
