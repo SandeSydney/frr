@@ -115,10 +115,13 @@
   margin: 10px 0;
 }
 
-.social_cols a {
+.social_cols {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.social_cols a {
   text-decoration: none;
   color: white;
 }
