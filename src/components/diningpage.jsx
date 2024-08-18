@@ -47,7 +47,7 @@ export default function DiningPage() {
               ref={landingRef}
               className={inLandingView ? "elementShow" : "elementHide"}
             >
-              <h1 className="font-bold">- Dine With Us -</h1>
+              <h1 className="font-bold">- Elegance With Every Bite -</h1>
               <p className="text-white text-xl md:text-2xl font-semibold font-[Alegreya SC]">
                 ... If you haven't had our mbuzi choma then you haven't tasted
                 the Kajiado's Finest!{" "}
