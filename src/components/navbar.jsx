@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav_Section from "./nav_section";
 import logoSrc from "../resources/logos/logoBlack.png";
 
-export default function Navbar_Main() {
+export default function NAVBAR_MAIN() {
   // setting constant to determine if the navigation bar will be visible
   const [visible, setVisible] = useState(false);
 

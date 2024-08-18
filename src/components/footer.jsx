@@ -17,7 +17,8 @@ const Footer = () => {
               <img
                 src={frr_logo}
                 alt="Fred's Ranch Logo"
-                title="Footer image Fred's Ranch & Resort" loading="lazy"
+                title="Footer image Fred's Ranch & Resort"
+                loading="lazy"
               />
             </Col>
             <Col xs={6} sm={6} md={3}>
@@ -62,13 +63,21 @@ const Footer = () => {
               </p>
               <p>
                 <EmailIcon /> &nbsp;
-                <a href="mailto:reservations@fredsranch.co.ke" target="_blank">
+                <a
+                  href="mailto:reservations@fredsranch.co.ke"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   reservations@fredsranch.co.ke
                 </a>
               </p>
               <p>
                 <EmailIcon /> &nbsp;
-                <a href="mailto:info@fredsranch.co.ke" target="_blank">
+                <a
+                  href="mailto:info@fredsranch.co.ke"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   info@fredsranch.co.ke
                 </a>
               </p>

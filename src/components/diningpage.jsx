@@ -130,7 +130,7 @@ export default function DiningPage() {
           <Container>
             <h2 className="text-center">Checkout Our Menu</h2>
             <div className="foodMenu">
-              <iframe src={foodMenu} frameborder="0"></iframe>
+              <iframe src={foodMenu} frameborder="0" title="Fred's Ranch and Resort Food Menu"></iframe>
             </div>
           </Container>
         </div>

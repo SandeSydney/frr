@@ -12,13 +12,6 @@ import MyVerticallyCenteredModal from "./infoModal";
 
 function AccommodationPage() {
   const [modalShow, setModalShow] = React.useState(false);
-  const bookButton = ({ className, type, onClick }) => {
-    return (
-      <button type={type} onClick={onClick} className={className}>
-        Book Now
-      </button>
-    );
-  };
 
   const [accomRef, inViewAccom] = useInView({ initialInView: false });
   const [scrollRef, inViewScroll] = useInView({ initialInView: false });

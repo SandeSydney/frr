@@ -1,13 +1,12 @@
 import SouthSharpIcon from "@mui/icons-material/SouthSharp";
 import { Container } from "react-bootstrap";
-import { Link as ScrollLink } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import birthdayCakes from "../resources/eventsImageGallery/birthdayCakes.webp";
-import tableEvents2 from "../resources/eventsImageGallery/tableEvents2.webp";
-import weddingTents from "../resources/eventsImageGallery/weddingTents.webp";
-import weddingPeople from "../resources/eventsImageGallery/weddingPeople.webp";
 import conference from "../resources/eventsImageGallery/conference.webp";
+import weddingPeople from "../resources/eventsImageGallery/weddingPeople.webp";
+import weddingTents from "../resources/eventsImageGallery/weddingTents.webp";
 
 export default function EventsPage() {
   // variables for scroll animations using useInView

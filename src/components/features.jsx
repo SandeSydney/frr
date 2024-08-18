@@ -60,7 +60,7 @@ export default function Features() {
                 ref={glimpseImgRef}
                 className={inViewImage ? "elementShowSlower" : "elementHide"}
                 src={events}
-                alt="Events image"
+                alt="Events Description"
                 title="Fred's Ranch Events" loading="lazy"
               />
             </div>

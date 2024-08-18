@@ -7,7 +7,6 @@ function ContactForm() {
   const lastname = useRef();
   const email = useRef();
   const phone = useRef();
-  const selectItem = useRef();
   const description = useRef();
 
   const getPostDate = new Date();
