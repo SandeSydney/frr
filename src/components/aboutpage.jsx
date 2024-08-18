@@ -16,9 +16,9 @@ export default function AboutPage() {
       <div className="about">
         <Container>
           <div className="about_spacer"></div>
-          <h2 ref={fadeRef} className={inView ? "elementShow" : "elementHide"}>
+          <h1 ref={fadeRef} className={inView ? "elementShow" : "elementHide"}>
             The Perfect Getaway!
-          </h2>
+          </h1>
           <Row
             ref={fadeRef}
             className={inView ? "elementShowSlower" : "elementHide"}
@@ -64,19 +64,19 @@ export default function AboutPage() {
       </div>
       <div className="features">
         <Container>
-          <h4
+          <h2
             ref={featuresRef}
             className={inViewFeatures ? "elementShow" : "elementHide"}
           >
             Explore What We Have
-          </h4>
+          </h2>
           <Row
             ref={featuresRow1}
             className={inViewFeaturesRow1 ? "elementShowSlower" : "elementHide"}
           >
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="restaurant">
-                <h5>Restaurant</h5>
+                <h3>Restaurant</h3>
                 <p>
                   Enjoy your dining experience either at the Garden Restarurant
                   or Pool Restaurant where we serve local African Cuisine in an
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="events">
-                <h5>Events</h5>
+                <h3>Events</h3>
                 <p>
                   Book your event through our reservation office to cater for
                   your corporate functions, tours, weddings, celebrations,
@@ -102,7 +102,7 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="accommodation">
-                <h5>Accommodation</h5>
+                <h3>Accommodation</h3>
                 <p>
                   Enjoy the comfort of our Apartments, Cottages, or Camping
                   Tents for accommodation, Each with a luxury of its own to suit
@@ -120,7 +120,7 @@ export default function AboutPage() {
           >
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="entertainment">
-                <h5>Entertainment</h5>
+                <h3>Entertainment</h3>
                 <p>
                   Engage in Rhumba Music and a rustic ranch and cowboy feel to
                   entertain you and keep you delighted as you explore the
@@ -133,7 +133,7 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="agritourism">
-                <h5>Edutainment</h5>
+                <h3>Edutainment</h3>
                 <p>
                   Enjoy our Farm-to-Fork experience by touring the Fred's Ranch
                   Farm and exploring our animal products and fresh farm
@@ -146,7 +146,7 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={4}>
               <div className="about_items" id="school">
-                <h5>School</h5>
+                <h3>School</h3>
                 <p>
                   We are passionate about the hospitality industry and
                   revolutionizing the hospitality experience in Kenya and Africa
