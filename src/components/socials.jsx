@@ -17,13 +17,24 @@ function Socials() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Instagram} alt="Fred's Ranch Instagram Page" /> Freds
-            Ranch
+            <img
+              src={Instagram}
+              alt="Fred's Ranch Instagram Page"
+              title="Fred's Ranch Instagram"
+              loading="lazy"
+            />{" "}
+            Freds Ranch
           </RouterLink>
         </Col>
         <Col className="social_cols" xs={12}>
           <RouterLink to="">
-            <img src={Twitter} alt="Fred's Ranch Twitter Page" /> freds_ranch
+            <img
+              src={Twitter}
+              alt="Fred's Ranch Twitter Page"
+              title="Fred's Ranch Twitter Handle"
+              loading="lazy"
+            />{" "}
+            freds_ranch
           </RouterLink>
         </Col>
         <Col className="social_cols" xs={12}>
@@ -32,7 +43,13 @@ function Socials() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Facebook} alt="Fred's Ranch Facebook Page" /> fredsranch
+            <img
+              src={Facebook}
+              alt="Fred's Ranch Facebook Page"
+              title="Fred's Ranch Facebook Handle"
+              loading="lazy"
+            />{" "}
+            fredsranch
           </RouterLink>
         </Col>
         <Col className="social_cols" xs={12}>
@@ -41,7 +58,13 @@ function Socials() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Tiktok} alt="Fred'd Ranch Tiktok Page" /> @freds_ranch
+            <img
+              src={Tiktok}
+              alt="Fred'd Ranch Tiktok Page"
+              title="Fred's Ranch Tiktok Handle"
+              loading="lazy"
+            />{" "}
+            @freds_ranch
           </RouterLink>
         </Col>
       </Row>

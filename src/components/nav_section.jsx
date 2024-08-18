@@ -13,6 +13,8 @@ export default function Nav_Section({ logoSrc }) {
             className="w-28 md:w-40"
             src={logoSrc}
             alt="Fred's Ranch and Resort Logo"
+            title="Fred's Ranch and Resort Logo"
+            loading="eager"
           />
         </Link>
       </div>

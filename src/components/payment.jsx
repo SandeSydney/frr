@@ -28,26 +28,38 @@ function PaymentMethods() {
             <img
               src={equitybank}
               alt="Equity Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
             <img
               src={americanExpress}
               alt="American Express Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
             <img
               src={mastercard}
               alt="Mastercard Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
             <img
               src={unionpay}
               alt="Union Pay Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
             <img
               src={visa}
               alt="Visa Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
             <img
               src={mpesa}
               alt="Mpesa Payment method in Fred's Ranch and Resort"
+              title="Fred's Ranch payment method"
+              loading="lazy"
             />
           </div>
         </Container>

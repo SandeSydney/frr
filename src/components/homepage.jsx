@@ -1,13 +1,13 @@
-import { Carousel, CarouselItem, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Amenities from "./amenities";
-import Features from "./features";
-import Landing from "./landing_page";
-import Welcome_Section from "./welcome";
-import HomeCarousel from "./homeCarousel";
-import MapLocation from "./maps";
-import Socials from "./socials";
 import FarmToFork from "./farmToFork";
+import Features from "./features";
+import HomeCarousel from "./homeCarousel";
+import Landing from "./landing_page";
+import MapLocation from "./maps";
 import PaymentMethods from "./payment";
+import Socials from "./socials";
+import Welcome_Section from "./welcome";
 
 export default function Homepage() {
   return (

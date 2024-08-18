@@ -16,12 +16,12 @@ const Welcome_Section = () => {
         <Row className="px-4">
           <Col sm={12} md={6}>
             <div className="welcome_text">
-              <p className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-[Dancing-Script] italic">
                 welcome to the <br />
                 <span className="text-3xl md:text-5xl lg:text-7xl text-[#ffcf62] font-extrabold ">
                   cowboy <br /> experience...
                 </span>
-              </p>
+              </h1>
             </div>
           </Col>
           <Col sm={12} md={6}>

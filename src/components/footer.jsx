@@ -14,7 +14,11 @@ const Footer = () => {
         <Container>
           <Row className="foot_details">
             <Col xs={12} sm={12} md={2}>
-              <img src={frr_logo} alt="Fred's Ranch Logo" />
+              <img
+                src={frr_logo}
+                alt="Fred's Ranch Logo"
+                title="Footer image Fred's Ranch & Resort" loading="lazy"
+              />
             </Col>
             <Col xs={6} sm={6} md={3}>
               <h3>Quick Links</h3>

@@ -17,6 +17,8 @@ function FarmToFork() {
           <img
             src={FarmFork}
             alt="Farm to Fork concept at Fred's Ranch and Resort"
+            title="Farm to fork concept Fred's Ranch"
+            loading="eager"
           />
         </div>
         <div>

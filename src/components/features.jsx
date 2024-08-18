@@ -16,7 +16,7 @@ export default function Features() {
   return (
     <div className="features">
       <Container className="features_container">
-        <img src={chomaDisplay} alt="Mbuzi choma grill" />
+        <img src={chomaDisplay} alt="Mbuzi choma grill" title="Fred's Ranch Mbuzi choma" loading="eager"/>
 
         <div className="flex flex-col">
           <div
@@ -60,7 +60,8 @@ export default function Features() {
                 ref={glimpseImgRef}
                 className={inViewImage ? "elementShowSlower" : "elementHide"}
                 src={events}
-                alt=""
+                alt="Events image"
+                title="Fred's Ranch Events" loading="lazy"
               />
             </div>
           </div>
