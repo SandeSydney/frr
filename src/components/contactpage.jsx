@@ -9,11 +9,10 @@ function ContactUsPage() {
       <div className="about_spacer"></div>
       <Container>
         <div className="contact_landing">
-          <h1>Get in touch</h1>
-          <p className="text-2xl">
+          <h1>Get in touch with Us</h1>
+          <h2 className="text-2xl">
             Ready to experience an adventure you will live to remember?
-          </p>
-          <h2>LET US HEAR FROM YOU!</h2>
+          </h2>
         </div>
       </Container>
       <ContactCard />
