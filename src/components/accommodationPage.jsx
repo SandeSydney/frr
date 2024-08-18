@@ -70,7 +70,7 @@ function AccommodationPage() {
           ref={featuresRef}
           className={inViewFeatures ? "elementShow" : "elementHide"}
         >
-          <h4 className="font-bold">Accommodation Features</h4>
+          <h2 className="font-bold">Accommodation Features</h2>
           <div
             ref={featuresRef}
             className={inViewFeatures ? "elementShowSlower" : "elementHide"}
