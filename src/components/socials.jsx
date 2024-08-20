@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Facebook from "../resources/logos/facebookLogo.png";
-import Instagram from "../resources/logos/instagramLogo.png";
-import Tiktok from "../resources/logos/tiktokLogo.png";
-import Twitter from "../resources/logos/twitterLogo.png";
+import Facebook from "../resources/logos/facebookLogo.webp";
+import Instagram from "../resources/logos/instagramLogo.webp";
+import Tiktok from "../resources/logos/tiktokLogo.webp";
+import Twitter from "../resources/logos/twitterLogo.webp";
 
 function Socials() {
   return (

@@ -1,6 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav_Section from "./nav_section";
-import logoWhite from "../resources/logos/logoWhite.png";
+import logoWhite from "../resources/logos/logoWhite.webp";
 
 export default function NAVBAR_SEC() {
   return (

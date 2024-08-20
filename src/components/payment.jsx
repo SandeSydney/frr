@@ -1,10 +1,10 @@
 import React from "react";
-import americanExpress from "../resources/logos/americanExpress.png";
-import equitybank from "../resources/logos/equity.png";
-import mastercard from "../resources/logos/mastercard.png";
-import unionpay from "../resources/logos/unionpay.png";
-import visa from "../resources/logos/visa.png";
-import mpesa from "../resources/logos/mpesa.png";
+import americanExpress from "../resources/logos/americanExpress.webp";
+import equitybank from "../resources/logos/equity.webp";
+import mastercard from "../resources/logos/mastercard.webp";
+import unionpay from "../resources/logos/unionpay.webp";
+import visa from "../resources/logos/visa.webp";
+import mpesa from "../resources/logos/mpesa.webp";
 import { Container } from "react-bootstrap";
 import { useInView } from "react-intersection-observer";
 

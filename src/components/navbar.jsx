@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav_Section from "./nav_section";
-import logoSrc from "../resources/logos/logoBlack.png";
+import logoSrc from "../resources/logos/logoBlack.webp";
 
 export default function NAVBAR_MAIN() {
   // setting constant to determine if the navigation bar will be visible
