@@ -36,7 +36,7 @@ function StarchItems() {
         {starches.map((item, index) => {
           return (
             <Col xs={6} sm={6} md={2} key={index}>
-              <img className="m-2" src={item.imgSrc} alt="" />
+              <img className="m-2" src={item.imgSrc} alt="Fred' Ranch and Resort Meal" loading="lazy"/>
             </Col>
           );
         })}

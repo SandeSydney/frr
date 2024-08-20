@@ -18,7 +18,7 @@ const Footer = () => {
                 src={frr_logo}
                 alt="Fred's Ranch Logo"
                 title="Footer image Fred's Ranch & Resort"
-                loading="lazy"
+                loading="eager"
               />
             </Col>
             <Col xs={6} sm={6} md={3}>

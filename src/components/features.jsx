@@ -61,7 +61,7 @@ export default function Features() {
                 className={inViewImage ? "elementShowSlower" : "elementHide"}
                 src={events}
                 alt="Events Description"
-                title="Fred's Ranch Events" loading="lazy"
+                title="Fred's Ranch Events" loading="eager"
               />
             </div>
           </div>
