@@ -33,7 +33,7 @@ export default function AboutPage() {
                 having to travel far away.
               </p>
               <p>
-                The Ranch stands on a 10 acre farm, hosting various opulent
+                The Ranch stands on a 10 acre land, hosting various opulent
                 amenities. These are Restaurants, Cocktail & Juice Bars,
                 Cottages, Swimming Pool, Conferencing Halls, and organic
                 Livestock & Plant varieties. All these are graced by the
@@ -42,19 +42,19 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={6}>
               <p>
-                The Ranch is named after a celebrated Rhumba Radio presenter,
+                The Ranch is owned by the most celebrated Rhumba Radio presenter,
                 Uncle Fred Obachi Machoka, whose love for Rhumba music is more
                 than immesurable.
               </p>
               <p>
                 Soothing Rhumba music is the order of the day as you sip on the
-                finest of custom beverages, take a dip in our captivating pool
-                on a sunny day of Kajiado, or even when feasting on our hot
-                grilled Mbuzi choma made with the chef's secret recipe.
+                finest of custom organic beverages, take a dip in our captivating pool
+                on a sunny day of Kajiado, or even when feasting on our signature hot
+                grilled Mbuzi choma made with the chef's secret recipe plus the organic accompaniments.
               </p>
               <p>
-                Fred's Ranch and Resort has a vibrant team on-premises that
-                ensure you really feel at home. The teams' interaction is
+                Fred's Ranch and Resort has a vibrant cowboy/cowgirl team, on-premise that
+                ensures you really feel at home. The teams' interaction is
                 seamless, full of life, and with bright smiles. Customer
                 satisfaction is our priority!
               </p>
@@ -78,8 +78,8 @@ export default function AboutPage() {
               <div className="about_items" id="restaurant">
                 <h3>Restaurant</h3>
                 <p>
-                  Enjoy your dining experience either at the Garden Restarurant
-                  or Pool Restaurant where we serve local African Cuisine in an
+                  Enjoy your dining experience either at the Garden Restaurant
+                  or Pool Restaurant where we serve local organic African Cuisine in an
                   exciting and breathtaking atmosphere.
                 </p>
                 <Link to={"/dining"} className="explore_link">
@@ -91,9 +91,9 @@ export default function AboutPage() {
               <div className="about_items" id="events">
                 <h3>Events</h3>
                 <p>
-                  Book your event through our reservation office to cater for
+                  Book your event through our reservations office to cater for
                   your corporate functions, tours, weddings, celebrations,
-                  meetings, team-buildings, and school trips.
+                  meetings & conferences, team-buildings, and school trips.
                 </p>
                 <Link to={"/events"} className="explore_link">
                   Explore
@@ -104,7 +104,7 @@ export default function AboutPage() {
               <div className="about_items" id="accommodation">
                 <h3>Accommodation</h3>
                 <p>
-                  Enjoy the comfort of our Apartments, Cottages, or Camping
+                  Enjoy the comfort of our Cottages, or Camping
                   Tents for accommodation, Each with a luxury of its own to suit
                   your needs.
                 </p>

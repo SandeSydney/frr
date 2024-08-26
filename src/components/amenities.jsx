@@ -43,7 +43,7 @@ const Amenities = () => {
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
                   <FestivalIcon />
-                  BANQUET HALL
+                  CONFERENCE FACILITY
                 </div>
               </Col>
 
@@ -96,7 +96,7 @@ const Amenities = () => {
               <Col xs={6} sm={6} md={3}>
                 <div className="items">
                   <Groups2SharpIcon />
-                  TEAM BUILDING
+                  TEAM BUILDING GROUNDS
                 </div>
               </Col>
               <Col xs={6} sm={6} md={3}>

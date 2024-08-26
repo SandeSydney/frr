@@ -118,19 +118,23 @@ export default function DiningPage() {
               <h2>Fred's Ranch Mbuzi Choma.</h2>
               <p>
                 Enjoy our sumptuous mbuzi choma as you celebate your events or
-                special occassions, such as a weekend family get-together. It
-                comes with a side of the famous staple food ugali and to top it
-                with an alluring fresh vegetable salad. It doesn't get any
-                better than this.
+                special occassions, such as a weekend family get-together. You
+                can have it with a side of the famous staple food ugali and to
+                top it with an alluring fresh vegetable salad. It doesn't get
+                any better than this!
               </p>
             </div>
           </div>
         </Container>
         <div className="dining_menu">
           <Container>
-            <h2 className="text-center">Checkout Our Menu</h2>
+            <h2 className="text-center">Check Out Our Menu</h2>
             <div className="foodMenu">
-              <iframe src={foodMenu} frameborder="0" title="Fred's Ranch and Resort Food Menu"></iframe>
+              <iframe
+                src={foodMenu}
+                frameborder="0"
+                title="Fred's Ranch and Resort Food Menu"
+              ></iframe>
             </div>
           </Container>
         </div>

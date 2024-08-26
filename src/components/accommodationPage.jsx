@@ -131,7 +131,7 @@ function AccommodationPage() {
                   Our accommodation gives you a "home away from home" kind of
                   experience. We have 3 different options of accommodation:{" "}
                   <span className="font-bold">
-                    Cottages, Apartments, & Camping
+                    Cottages & Camping
                   </span>
                   .
                 </p>
@@ -139,11 +139,6 @@ function AccommodationPage() {
                   The Cottages are warm and cosy done with the African makuti
                   feel. They are fully equipped with TV, Wi-Fi, and Hot Showers.
                   They are ideal for couples and individuals.
-                </p>
-                <p>
-                  The Apartments are spacious, warm, and fully equipped with
-                  kitchen equipment and a TV set. The apartments are ideal for
-                  either a family or a group.
                 </p>
                 <p>
                   The Camping Tents give you a wild experience. They come with

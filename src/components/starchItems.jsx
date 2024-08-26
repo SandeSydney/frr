@@ -17,7 +17,6 @@ function StarchItems() {
 
   let starches = [
     { id: 1, imgSrc: bhajia },
-    { id: 2, imgSrc: breads },
     { id: 3, imgSrc: buns },
     { id: 4, imgSrc: eidPlatter },
     { id: 5, imgSrc: masalaChips },
@@ -26,6 +25,7 @@ function StarchItems() {
     { id: 8, imgSrc: friedPlantain },
     { id: 9, imgSrc: samosa },
     { id: 10, imgSrc: sauteed },
+    // Ugali Brown, Ugali white, Mukimo, Mashed, Veg Rice.
   ];
   return (
     <div
@@ -36,7 +36,12 @@ function StarchItems() {
         {starches.map((item, index) => {
           return (
             <Col xs={6} sm={6} md={2} key={index}>
-              <img className="m-2" src={item.imgSrc} alt="Fred' Ranch and Resort Meal" loading="lazy"/>
+              <img
+                className="m-2"
+                src={item.imgSrc}
+                alt="Fred' Ranch and Resort Meal"
+                loading="lazy"
+              />
             </Col>
           );
         })}
