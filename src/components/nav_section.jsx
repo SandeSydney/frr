@@ -70,6 +70,10 @@ export default function Nav_Section({ logoSrc }) {
             Entertainment
           </NavLink>
           <NavLink
+          to="https://careers.fredsranch.co.ke">
+            Careers
+          </NavLink>
+          <NavLink
             to={"contact-us"}
             className={({ isActive }) =>
               [isActive ? "linkActive" : ""].join(" ")
