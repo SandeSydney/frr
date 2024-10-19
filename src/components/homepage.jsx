@@ -8,6 +8,7 @@ import MapLocation from "./maps";
 import PaymentMethods from "./payment";
 import Socials from "./socials";
 import Welcome_Section from "./welcome";
+import GoldVIP from "./goldvip";
 
 export default function Homepage() {
   return (
@@ -21,6 +22,7 @@ export default function Homepage() {
       <Welcome_Section />
       <FarmToFork />
       <Features />
+      <GoldVIP />
       <Amenities />
       <div className="contact_main">
         <Container>

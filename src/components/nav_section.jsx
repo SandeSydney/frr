@@ -70,6 +70,10 @@ export default function Nav_Section({ logoSrc }) {
             Entertainment
           </NavLink>
           <NavLink
+          to="https://gold-loyalty.fredsranch.co.ke/">
+            Membership
+          </NavLink>
+          <NavLink
           to="https://careers.fredsranch.co.ke">
             Careers
           </NavLink>

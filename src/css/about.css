@@ -26,7 +26,8 @@
 .features_container h2,
 .map_socials h4,
 .farm_to_fork_landing h2,
-.payment_methods h4 {
+.payment_methods h4,
+.goldvip h2 {
   font-family: "Alegreya SC";
   text-decoration: underline double #c49464;
   text-underline-offset: 8px;

@@ -1,0 +1,47 @@
+.gold-main {
+  background-image: linear-gradient(
+      rgba(24, 68, 68, 0.6),
+      rgba(24, 68, 68, 0.6)
+    ),
+    url("../resources/mainGallery/gold-shiny.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.vip-container {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goldvip {
+  padding: 8% 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.goldvip p {
+  line-height: 1.5;
+}
+
+.goldvip button {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.goldvip button:hover {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .goldvip {
+    max-width: 70%;
+  }
+}
