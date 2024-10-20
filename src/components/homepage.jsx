@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import Amenities from "./amenities";
 import FarmToFork from "./farmToFork";
 import Features from "./features";
@@ -13,6 +14,11 @@ import GoldVIP from "./goldvip";
 export default function Homepage() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/" />
+      </Helmet>
       <div className="home">
         <HomeCarousel />
         <div className="landing">

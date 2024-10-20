@@ -2,10 +2,16 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import ContactForm from "./contact_form";
 import ContactCard from "./contactCard";
+import { Helmet } from "react-helmet";
 
 function ContactUsPage() {
   return (
     <div className="contact_main">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/contact-us" />
+      </Helmet>
       <div className="about_spacer"></div>
       <Container>
         <div className="contact_landing">

@@ -9,6 +9,7 @@ import tents from "../resources/accommodationImages/campingTents.webp";
 import sinkDoor from "../resources/accommodationImages/sinkDoor.webp";
 import towels from "../resources/accommodationImages/towels.webp";
 import MyVerticallyCenteredModal from "./infoModal";
+import { Helmet } from "react-helmet";
 
 function AccommodationPage() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -28,6 +29,11 @@ function AccommodationPage() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Accommodation - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/accommodation" />
+      </Helmet>
       <div className="accommodation_landing">
         <div className="about_spacer"></div>
         <div className="accommodation_hero">
@@ -130,10 +136,7 @@ function AccommodationPage() {
                 <p>
                   Our accommodation gives you a "home away from home" kind of
                   experience. We have different options of accommodation:{" "}
-                  <span className="font-bold">
-                    Cottages & Camping
-                  </span>
-                  .
+                  <span className="font-bold">Cottages & Camping</span>.
                 </p>
                 <p>
                   The Cottages are warm and cosy done with the African makuti

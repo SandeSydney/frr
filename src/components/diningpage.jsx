@@ -13,6 +13,7 @@ import Beverages from "./beverages";
 import MeatyTreats from "./meatyTreats";
 import StarchItems from "./starchItems";
 import foodMenu from "../resources/foodMenu/FredsRanch-FoodMenu.pdf";
+import { Helmet } from "react-helmet";
 
 export default function DiningPage() {
   const location = useLocation();
@@ -40,6 +41,11 @@ export default function DiningPage() {
   });
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Food - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/dining" />
+      </Helmet>
       <div className="dining_container">
         <div className="dining_landing">
           <div className="dining_main">

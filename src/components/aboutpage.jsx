@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import MapLocation from "./maps";
 import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
+import { Helmet } from "react-helmet";
 
 export default function AboutPage() {
   const [fadeRef, inView] = useInView();
@@ -13,6 +14,11 @@ export default function AboutPage() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/about-us" />
+      </Helmet>
       <div className="about">
         <Container>
           <div className="about_spacer"></div>
@@ -42,21 +48,22 @@ export default function AboutPage() {
             </Col>
             <Col xs={12} sm={12} md={6}>
               <p>
-                The Ranch is owned by the most celebrated Rhumba Radio presenter,
-                Uncle Fred Obachi Machoka, whose love for Rhumba music is more
-                than immesurable.
+                The Ranch is owned by the most celebrated Rhumba Radio
+                presenter, Uncle Fred Obachi Machoka, whose love for Rhumba
+                music is more than immesurable.
               </p>
               <p>
                 Soothing Rhumba music is the order of the day as you sip on the
-                finest of custom organic beverages, take a dip in our captivating pool
-                on a sunny day of Kajiado, or even when feasting on our signature hot
-                grilled Mbuzi choma made with the chef's secret recipe plus the organic accompaniments.
+                finest of custom organic beverages, take a dip in our
+                captivating pool on a sunny day of Kajiado, or even when
+                feasting on our signature hot grilled Mbuzi choma made with the
+                chef's secret recipe plus the organic accompaniments.
               </p>
               <p>
-                Fred's Ranch and Resort has a vibrant cowboy/cowgirl team, on-premise that
-                ensures you really feel at home. The teams' interaction is
-                seamless, full of life, and with bright smiles. Customer
-                satisfaction is our priority!
+                Fred's Ranch and Resort has a vibrant cowboy/cowgirl team,
+                on-premise that ensures you really feel at home. The teams'
+                interaction is seamless, full of life, and with bright smiles.
+                Customer satisfaction is our priority!
               </p>
             </Col>
           </Row>
@@ -79,8 +86,8 @@ export default function AboutPage() {
                 <h3>Restaurant</h3>
                 <p>
                   Enjoy your dining experience either at the Garden Restaurant
-                  or Pool Restaurant where we serve local organic African Cuisine in an
-                  exciting and breathtaking atmosphere.
+                  or Pool Restaurant where we serve local organic African
+                  Cuisine in an exciting and breathtaking atmosphere.
                 </p>
                 <Link to={"/dining"} className="explore_link">
                   Explore
@@ -104,9 +111,9 @@ export default function AboutPage() {
               <div className="about_items" id="accommodation">
                 <h3>Accommodation</h3>
                 <p>
-                  Enjoy the comfort of our Cottages, or Camping
-                  Tents for accommodation, Each with a luxury of its own to suit
-                  your needs.
+                  Enjoy the comfort of our Cottages, or Camping Tents for
+                  accommodation, Each with a luxury of its own to suit your
+                  needs.
                 </p>
                 <Link to={"/accommodation"} className="explore_link">
                   Explore

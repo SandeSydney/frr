@@ -12,6 +12,7 @@ import chomaMore from "../resources/foodImageGallery/chomaMore.webp";
 import teamBuilding from "../resources/eventsImageGallery/dance.webp";
 import teamBuilding1 from "../resources/eventsImageGallery/studentsDance.webp";
 import uncleKids from "../resources/eventsImageGallery/uncleKids.webp";
+import { Helmet } from "react-helmet";
 
 function EntertainmentPage() {
   // variables for scroll animations using useInView
@@ -25,7 +26,11 @@ function EntertainmentPage() {
 
   return (
     <>
-      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Entertainment - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/entertainment" />
+      </Helmet>{" "}
       <div className="entertainment_page">
         <div className="about_spacer"></div>
         <div className="entertainment_landing">

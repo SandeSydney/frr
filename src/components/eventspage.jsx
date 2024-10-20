@@ -7,6 +7,7 @@ import birthdayCakes from "../resources/eventsImageGallery/birthdayCakes.webp";
 import conference from "../resources/eventsImageGallery/conference.webp";
 import weddingPeople from "../resources/eventsImageGallery/weddingPeople.webp";
 import weddingTents from "../resources/eventsImageGallery/weddingTents.webp";
+import { Helmet } from "react-helmet";
 
 export default function EventsPage() {
   // variables for scroll animations using useInView
@@ -28,6 +29,11 @@ export default function EventsPage() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Events - Fred's Ranch and Resort</title>
+        <link rel="canonical" href="https://fredsranch.co.ke/events" />
+      </Helmet>
       <div className="events_landing">
         <div className="events_hero">
           <h1
@@ -86,9 +92,9 @@ export default function EventsPage() {
                 </p>
                 <p>
                   We offer the perfect wedding spot that is within your budget
-                  and the comfort of every invited guest. Fred's Ranch &
-                  Resort comes through your day with linens, to flatware,
-                  banquet chairs, and more.
+                  and the comfort of every invited guest. Fred's Ranch & Resort
+                  comes through your day with linens, to flatware, banquet
+                  chairs, and more.
                 </p>
               </div>
               <div className="events_cols">
