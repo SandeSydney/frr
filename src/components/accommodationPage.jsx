@@ -129,7 +129,7 @@ function AccommodationPage() {
               >
                 <p>
                   Our accommodation gives you a "home away from home" kind of
-                  experience. We have 3 different options of accommodation:{" "}
+                  experience. We have different options of accommodation:{" "}
                   <span className="font-bold">
                     Cottages & Camping
                   </span>

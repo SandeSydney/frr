@@ -8,7 +8,7 @@ function GoldVIP() {
         <div className="goldvip">
           <h2>Gold VIP Membership</h2>
           <p>
-            Get to experience distinguished experience only at Fred's Ranch &
+            Get to experience distinguished service only at Fred's Ranch &
             Resort. The secret is by subscribing to the VIP Membership
             Programme. Fred's Ranch & Resort showers it's registered loyal
             clientele with amazing opportunities including endless access to
