@@ -10,6 +10,7 @@ import PaymentMethods from "./payment";
 import Socials from "./socials";
 import Welcome_Section from "./welcome";
 import GoldVIP from "./goldvip";
+import AdsCarousel from "./adsCarousel";
 
 export default function Homepage() {
   return (
@@ -20,7 +21,8 @@ export default function Homepage() {
         <link rel="canonical" href="https://fredsranch.co.ke/" />
       </Helmet>
       <div className="home">
-        <HomeCarousel />
+        <AdsCarousel />
+        {/* <HomeCarousel /> */}
         <div className="landing">
           <Landing />
         </div>
