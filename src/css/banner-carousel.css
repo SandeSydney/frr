@@ -1,0 +1,21 @@
+.banner-carousel {
+  min-height: 60vh;
+  padding: 0 5%;
+  margin-top: 10vh;
+}
+
+.banner-carousel-items {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner-carousel-items :nth-child(1) {
+  max-height: 40vh;
+}
+
+@media screen and (min-width: 600px) {
+  .banner-carousel-items {
+    min-height: 60vh;
+  }
+}
