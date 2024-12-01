@@ -11,6 +11,7 @@ import Socials from "./socials";
 import Welcome_Section from "./welcome";
 import GoldVIP from "./goldvip";
 import AdsCarousel from "./adsCarousel";
+import BannerCarousel from "./bannerCarousel";
 
 export default function Homepage() {
   return (
@@ -21,8 +22,9 @@ export default function Homepage() {
         <link rel="canonical" href="https://fredsranch.co.ke/" />
       </Helmet>
       <div className="home">
-        <AdsCarousel />
+        {/* <AdsCarousel /> */}
         {/* <HomeCarousel /> */}
+        <BannerCarousel />
         <div className="landing">
           <Landing />
         </div>
