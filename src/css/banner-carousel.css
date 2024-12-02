@@ -1,23 +1,56 @@
-.banner-carousel {
-  min-height: 60vh;
-  padding: 0 5%;
-  margin-top: 10vh;
-}
-
 .banner-carousel-items {
-  min-height: 60vh;
+  min-height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 6%;
 }
 
 .banner-carousel-items :nth-child(1) {
-  max-height: 40vh;
+  max-height: 50vh;
+}
+
+.carousel-left {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  min-height: 18vh;
+  color: white;
+  background-image: url("../resources/posters/Celebration\ Icon.webp");
+  background-position: right bottom;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.carousel-left .festive-menu-btn {
+  border: 2px solid #c49464;
+  padding: 15px;
+  width: 60%;
+  margin-left: 25px;
 }
 
 @media screen and (min-width: 600px) {
+  .banner-carousel-main {
+    display: flex;
+  }
+
+  .carousel-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 3%;
+    background-size: 70%;
+  }
+
+  .carousel-div {
+    flex: 2;
+    max-width: 50vw;
+  }
+
   .banner-carousel-items {
-    min-height: 60vh;
+    padding-top: 3%;
+    min-height: 65vh;
     align-items: end;
   }
 }
