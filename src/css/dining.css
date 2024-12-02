@@ -78,7 +78,7 @@
   padding: 8% 0;
 }
 
-.foodMenu {
+.foodMenu, .festiveMenu {
   display: flex;
   min-height: 90vh;
   justify-content: center;
@@ -86,6 +86,10 @@
 
 .foodMenu iframe {
   width: 80%;
+}
+
+.festiveMenu iframe{
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
