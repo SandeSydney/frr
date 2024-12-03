@@ -76,6 +76,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 100000;
+  position: relative;
 }
 
 /* Finding and styling the active navigation link */
