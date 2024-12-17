@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Image } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import rhumba_rockout from "../resources/posters/DJ-Simbi-12Dec.gif";
 import grandma_xmas from "../resources/posters/Cowboy Meets Grandma Package.webp";
 import FestiveMenuModal from "./festiveMenuModal";
 
@@ -74,13 +73,6 @@ function BannerCarousel() {
             slidesToSlide
             swipeable
           >
-            <Image
-              alt="Rhumba Fred's Ranch 12th December"
-              title="Rhumba Fred's Ranch 12th December"
-              loading="eager"
-              src={rhumba_rockout}
-              fluid
-            />
             <Image
               alt="Christmas Fred's Ranch 25th December"
               title="Christmas Fred's Ranch 25th December"
