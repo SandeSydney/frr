@@ -13,7 +13,6 @@ import GoldVIP from "./goldvip";
 import AdsCarousel from "./adsCarousel";
 import BannerCarousel from "./bannerCarousel";
 import AdsModal from "./adsModal";
-import { useEffect } from "react";
 
 export default function Homepage() {
   return (
