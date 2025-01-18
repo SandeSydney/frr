@@ -1,13 +1,13 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
-import festiveMenu from "../resources/foodMenu/FRED’S RANCH AND RESORT 2024 FESTIVE SEASON.pdf";
+import festiveMenu from "../resources/foodMenu/Grandmas Cookout Menu.jpeg";
 
 function FestiveMenuModal(props) {
   return (
     <Modal {...props} size="xl" aria-labelledby="informationModal">
       <Modal.Header closeButton>
         <Modal.Title id="informationModal">
-          FRED'S RANCH FESTIVE MENU
+          GRANDMA'S CHRISTMAS MENU
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -15,7 +15,7 @@ function FestiveMenuModal(props) {
           <iframe
             src={festiveMenu}
             frameborder="0"
-            title="Fred's Ranch and Resort Food Menu"
+            title="Fred's Ranch and Resort Grandma's Menu"
           ></iframe>
         </div>
       </Modal.Body>
