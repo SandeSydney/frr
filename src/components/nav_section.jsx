@@ -69,14 +69,12 @@ export default function Nav_Section({ logoSrc }) {
           >
             Entertainment
           </NavLink>
-          <NavLink
+          {/* <NavLink
           to="https://gold-loyalty.fredsranch.co.ke/">
             Membership
-          </NavLink>
-          <NavLink
-          to="https://careers.fredsranch.co.ke">
-            Careers
-          </NavLink>
+          </NavLink> */}
+          <NavLink to="https://feedback.fredsranch.co.ke/">Feedback</NavLink>
+          <NavLink to="https://careers.fredsranch.co.ke">Careers</NavLink>
           <NavLink
             to={"contact-us"}
             className={({ isActive }) =>
