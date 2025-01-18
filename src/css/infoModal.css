@@ -6,6 +6,7 @@
 
 .modal-content {
   background-color: #f0ead6 !important;
+  width: fit-content;
 }
 
 /* Make the Modal above everything in the website */
