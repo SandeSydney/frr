@@ -10,6 +10,7 @@
 
 .banner-carousel-items :nth-child(1) {
   max-height: 50vh;
+  border-radius: 2%;
 }
 
 .carousel-left {
@@ -47,11 +48,11 @@
 
   .carousel-div {
     flex: 2;
-    max-width: 50vw;
+    max-width: 80vw;
   }
 
   .banner-carousel-items {
-    padding-top: 3%;
+    padding: 10px;
     min-height: 65vh;
     align-items: end;
   }
