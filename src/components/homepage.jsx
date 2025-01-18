@@ -12,6 +12,8 @@ import Welcome_Section from "./welcome";
 import GoldVIP from "./goldvip";
 import AdsCarousel from "./adsCarousel";
 import BannerCarousel from "./bannerCarousel";
+import AdsModal from "./adsModal";
+import { useEffect } from "react";
 
 export default function Homepage() {
   return (
@@ -29,10 +31,14 @@ export default function Homepage() {
           <Landing />
         </div>
       </div>
+      <div className="hidden">
+        <AdsModal />
+      </div>
+
       <Welcome_Section />
       <FarmToFork />
       <Features />
-      <GoldVIP />
+      {/* <GoldVIP /> */}
       <Amenities />
       <div className="contact_main">
         <Container>
