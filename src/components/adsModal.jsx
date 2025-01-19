@@ -1,7 +1,10 @@
 import { useState } from "react";
 import React from "react";
-import { Modal } from "react-bootstrap";
+import { Carousel, Modal } from "react-bootstrap";
 import valentinesPoster from "../resources/posters/Valentines25.jpeg";
+import westPoster from "../resources/posters/WildWest.jpeg";
+import diamondPoster from "../resources/posters/VIP-DIAMOND.jpeg";
+import goldPoster from "../resources/posters/VIP-GOLD.jpeg";
 
 function AdsModal() {
   const [show, setShow] = useState(true);
@@ -21,7 +24,20 @@ function AdsModal() {
           {/* <Modal.Title id="adsModal">Our Valentine Offer!!!</Modal.Title> */}
         </Modal.Header>
         <Modal.Body>
-            <img src={valentinesPoster} alt="" />
+          <Carousel fade>
+            <Carousel.Item>
+              <img src={valentinesPoster} alt="" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={westPoster} alt="" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={diamondPoster} alt="" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={goldPoster} alt="" />
+            </Carousel.Item>
+          </Carousel>
         </Modal.Body>
       </Modal>
     </>
