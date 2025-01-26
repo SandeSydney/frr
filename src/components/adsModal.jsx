@@ -24,7 +24,7 @@ function AdsModal() {
           {/* <Modal.Title id="adsModal">Our Valentine Offer!!!</Modal.Title> */}
         </Modal.Header>
         <Modal.Body>
-          <Carousel fade interval={500}>
+          <Carousel fade interval={3500}>
             <Carousel.Item>
               <img src={valentinesPoster} alt="" />
             </Carousel.Item>
