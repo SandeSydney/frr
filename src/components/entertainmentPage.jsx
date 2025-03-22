@@ -7,6 +7,9 @@ import { useInView } from "react-intersection-observer";
 import swimming from "../resources/eventsImageGallery/swimming.webp";
 import calfFull from "../resources/farmGallery/calfFull.webp";
 import guineaFowls from "../resources/farmGallery/guineaFowls.webp";
+import broiler_cbc from "../resources/farmGallery/Freds-Ranch-Farm-Broiler-CBC.webp";
+import managu_cbc from "../resources/farmGallery/Freds-Ranch-Farm-Tour-Managu-School.webp";
+import farm_tour_cbc from "../resources/farmGallery/Freds-Ranch-Farm-Tour-School.webp";
 import sagaa from "../resources/farmGallery/sagaa.webp";
 import chomaMore from "../resources/foodImageGallery/chomaMore.webp";
 import teamBuilding from "../resources/eventsImageGallery/dance.webp";
@@ -179,6 +182,43 @@ function EntertainmentPage() {
                     <img src={sagaa} alt="Fred's Ranch and Resort Farm Tours" />
                   </Carousel.Item>
                 </Carousel>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="event_row">
+              <div className="events_cols">
+                <Carousel>
+                  <Carousel.Item interval={750}>
+                    <img
+                      src={farm_tour_cbc}
+                      alt="CBC Farm Tours at Fred's Ranch & Resort"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item interval={750}>
+                    <img
+                      src={broiler_cbc}
+                      alt="Broiler Farm at Fred's Ranch and Resort"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item interval={750}>
+                    <img
+                      src={managu_cbc}
+                      alt="School CBC Farm tours at Fred's Ranch and Resort"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+
+                <h3>CBC Educational Tours</h3>
+                <p>
+                  Fred's Ranch & Resort is the perfect venue for schools to impact practical knowledge about farming practices and agriculture, which is amongst the main focus of the new CBC curriculum. 
+                </p>
+                <p>
+                  At Fred's Ranch and Resort, the CBC students and teachers will be exposed to practical farming skills, innovation and creativity when it comes to farming, Environmental sustainability and stewardship, critical thinking and problem solving in agriculture, and skills in entrepreneurship and agribusiness. 
+                </p>
+              </div>
+              <div className="events_cols">
+                
               </div>
             </div>
           </div>
