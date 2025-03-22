@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { Carousel, Modal } from "react-bootstrap";
-import valentinesPoster from "../resources/posters/Valentines25.jpeg";
+import lesWanyika from "../resources/posters/Freds-Ranch-Les-Wanyika.jpeg";
 import westPoster from "../resources/posters/WildWest.jpeg";
 import diamondPoster from "../resources/posters/VIP-DIAMOND.jpeg";
 import goldPoster from "../resources/posters/VIP-GOLD.jpeg";
@@ -25,9 +25,9 @@ function AdsModal() {
         </Modal.Header>
         <Modal.Body>
           <Carousel fade interval={3500}>
-            <Carousel.Item>
-              <img src={valentinesPoster} alt="" />
-            </Carousel.Item>
+            {/* <Carousel.Item>
+              <img src={lesWanyika} alt="" />
+            </Carousel.Item> */}
             <Carousel.Item>
               <img src={westPoster} alt="" />
             </Carousel.Item>
